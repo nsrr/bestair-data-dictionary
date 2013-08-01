@@ -1,0 +1,7 @@
+{
+  "id": "otherreason",
+  "display_name": "Other reason",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

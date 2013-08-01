@@ -1,0 +1,7 @@
+{
+  "id": "eligstrokeimp",
+  "display_name": "Prior stroke with functional impairment",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

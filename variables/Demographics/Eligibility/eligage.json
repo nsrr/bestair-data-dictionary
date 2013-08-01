@@ -1,0 +1,7 @@
+{
+  "id": "eligage",
+  "display_name": "Age",
+  "description": "",
+  "type": "integer",
+  "units": "years"
+}

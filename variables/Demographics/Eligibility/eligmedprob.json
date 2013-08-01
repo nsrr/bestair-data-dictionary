@@ -1,0 +1,7 @@
+{
+  "id": "eligmedprob",
+  "display_name": "Severe uncontrolled medical problems or medications that may influence measurements or impair ability to participate in the study exams (e.g. oral steroids; known creatinine > 2.5 mg/dl of eGFR < 30; anemia with Hgb < 10, etc.)",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

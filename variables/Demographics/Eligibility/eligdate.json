@@ -1,0 +1,6 @@
+{
+  "id": "eligdate",
+  "display_name": "Date Completed",
+  "description": "",
+  "type": "date"
+}

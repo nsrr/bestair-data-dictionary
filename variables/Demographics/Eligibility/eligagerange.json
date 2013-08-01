@@ -1,0 +1,7 @@
+{
+  "id": "eligagerange",
+  "display_name": "45-75 years old (or 55-75 years if without established CVD)",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

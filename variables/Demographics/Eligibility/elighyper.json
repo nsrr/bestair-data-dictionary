@@ -1,0 +1,7 @@
+{
+  "id": "elighyper",
+  "display_name": "Hypertension (treated with medications) or systolic BP >140 or diastolic BP >90 on 2 or more occasions",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

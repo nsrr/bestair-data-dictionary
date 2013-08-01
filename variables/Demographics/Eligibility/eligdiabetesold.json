@@ -1,0 +1,7 @@
+{
+  "id": "eligdiabetesold",
+  "display_name": "(OLD FORM) Diabetes mellitus treated with medication or 2 or more fasting glucose levels greater than or equal to 126 mg/dl",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

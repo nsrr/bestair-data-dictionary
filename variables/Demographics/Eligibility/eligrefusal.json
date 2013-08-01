@@ -1,0 +1,7 @@
+{
+  "id": "eligrefusal",
+  "display_name": "Refusal to consider PAP use after an initial split-night PAP study (pre randomization)",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

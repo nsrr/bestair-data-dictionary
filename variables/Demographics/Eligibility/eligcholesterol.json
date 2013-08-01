@@ -1,0 +1,7 @@
+{
+  "id": "eligcholesterol",
+  "display_name": "Total cholesterol >240 mg/dl or LDL cholesterol >160 mg/dl or HDL <45 mg/dl or treatment for dyslipidemia",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

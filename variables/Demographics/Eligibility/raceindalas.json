@@ -1,0 +1,7 @@
+{
+  "id": "raceindalas",
+  "display_name": "Race (American Indian or Alaska native)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "eligbmi",
+  "display_name": "BMI >30",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

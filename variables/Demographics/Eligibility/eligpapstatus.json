@@ -1,0 +1,7 @@
+{
+  "id": "eligpapstatus",
+  "display_name": "CPAP Status",
+  "description": "",
+  "type": "choices",
+  "domain": "Eligibility/papstatus"
+}

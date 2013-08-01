@@ -1,0 +1,7 @@
+{
+  "id": "eligosa",
+  "display_name": "Diagnosed with moderate to severe OSA (AHI ? 15 events/hr)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

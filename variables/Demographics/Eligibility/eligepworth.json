@@ -1,0 +1,7 @@
+{
+  "id": "eligepworth",
+  "display_name": "Severe sleepiness defined by an Epworth Sleepiness Score of >14 or report of trouble staying awake while driving in the past 2 years",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

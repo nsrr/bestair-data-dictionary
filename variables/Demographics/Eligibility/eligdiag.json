@@ -1,0 +1,7 @@
+{
+  "id": "eligdiag",
+  "display_name": "Diagnostic study type",
+  "description": "",
+  "type": "choices",
+  "domain": "diagtype"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "eligsmoking",
+  "display_name": ">10 pack years of smoking",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

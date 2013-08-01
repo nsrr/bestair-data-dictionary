@@ -1,0 +1,6 @@
+{
+  "id": "dateenroll",
+  "display_name": "Enrollment Date",
+  "description": "",
+  "type": "date"
+}

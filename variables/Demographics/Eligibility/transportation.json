@@ -1,0 +1,7 @@
+{
+  "id": "transportation",
+  "display_name": "Hard to find transportation to study visits",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

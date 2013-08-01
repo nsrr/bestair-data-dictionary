@@ -1,0 +1,7 @@
+{
+  "id": "eligdriver",
+  "display_name": "Working as a professional driver",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

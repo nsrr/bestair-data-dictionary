@@ -1,0 +1,7 @@
+{
+  "id": "eligcomplete",
+  "display_name": "Comeplete?",
+  "description": "",
+  "type": "choices",
+  "domain": "complete"
+}

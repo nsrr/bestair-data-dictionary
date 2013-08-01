@@ -1,0 +1,7 @@
+{
+  "id": "eligsixhrs",
+  "display_name": "Report of inability to spend 6 or more hours in bed",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

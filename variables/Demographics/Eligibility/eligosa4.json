@@ -1,0 +1,7 @@
+{
+  "id": "eligosa4",
+  "display_name": "4% (AHI >=10 events/hour)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}
