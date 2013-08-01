@@ -1,0 +1,47 @@
+[
+  {
+    "value": "1",
+    "display_name": "BIDMC: Sleep Clinic",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "BWH: SHC-Brighton",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "BWH: SHC-Medford",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "BWH: SCH-Other",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "BWH: Cardiology (Mailings)",
+    "description": ""
+  },
+  {
+    "value": "6",
+    "display_name": "BIDMC: Cardiology",
+    "description": ""
+  },
+  {
+    "value": "7",
+    "display_name": "BWH: Cardiology (Watkins)",
+    "description": ""
+  },
+  {
+    "value": "8",
+    "display_name": "Joslin: Mailings",
+    "description": ""
+  },
+  {
+    "value": "9",
+    "display_name": "Other",
+    "description": ""
+  }
+]
