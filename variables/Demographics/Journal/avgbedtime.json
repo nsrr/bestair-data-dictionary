@@ -1,0 +1,6 @@
+{
+  "id": "avgbedtime",
+  "display_name": "Average bed time",
+  "description": "",
+  "type": "time"
+}

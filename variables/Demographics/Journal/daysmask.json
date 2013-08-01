@@ -1,0 +1,7 @@
+{
+  "id": "daysmask",
+  "display_name": "Number of days mask used",
+  "description": "",
+  "type": "integer",
+  "units": "days"
+}
