@@ -1,0 +1,27 @@
+[
+  {
+    "value": "1",
+    "display_name": "1 week",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "1 month",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "3 months",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "6 months",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "9 months",
+    "description": ""
+  }
+]

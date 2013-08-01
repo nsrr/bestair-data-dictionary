@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "Estrogen alone (like Premarin or Estratab)",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Estrogen with progestin (like Provera)",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Other types of hormone replacement therapy",
+    "description": ""
+  }
+]

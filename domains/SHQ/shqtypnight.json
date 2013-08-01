@@ -1,0 +1,27 @@
+[
+  {
+    "value": "1",
+    "display_name": "Very sound or restful",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Sound or restful",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Average quality",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Restless",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "Very restless",
+    "description": ""
+  }
+]

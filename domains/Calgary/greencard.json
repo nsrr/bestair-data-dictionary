@@ -1,0 +1,37 @@
+[
+  {
+    "value": "1",
+    "display_name": "A very large amount",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "A large amount",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "A moderate to large amount",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "A moderate amount",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "A small to moderate amount",
+    "description": ""
+  },
+  {
+    "value": "6",
+    "display_name": "A small amount",
+    "description": ""
+  },
+  {
+    "value": "7",
+    "display_name": "None",
+    "description": ""
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "value": "-1",
+    "display_name": "Screening/Consent Visit"
+  },
+  {
+    "value": "0",
+    "display_name": "Baseline Visit",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "2-mo Phone Contact",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "4-mo Phone Contact",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "6-mo Phone Contact",
+    "description": ""
+  },
+  {
+    "value": "6",
+    "display_name": "6-mo Follow-up Visit",
+    "description": ""
+  },
+  {
+    "value": "8",
+    "display_name": "8-mo Phone Contact",
+    "description": ""
+  },
+  {
+    "value": "10",
+    "display_name": "10-mo Phone Contact",
+    "description": ""
+  },
+  {
+    "value": "11",
+    "display_name": "12-mo Phone Contact",
+    "description": ""
+  },
+  {
+    "value": "12",
+    "display_name": "12-mo Follow-up Visit",
+    "description": ""
+  }
+]

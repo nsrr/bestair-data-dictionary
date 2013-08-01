@@ -1,0 +1,22 @@
+[
+  {
+    "value": "0",
+    "display_name": "Not at all",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Several Days",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "More than half the days",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Nearly every day",
+    "description": ""
+  }
+]

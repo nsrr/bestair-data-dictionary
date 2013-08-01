@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "Yes",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "No - Failed at SRC",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "No - Study Not Sent",
+    "description": ""
+  }
+]

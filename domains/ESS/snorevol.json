@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "Slightly louder than breathing",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "As loud as talking",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Louder than talking",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Very loud - Can be heard in adjacent",
+    "description": ""
+  }
+]

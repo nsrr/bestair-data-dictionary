@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "Full lab",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Split",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Auto",
+    "description": ""
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "Very tired",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Fairly tired",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Fairly refreshed",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Very refreshed",
+    "description": ""
+  }
+]

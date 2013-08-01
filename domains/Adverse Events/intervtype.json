@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "Medication or Nutrional Supplement",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Device",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Surgery",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Behavioral/Life Style",
+    "description": ""
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "value": "0",
+    "display_name": "No walking at all",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Casual strolling (up to 2 mph)",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Average or normal (2 - 3 mph)",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Fairly briskly (4 - 5 mph)",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Brisk or striding (more than 5 mph)",
+    "description": ""
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "value": "1",
+    "display_name": "1 hour/day",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "2 hours/day",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "3 hours/day",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "4 hours/day",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "5 hours/day",
+    "description": ""
+  },
+  {
+    "value": "6",
+    "display_name": "5+ hours/day",
+    "description": ""
+  }
+]

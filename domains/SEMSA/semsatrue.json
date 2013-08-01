@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "Not at all true",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Barely true",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Somewhat true",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Very true",
+    "description": ""
+  }
+]

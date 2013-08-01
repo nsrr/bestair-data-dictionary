@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "Definitely related",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Possibly related",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Not related",
+    "description": ""
+  }
+]

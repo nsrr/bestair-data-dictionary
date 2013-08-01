@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "Improved",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "No change",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Worsened",
+    "description": ""
+  }
+]

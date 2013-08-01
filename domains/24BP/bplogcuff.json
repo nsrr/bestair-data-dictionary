@@ -1,0 +1,27 @@
+[
+  {
+    "value": "1",
+    "display_name": "Pediatric",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Small Adult",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Adult",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Large Adult",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "Extra-Large Adult",
+    "description": ""
+  }
+]

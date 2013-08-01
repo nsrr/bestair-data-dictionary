@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "Phone Follow Up",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Visit",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Card Read",
+    "description": ""
+  }
+]

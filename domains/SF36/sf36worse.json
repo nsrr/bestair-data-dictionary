@@ -1,0 +1,27 @@
+[
+  {
+    "value": "1",
+    "display_name": "Much better now than one year ago",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Somewhat better now than one year ago",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "About the same as one year ago",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Somewhat worse now than one year ago",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "More worse now than one year ago",
+    "description": ""
+  }
+]

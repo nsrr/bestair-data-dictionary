@@ -1,0 +1,17 @@
+[
+  {
+    "value": "1",
+    "display_name": "SAE only",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "PTF only",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Both",
+    "description": ""
+  }
+]

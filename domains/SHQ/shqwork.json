@@ -1,0 +1,37 @@
+[
+  {
+    "value": "1",
+    "display_name": "Day shift",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Afternoon shift",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Night shift",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Split shift",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "Irregular shift/On-call",
+    "description": ""
+  },
+  {
+    "value": "6",
+    "display_name": "Rotating shifts",
+    "description": ""
+  },
+  {
+    "value": "7",
+    "display_name": "Don't work",
+    "description": ""
+  }
+]

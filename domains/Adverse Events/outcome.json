@@ -1,0 +1,32 @@
+[
+  {
+    "value": "1",
+    "display_name": "Resolved, no Sequelae",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "AE Still present - no treatment",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "AE Still present - being treated",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Residual effects present - not treated",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "Residual effects present - treated",
+    "description": ""
+  },
+  {
+    "value": "6",
+    "display_name": "Unknown",
+    "description": ""
+  }
+]

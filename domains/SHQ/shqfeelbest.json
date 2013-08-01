@@ -1,0 +1,27 @@
+[
+  {
+    "value": "1",
+    "display_name": "5:00 - 6:30 AM",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "6:30 - 7:45 AM",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "7:45 - 9:45 AM",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "9:45 - 11:00 AM",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "After 11:00 AM",
+    "description": ""
+  }
+]
