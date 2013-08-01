@@ -1,0 +1,7 @@
+{
+  "id": "cannulaqual",
+  "display_name": "Cannula Signal Quality Code",
+  "description": "",
+  "type": "choices",
+  "domain": "Embletta/pctestsleep"
+}

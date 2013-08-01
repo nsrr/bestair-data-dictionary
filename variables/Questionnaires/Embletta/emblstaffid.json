@@ -1,0 +1,6 @@
+{
+  "id": "emblstaffid",
+  "display_name": "Staff ID",
+  "description": "",
+  "type": "integer"
+}

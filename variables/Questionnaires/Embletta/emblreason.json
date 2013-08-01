@@ -1,0 +1,7 @@
+{
+  "id": "emblreason",
+  "display_name": "Reason for Urgent Alert (Specific heart rate and/or ECG Finding)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

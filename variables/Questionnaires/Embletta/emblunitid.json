@@ -1,0 +1,6 @@
+{
+  "id": "emblunitid",
+  "display_name": "Unit ID",
+  "description": "",
+  "type": "string"
+}

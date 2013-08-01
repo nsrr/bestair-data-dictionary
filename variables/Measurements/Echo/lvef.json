@@ -1,0 +1,7 @@
+{
+  "id": "lvef",
+  "display_name": "Ejection fraction",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

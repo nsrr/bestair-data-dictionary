@@ -1,0 +1,7 @@
+{
+  "id": "lvm",
+  "display_name": "LV Mass",
+  "description": "",
+  "type": "numeric",
+  "units": "g"
+}

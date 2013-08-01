@@ -1,0 +1,7 @@
+{
+  "id": "ekgqual",
+  "display_name": "EKG Signal Quality Code",
+  "description": "",
+  "type": "choices",
+  "domain": "Embletta/pctestsleep"
+}

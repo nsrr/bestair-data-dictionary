@@ -1,0 +1,7 @@
+{
+  "id": "abdomenqual",
+  "display_name": "Abdomen Signal Quality Code",
+  "description": "",
+  "type": "choices",
+  "domain": "Embletta/pctestsleep"
+}

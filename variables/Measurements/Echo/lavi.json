@@ -1,0 +1,7 @@
+{
+  "id": "lavi",
+  "display_name": "LA Volume Index",
+  "description": "",
+  "type": "numeric",
+  "units": "ml/m2"
+}

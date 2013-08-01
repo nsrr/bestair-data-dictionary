@@ -1,0 +1,7 @@
+{
+  "id": "essoften",
+  "display_name": "9. How often does this occur?",
+  "description": "",
+  "type": "choices",
+  "domain": "freq5"
+}

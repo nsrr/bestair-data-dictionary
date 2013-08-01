@@ -1,0 +1,7 @@
+{
+  "id": "iasep",
+  "display_name": "Interatrial septum",
+  "description": "",
+  "type": "choices",
+  "domain": "Echo/iaseptum"
+}

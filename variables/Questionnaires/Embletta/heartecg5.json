@@ -1,0 +1,7 @@
+{
+  "id": "heartecg5",
+  "display_name": "Heart Rate/ECG Finding (Third degree atrioventricular block)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "essbmi",
+  "display_name": "BMI (kg/m2)",
+  "description": "",
+  "type": "numeric",
+  "units": "kg/m2"
+}

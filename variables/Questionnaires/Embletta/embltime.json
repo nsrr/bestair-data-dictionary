@@ -1,0 +1,6 @@
+{
+  "id": "embltime",
+  "display_name": "Total Recording Time (hours:minutes)",
+  "description": "",
+  "type": "time"
+}

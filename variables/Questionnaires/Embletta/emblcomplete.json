@@ -1,0 +1,7 @@
+{
+  "id": "emblcomplete",
+  "display_name": "Complete?",
+  "description": "",
+  "type": "choices",
+  "domain": "complete"
+}

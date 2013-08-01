@@ -1,0 +1,7 @@
+{
+  "id": "essheightin",
+  "display_name": "Height (in)",
+  "description": "",
+  "type": "numeric",
+  "units": "in"
+}

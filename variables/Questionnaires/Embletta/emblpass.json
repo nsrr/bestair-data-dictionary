@@ -1,0 +1,7 @@
+{
+  "id": "emblpass",
+  "display_name": "Study Passed?",
+  "description": "",
+  "type": "choices",
+  "domain": "Embletta/emblpass"
+}

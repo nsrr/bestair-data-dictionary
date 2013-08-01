@@ -1,0 +1,7 @@
+{
+  "id": "pfo",
+  "display_name": "Interatrial shunt",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

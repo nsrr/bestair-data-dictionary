@@ -1,0 +1,7 @@
+{
+  "id": "essbp",
+  "display_name": "10. Do you have high blood pressure?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

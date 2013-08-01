@@ -1,0 +1,7 @@
+{
+  "id": "lvmi",
+  "display_name": "LV Mass Index",
+  "description": "",
+  "type": "numeric",
+  "units": "g/m2"
+}

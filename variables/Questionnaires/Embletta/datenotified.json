@@ -1,0 +1,6 @@
+{
+  "id": "datenotified",
+  "display_name": "Date Site was Notified",
+  "description": "",
+  "type": "date"
+}
