@@ -3,5 +3,5 @@
   "display_name": "Gender",
   "description": "",
   "type": "choices",
-  "domain": "Eligibility/gender"
+  "domain": "gender"
 }

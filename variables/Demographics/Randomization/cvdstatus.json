@@ -3,5 +3,5 @@
   "display_name": "CVD Status",
   "description": "",
   "type": "choices",
-  "domain": "Randomization/cvdstatus"
+  "domain": "cvdstatus"
 }

@@ -3,5 +3,5 @@
   "display_name": "Eligibility Status: I have reviewed the above information. The individual _____ eligibility criteria as outlined by the study.",
   "description": "",
   "type": "choices",
-  "domain": "Eligibility/meets"
+  "domain": "meets"
 }

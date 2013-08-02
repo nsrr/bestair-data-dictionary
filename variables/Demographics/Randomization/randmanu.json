@@ -3,5 +3,5 @@
   "display_name": "Device Manufacturer",
   "description": "",
   "type": "choices",
-  "domain": "Randomization/devicemanu"
+  "domain": "devicemanu"
 }
