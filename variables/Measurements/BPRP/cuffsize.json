@@ -1,0 +1,7 @@
+{
+  "id": "cuffsize",
+  "display_name": "Cuff size",
+  "description": "",
+  "type": "choices",
+  "domain": "BPRP/bprpcuff"
+}

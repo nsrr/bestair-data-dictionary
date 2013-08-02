@@ -1,0 +1,6 @@
+{
+  "id": "daterand",
+  "display_name": "Date of Randomization",
+  "description": "",
+  "type": "date"
+}

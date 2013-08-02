@@ -1,0 +1,7 @@
+{
+  "id": "siteid",
+  "display_name": "Site ID",
+  "description": "",
+  "type": "choices",
+  "domain": "Randomization/siteid"
+}

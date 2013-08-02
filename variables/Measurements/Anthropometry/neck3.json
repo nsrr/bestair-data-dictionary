@@ -1,0 +1,7 @@
+{
+  "id": "neck3",
+  "display_name": "Neck circumference",
+  "description": "",
+  "type": "numeric",
+  "units": "cm"
+}

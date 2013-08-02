@@ -1,0 +1,7 @@
+{
+  "id": "rp1",
+  "display_name": "Radial Pulse",
+  "description": "",
+  "type": "numeric",
+  "units": "bpm"
+}

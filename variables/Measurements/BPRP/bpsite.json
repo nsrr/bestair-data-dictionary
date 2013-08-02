@@ -1,0 +1,7 @@
+{
+  "id": "bpsite",
+  "display_name": "Arm blood pressure site",
+  "description": "",
+  "type": "choices",
+  "domain": "BPRP/bpsite"
+}

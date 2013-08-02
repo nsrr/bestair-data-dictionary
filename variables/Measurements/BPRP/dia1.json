@@ -1,0 +1,7 @@
+{
+  "id": "dia1",
+  "display_name": "Diastolic 1",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHG"
+}

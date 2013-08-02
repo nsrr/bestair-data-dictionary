@@ -1,0 +1,7 @@
+{
+  "id": "sys2",
+  "display_name": "Systolic 2",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHG"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "anthcomplete",
+  "display_name": "Complete?",
+  "description": "",
+  "type": "choices",
+  "domain": "complete"
+}

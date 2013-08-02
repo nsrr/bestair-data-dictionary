@@ -1,0 +1,7 @@
+{
+  "id": "hip1",
+  "display_name": "Hip circumference",
+  "description": "",
+  "type": "numeric",
+  "units": "cm"
+}
