@@ -1,0 +1,7 @@
+{
+  "id": "cpaptreat",
+  "display_name": "What arm of treatment is the participant currently receiving?",
+  "description": "",
+  "type": "choices",
+  "domain": "treatarm"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "d05",
+  "display_name": "Falling asleep if not stimulated or active",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

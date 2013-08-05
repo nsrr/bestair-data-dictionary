@@ -1,0 +1,7 @@
+{
+  "id": "e10",
+  "display_name": "Air leakage from the nasal mask",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

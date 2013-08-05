@@ -1,0 +1,6 @@
+{
+  "id": "wifimodem",
+  "display_name": "Wireless Modem Serial Number",
+  "description": "",
+  "type": "string"
+}

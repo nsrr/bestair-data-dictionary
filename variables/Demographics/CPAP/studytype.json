@@ -1,0 +1,7 @@
+{
+  "id": "studytype",
+  "display_name": "Last CPAP titration study type",
+  "description": "",
+  "type": "choices",
+  "domain": "paptype"
+}

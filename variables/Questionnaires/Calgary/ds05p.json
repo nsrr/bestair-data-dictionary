@@ -1,0 +1,7 @@
+{
+  "id": "ds05p",
+  "display_name": "Sympton 5: How much of a problem has it been?",
+  "description": "",
+  "type": "choices",
+  "domain": "redcard"
+}

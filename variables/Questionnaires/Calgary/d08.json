@@ -1,0 +1,7 @@
+{
+  "id": "d08",
+  "display_name": "Difficulty returning to sleep if you wake up in the night",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "ramp",
+  "display_name": "Ramp",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

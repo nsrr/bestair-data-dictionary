@@ -1,0 +1,7 @@
+{
+  "id": "d19",
+  "display_name": "A reluctance or inability to drive for more than 1 hour",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

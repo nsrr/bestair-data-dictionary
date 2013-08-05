@@ -1,0 +1,6 @@
+{
+  "id": "datedelivered",
+  "display_name": "Date Device Delivered",
+  "description": "",
+  "type": "date"
+}

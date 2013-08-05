@@ -1,0 +1,7 @@
+{
+  "id": "originaltx",
+  "display_name": "Is this what the participant originally randomized to this arm?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}
