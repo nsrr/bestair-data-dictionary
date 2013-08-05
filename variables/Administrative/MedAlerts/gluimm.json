@@ -1,0 +1,7 @@
+{
+  "id": "gluimm",
+  "display_name": "Glucose Immediate Alert: >300",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

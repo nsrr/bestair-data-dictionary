@@ -1,0 +1,7 @@
+{
+  "id": "ecgimmvenfib",
+  "display_name": "ECG Immediate Alert: CRC/CCI Study: Ventricular fibrillation or presistent ventricular tachycardia (more than 2 minutes)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

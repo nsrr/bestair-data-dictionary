@@ -1,0 +1,7 @@
+{
+  "id": "hrimm40",
+  "display_name": "Heart Rate Immediate Alert: <40 beats/min at rest",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

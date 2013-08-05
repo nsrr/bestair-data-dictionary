@@ -1,0 +1,7 @@
+{
+  "id": "24hrbpimmsys",
+  "display_name": "BP Immediate Alert: Avg Systolic blood pressure >=210 mmHg",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

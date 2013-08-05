@@ -1,0 +1,7 @@
+{
+  "id": "ecg",
+  "display_name": "Was a medical alert noted on ECG? If yes, check all that apply",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

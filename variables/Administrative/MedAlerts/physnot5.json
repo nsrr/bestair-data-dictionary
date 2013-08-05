@@ -1,0 +1,7 @@
+{
+  "id": "physnot5",
+  "display_name": "Was the study physician notified",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

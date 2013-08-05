@@ -1,0 +1,7 @@
+{
+  "id": "pptnot6",
+  "display_name": "Was the participant notified",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "ecgurgventach",
+  "display_name": "ECG Urgent Alert: CRC/CCI Study: Non-sustained ventricular tachycardia (3 beats duration at rate>120) (upon review of study)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

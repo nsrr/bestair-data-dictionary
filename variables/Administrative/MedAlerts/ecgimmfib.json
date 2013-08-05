@@ -1,0 +1,7 @@
+{
+  "id": "ecgimmfib",
+  "display_name": "ECG Immediate Alert: CRC/CCI Study: New atrial fibrillation with HR>120",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

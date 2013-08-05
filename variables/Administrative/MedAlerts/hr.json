@@ -1,0 +1,7 @@
+{
+  "id": "hr",
+  "display_name": "Was a medical alert noted on Heart Rate (awake pulse)?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

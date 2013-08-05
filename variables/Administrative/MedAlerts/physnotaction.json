@@ -1,0 +1,6 @@
+{
+  "id": "physnotaction",
+  "display_name": "Other action taken",
+  "description": "",
+  "type": "string"
+}

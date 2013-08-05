@@ -1,0 +1,7 @@
+{
+  "id": "24hrbpurgdia",
+  "display_name": "BP Urgent Alert: Avg Diastolic blood pressure >=100 but <120 mmHg",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "glu",
+  "display_name": "Was a medical alert noted on glucose levels?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}
