@@ -1,0 +1,6 @@
+{
+  "id": "attachtime",
+  "display_name": "Attach Time",
+  "description": "",
+  "type": "time"
+}

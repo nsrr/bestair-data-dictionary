@@ -1,0 +1,7 @@
+{
+  "id": "armcirc",
+  "display_name": "Arm Circumference",
+  "description": "",
+  "type": "numeric",
+  "units": "cm"
+}

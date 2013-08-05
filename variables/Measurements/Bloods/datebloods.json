@@ -1,0 +1,6 @@
+{
+  "id": "datebloods",
+  "display_name": "Date of test",
+  "description": "",
+  "type": "date"
+}

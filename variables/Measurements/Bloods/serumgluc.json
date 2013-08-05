@@ -1,0 +1,7 @@
+{
+  "id": "serumgluc",
+  "display_name": "Glucose, Serum",
+  "description": "",
+  "type": "numeric",
+  "units": "mg/dl"
+}

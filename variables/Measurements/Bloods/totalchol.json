@@ -1,0 +1,7 @@
+{
+  "id": "totalchol",
+  "display_name": "Cholesterol, Total",
+  "description": "",
+  "type": "numeric",
+  "units": "mg/dl"
+}

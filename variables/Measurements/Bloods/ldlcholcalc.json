@@ -1,0 +1,7 @@
+{
+  "id": "ldlcholcalc",
+  "display_name": "LDL Cholesterol Calc",
+  "description": "",
+  "type": "numeric",
+  "units": "mg/dl"
+}
