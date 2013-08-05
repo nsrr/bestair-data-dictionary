@@ -1,0 +1,7 @@
+{
+  "id": "promtired",
+  "display_name": "I felt tired",
+  "description": "",
+  "type": "choices",
+  "domain": "prommuch"
+}

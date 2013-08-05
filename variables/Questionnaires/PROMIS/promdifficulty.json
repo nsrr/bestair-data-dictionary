@@ -1,0 +1,7 @@
+{
+  "id": "promdifficulty",
+  "display_name": "I had difficulty falling asleep",
+  "description": "",
+  "type": "choices",
+  "domain": "prommuch"
+}

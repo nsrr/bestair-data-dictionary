@@ -1,0 +1,7 @@
+{
+  "id": "promstaying",
+  "display_name": "I had trouble staying asleep",
+  "description": "",
+  "type": "choices",
+  "domain": "promalways"
+}

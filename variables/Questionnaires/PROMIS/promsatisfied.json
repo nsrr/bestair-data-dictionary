@@ -1,0 +1,7 @@
+{
+  "id": "promsatisfied",
+  "display_name": "I was satisfied with my sleep",
+  "description": "",
+  "type": "choices",
+  "domain": "prommuch"
+}

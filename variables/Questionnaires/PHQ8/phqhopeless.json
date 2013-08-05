@@ -1,0 +1,7 @@
+{
+  "id": "phqhopeless",
+  "display_name": "Feeling down, depressed, or hopeless",
+  "description": "",
+  "type": "choices",
+  "domain": "phq"
+}
