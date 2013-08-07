@@ -1,0 +1,7 @@
+{
+  "id": "ms",
+  "display_name": "Multiple Sclerosis",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

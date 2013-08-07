@@ -1,0 +1,7 @@
+{
+  "id": "allergies",
+  "display_name": "Have you ever had allergies to dust, molds, grass, or pollen?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

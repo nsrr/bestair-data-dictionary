@@ -1,0 +1,7 @@
+{
+  "id": "gh01",
+  "display_name": "In general, would you say your health is",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36poor"
+}

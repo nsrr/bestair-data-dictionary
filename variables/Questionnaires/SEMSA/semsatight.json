@@ -1,0 +1,7 @@
+{
+  "id": "semsatight",
+  "display_name": "I would use CPAP, even if I have to wear a tight mask on my face at night.",
+  "description": "",
+  "type": "choices",
+  "domain": "semsatrue"
+}

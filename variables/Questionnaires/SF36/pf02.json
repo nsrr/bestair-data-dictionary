@@ -1,0 +1,7 @@
+{
+  "id": "pf02",
+  "display_name": "Moderate activities, such as moving a table, pushing a vacuum cleaner, bowling, or playing golf",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36limit"
+}

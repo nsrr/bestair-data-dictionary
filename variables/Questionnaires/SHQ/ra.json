@@ -1,0 +1,7 @@
+{
+  "id": "ra",
+  "display_name": "Rheumatoid Arthritis, Lupus, or other Collagen Vascular Disease",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

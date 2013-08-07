@@ -1,0 +1,7 @@
+{
+  "id": "cancer",
+  "display_name": "Cancer",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "eversmoked",
+  "display_name": "Have you EVER smoked cigarettes? (No means less than 20 packs in a lifetime or less than 1 cigarette per day for 1 year",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "sfht",
+  "display_name": "Compared to one year ago, how would you rate your health in general now",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36worse"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "sarpasleepday",
+  "display_name": "Having obstructive sleep apnea, how great is your risk for falling asleep during the day?",
+  "description": "",
+  "type": "choices",
+  "domain": "sarp"
+}

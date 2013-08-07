@@ -1,0 +1,7 @@
+{
+  "id": "sf36complete",
+  "display_name": "complete?",
+  "description": "",
+  "type": "choices",
+  "domain": "complete"
+}

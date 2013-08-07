@@ -1,0 +1,7 @@
+{
+  "id": "semsalessalert",
+  "display_name": "If I do not use CPAP I will be less alert during the day.",
+  "description": "",
+  "type": "choices",
+  "domain": "semsatrue"
+}

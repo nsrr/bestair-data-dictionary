@@ -1,0 +1,7 @@
+{
+  "id": "sf02",
+  "display_name": "During the past 4 weeks, how much of the time has your physical health or emotional problems interfered with your social activities (like visitng friends, relatives, etc)?",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36time"
+}

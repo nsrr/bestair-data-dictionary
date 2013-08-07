@@ -1,0 +1,7 @@
+{
+  "id": "sittalk",
+  "display_name": "Sitting and talking to someone",
+  "description": "",
+  "type": "choices",
+  "domain": "ess"
+}
