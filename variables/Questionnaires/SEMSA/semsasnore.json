@@ -1,0 +1,7 @@
+{
+  "id": "semsasnore",
+  "display_name": "If I use CPAP then I will not snore.",
+  "description": "",
+  "type": "choices",
+  "domain": "semsatrue"
+}

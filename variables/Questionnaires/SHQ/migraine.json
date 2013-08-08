@@ -1,0 +1,7 @@
+{
+  "id": "migraine",
+  "display_name": "Migraine Headaches",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

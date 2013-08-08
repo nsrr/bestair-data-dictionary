@@ -1,0 +1,7 @@
+{
+  "id": "famchistroke",
+  "display_name": "Stroke",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

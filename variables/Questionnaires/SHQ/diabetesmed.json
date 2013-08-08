@@ -1,0 +1,7 @@
+{
+  "id": "diabetesmed",
+  "display_name": "Are you taking medicine for this?",
+  "description": "",
+  "type": "choices",
+  "domain": "shqdiabetes"
+}

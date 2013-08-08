@@ -1,0 +1,7 @@
+{
+  "id": "nap5min",
+  "display_name": "During a usual week, how many times do you nap for 5 minutes or more?",
+  "description": "",
+  "type": "integer",
+  "units": "evennts"
+}

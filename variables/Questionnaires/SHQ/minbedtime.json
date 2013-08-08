@@ -1,0 +1,7 @@
+{
+  "id": "minbedtime",
+  "display_name": "How many minutes does it usually take you to fall asleep at bedtime?",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

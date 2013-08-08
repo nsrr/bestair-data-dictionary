@@ -1,0 +1,7 @@
+{
+  "id": "prostatecancer",
+  "display_name": "Prostate Cancer",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

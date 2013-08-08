@@ -1,0 +1,7 @@
+{
+  "id": "driving",
+  "display_name": "While driving",
+  "description": "",
+  "type": "choices",
+  "domain": "ess"
+}

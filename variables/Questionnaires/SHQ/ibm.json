@@ -1,0 +1,7 @@
+{
+  "id": "ibm",
+  "display_name": "Inflammatory Bowel Disease (Ulcerative Colitis or Crohns Disease)",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

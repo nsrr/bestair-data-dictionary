@@ -1,0 +1,7 @@
+{
+  "id": "semsaasleepday",
+  "display_name": "My chances of falling asleep during the day compared to people my own age and sex who do not have sleep apnea are:",
+  "description": "",
+  "type": "choices",
+  "domain": "semsahigh"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "semsacost",
+  "display_name": "I would use CPAP, even if I had to pay for some of the cost.",
+  "description": "",
+  "type": "choices",
+  "domain": "semsatrue"
+}

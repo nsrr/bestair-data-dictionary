@@ -1,0 +1,7 @@
+{
+  "id": "semsarelationship",
+  "display_name": "If I use CPAP my relationship with my significant other and friends will improve.",
+  "description": "",
+  "type": "choices",
+  "domain": "semsatrue"
+}

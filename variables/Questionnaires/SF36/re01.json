@@ -1,0 +1,7 @@
+{
+  "id": "re01",
+  "display_name": "Cut down the amount of time you spent on work or other activities",
+  "description": "",
+  "type": "choices",
+  "domain": "sf36time"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "asthma",
+  "display_name": "Asthma",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "sarpheartattack",
+  "display_name": "Having obstructive sleep apnea, how great is your risk for having a heart attack?",
+  "description": "",
+  "type": "choices",
+  "domain": "sarp"
+}

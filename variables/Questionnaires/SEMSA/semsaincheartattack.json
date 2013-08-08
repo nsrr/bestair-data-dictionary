@@ -1,0 +1,7 @@
+{
+  "id": "semsaincheartattack",
+  "display_name": "If I do not use CPAP I will increase my chances of having a heart attack.",
+  "description": "",
+  "type": "choices",
+  "domain": "semsatrue"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "shqchestpain",
+  "display_name": "Chest pain or tightness",
+  "description": "",
+  "type": "choices",
+  "domain": "shqalways"
+}

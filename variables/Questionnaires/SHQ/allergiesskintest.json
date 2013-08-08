@@ -1,0 +1,7 @@
+{
+  "id": "allergiesskintest",
+  "display_name": "Was this confirmed with a skin test?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

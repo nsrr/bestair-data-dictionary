@@ -1,0 +1,7 @@
+{
+  "id": "sarpaccident",
+  "display_name": "Having obstructive sleep apnea, how great is your risk for having an accident?",
+  "description": "",
+  "type": "choices",
+  "domain": "sarp"
+}

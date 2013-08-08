@@ -1,0 +1,7 @@
+{
+  "id": "semsajob",
+  "display_name": "If I use CPAP then my job performance will improve.",
+  "description": "",
+  "type": "choices",
+  "domain": "semsatrue"
+}
