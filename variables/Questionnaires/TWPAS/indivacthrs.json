@@ -1,0 +1,7 @@
+{
+  "id": "indivacthrs",
+  "display_name": "Individual activities (Hours/Day)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpashr"
+}

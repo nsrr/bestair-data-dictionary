@@ -1,0 +1,6 @@
+{
+  "id": "serialnumber",
+  "display_name": "Monitor Serial Number:",
+  "description": "",
+  "type": "string"
+}

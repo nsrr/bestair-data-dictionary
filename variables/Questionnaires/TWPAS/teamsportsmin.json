@@ -1,0 +1,7 @@
+{
+  "id": "teamsportsmin",
+  "display_name": "Team sports (Minutes/Hour)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpasmin"
+}

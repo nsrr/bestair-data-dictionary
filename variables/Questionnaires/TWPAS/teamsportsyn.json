@@ -1,0 +1,7 @@
+{
+  "id": "teamsportsyn",
+  "display_name": "Team sports",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

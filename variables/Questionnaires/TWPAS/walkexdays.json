@@ -1,0 +1,7 @@
+{
+  "id": "walkexdays",
+  "display_name": "Walking for exercise (Days/Week)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpasday"
+}

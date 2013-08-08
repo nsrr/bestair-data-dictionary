@@ -1,0 +1,7 @@
+{
+  "id": "wearandcollect",
+  "display_name": "Able to wear and collect data for 24 hours?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

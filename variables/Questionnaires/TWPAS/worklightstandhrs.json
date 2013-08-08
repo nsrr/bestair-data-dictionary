@@ -1,0 +1,7 @@
+{
+  "id": "worklightstandhrs",
+  "display_name": "Light Effort: While standing (Hours/Day)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpashr16"
+}

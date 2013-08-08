@@ -1,0 +1,7 @@
+{
+  "id": "percentsuccess",
+  "display_name": "More than 75% successful readings?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

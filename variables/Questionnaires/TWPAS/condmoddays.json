@@ -1,0 +1,7 @@
+{
+  "id": "condmoddays",
+  "display_name": "Moderate Effort (Days/Week)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpasday"
+}

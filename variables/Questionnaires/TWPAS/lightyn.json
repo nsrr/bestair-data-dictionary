@@ -1,0 +1,7 @@
+{
+  "id": "lightyn",
+  "display_name": "Light Effort",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

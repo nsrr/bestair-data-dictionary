@@ -1,0 +1,7 @@
+{
+  "id": "caremoddays",
+  "display_name": "Moderate Effort (Days/Week)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpasday"
+}

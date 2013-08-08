@@ -1,0 +1,7 @@
+{
+  "id": "workmodhrs",
+  "display_name": "Moderatet Effort (Hours/Day)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpashr16"
+}

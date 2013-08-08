@@ -1,0 +1,7 @@
+{
+  "id": "dualsportsdays",
+  "display_name": "Dual Sports (Days/Week)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpasday"
+}

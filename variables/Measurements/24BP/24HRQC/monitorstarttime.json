@@ -1,0 +1,6 @@
+{
+  "id": "monitorstarttime",
+  "display_name": "Start Time:",
+  "description": "",
+  "type": "time"
+}

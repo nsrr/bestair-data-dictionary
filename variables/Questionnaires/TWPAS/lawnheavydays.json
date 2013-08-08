@@ -1,0 +1,7 @@
+{
+  "id": "lawnheavydays",
+  "display_name": "Heavy Effort (Days/Week)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpasday"
+}

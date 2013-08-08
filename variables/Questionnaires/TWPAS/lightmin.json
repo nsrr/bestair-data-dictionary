@@ -1,0 +1,7 @@
+{
+  "id": "lightmin",
+  "display_name": "Light Effort (Minutes/Hour)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpasmin"
+}

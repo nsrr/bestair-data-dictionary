@@ -1,0 +1,7 @@
+{
+  "id": "carelightdays",
+  "display_name": "Light Effort (Days/Week)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpasday"
+}

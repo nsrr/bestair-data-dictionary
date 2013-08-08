@@ -1,0 +1,7 @@
+{
+  "id": "indivactdays",
+  "display_name": "Individual activities (Days/Week)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpasday"
+}

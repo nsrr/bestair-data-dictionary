@@ -1,0 +1,7 @@
+{
+  "id": "worklightsityn",
+  "display_name": "Light Effort: While sitting",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

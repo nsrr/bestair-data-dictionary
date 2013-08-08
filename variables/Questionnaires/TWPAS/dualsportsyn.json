@@ -1,0 +1,7 @@
+{
+  "id": "dualsportsyn",
+  "display_name": "Dual sports",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "sitreclineyn",
+  "display_name": "Sit or recline and watch TV",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "dancinghrs",
+  "display_name": "Dancing (Hours/Day)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpashr"
+}

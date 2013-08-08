@@ -1,0 +1,7 @@
+{
+  "id": "walkgethrs",
+  "display_name": "Walking to get places (Hours/Day)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpashr"
+}

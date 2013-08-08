@@ -1,0 +1,7 @@
+{
+  "id": "lawnmodhrs",
+  "display_name": "Moderate Effort (Hours/Day)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpashr"
+}

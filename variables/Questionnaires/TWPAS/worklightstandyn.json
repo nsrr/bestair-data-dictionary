@@ -1,0 +1,7 @@
+{
+  "id": "worklightstandyn",
+  "display_name": "Light Effort: While standing",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}
