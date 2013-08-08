@@ -1,0 +1,7 @@
+{
+  "id": "augpress1",
+  "display_name": "Augmentation Pressure:",
+  "description": "",
+  "type": "integer",
+  "units": ""
+}

@@ -1,0 +1,7 @@
+{
+  "id": "smokedlast",
+  "display_name": "Over the LAST 4 WEEKS, have you smoked at least 1 cigarette per day?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

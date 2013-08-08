@@ -1,0 +1,7 @@
+{
+  "id": "swellingdaynight",
+  "display_name": "Does it tend to come on during the day and go down overnight?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

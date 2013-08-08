@@ -1,0 +1,7 @@
+{
+  "id": "pressurecheststill",
+  "display_name": "If you stand still, what happens to your chest discomfort/pressure?",
+  "description": "",
+  "type": "choices",
+  "domain": "shqrelieve"
+}

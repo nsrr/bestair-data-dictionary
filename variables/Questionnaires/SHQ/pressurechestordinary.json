@@ -1,0 +1,7 @@
+{
+  "id": "pressurechestordinary",
+  "display_name": "Do you get chest discomfort/pressure when you walk at an ordinary pace on ground level?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

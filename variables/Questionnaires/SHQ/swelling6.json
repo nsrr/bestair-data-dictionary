@@ -1,0 +1,7 @@
+{
+  "id": "swelling",
+  "display_name": "In the LAST 4 WEEKS, did you have swelling of your feet or ankles?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

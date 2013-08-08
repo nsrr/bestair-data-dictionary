@@ -1,0 +1,7 @@
+{
+  "id": "numberdrinks",
+  "display_name": "In a typical month during the past year, what was the largest number of drinks of beer, wine and/or liquor you may have had in one day?",
+  "description": "",
+  "type": "choices",
+  "domain": "shqnumdrink"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "hormonertagestop",
+  "display_name": "At what ages did you take hormones? Age stopped:",
+  "description": "",
+  "type": "integer",
+  "units": "years old"
+}

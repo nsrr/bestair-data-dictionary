@@ -1,0 +1,7 @@
+{
+  "id": "qcnumbersred2",
+  "display_name": "Are any of the QC numbers red?",
+  "description": "",
+  "type": "choices",
+  "domains": "noyes01"
+}

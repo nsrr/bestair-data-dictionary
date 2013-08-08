@@ -1,0 +1,7 @@
+{
+  "id": "pwv1pwv2",
+  "display_name": "Is the Pulse Wave Velocity from Collection 1 within 10% of the Pulse Wave Velocity 2?",
+  "description": "",
+  "type": "choices",
+  "domains": "noyes01"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "stopbreath",
+  "display_name": "In the LAST 4 WEEKS, were there times when you stopped breathing during your sleep?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes012"
+}

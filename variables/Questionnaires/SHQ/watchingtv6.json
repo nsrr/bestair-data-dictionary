@@ -1,0 +1,7 @@
+{
+  "id": "watchingtv",
+  "display_name": "Watching TV",
+  "description": "",
+  "type": "choices",
+  "domain": "ess"
+}

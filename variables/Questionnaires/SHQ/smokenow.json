@@ -1,0 +1,7 @@
+{
+  "id": "smokenow",
+  "display_name": "IF YES, how many cigarettes do you now smoke each day?",
+  "description": "",
+  "type": "integer",
+  "units": "unit count"
+}

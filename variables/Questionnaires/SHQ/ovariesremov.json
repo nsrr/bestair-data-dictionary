@@ -1,0 +1,7 @@
+{
+  "id": "ovariesremov",
+  "display_name": "How many ovaries were removed?",
+  "description": "",
+  "type": "integer",
+  "units": "unit count"
+}

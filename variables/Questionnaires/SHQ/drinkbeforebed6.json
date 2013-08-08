@@ -1,0 +1,7 @@
+{
+  "id": "drinkbeforebed",
+  "display_name": "When you drink alcohol, do you usually drink during the two hours before bedtime?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

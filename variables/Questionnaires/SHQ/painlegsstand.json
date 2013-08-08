@@ -1,0 +1,7 @@
+{
+  "id": "painlegsstand",
+  "display_name": "What happens to it if you stand still?",
+  "description": "",
+  "type": "choices",
+  "domain": "shqstand"
+}

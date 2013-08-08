@@ -1,0 +1,7 @@
+{
+  "id": "pressurechestwalking",
+  "display_name": "What do you do if you get chest discomfort/pressure while you are walking?",
+  "description": "",
+  "type": "choices",
+  "domain": "shqdiscomfort"
+}
