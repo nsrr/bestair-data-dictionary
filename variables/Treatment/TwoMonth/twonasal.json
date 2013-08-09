@@ -1,0 +1,7 @@
+{
+  "id": "twonasal",
+  "display_name": "Nasal Congestion",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "twopositionchange",
+  "display_name": "During the past 2 months, have you changed your sleeping position?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

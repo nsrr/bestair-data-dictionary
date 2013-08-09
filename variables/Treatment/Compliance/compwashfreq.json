@@ -1,0 +1,6 @@
+{
+  "id": "compwashfreq",
+  "display_name": "How often do you wash the equipment?",
+  "description": "",
+  "type": "string"
+}

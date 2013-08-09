@@ -1,0 +1,7 @@
+{
+  "id": "twosleepiness",
+  "display_name": "Sleepiness interfering with work or driving",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

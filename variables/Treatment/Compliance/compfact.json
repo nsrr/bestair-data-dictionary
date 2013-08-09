@@ -1,0 +1,6 @@
+{
+  "id": "compfact",
+  "display_name": "Compliance Factor:",
+  "description": "",
+  "type": "string"
+}

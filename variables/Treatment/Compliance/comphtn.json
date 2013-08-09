@@ -1,0 +1,7 @@
+{
+  "id": "comphtn",
+  "display_name": "Hypertension",
+  "description": "",
+  "type": "choices",
+  "domain": "worsened"
+}

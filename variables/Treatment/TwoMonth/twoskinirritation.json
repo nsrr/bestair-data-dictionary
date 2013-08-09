@@ -1,0 +1,7 @@
+{
+  "id": "twoskinirrit",
+  "display_name": "Skin Irritation",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

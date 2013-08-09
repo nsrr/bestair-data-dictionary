@@ -1,0 +1,7 @@
+{
+  "id": "compcurrpress",
+  "display_name": "Current Pressure",
+  "description": "",
+  "type": "integer",
+  "units": "cm H2O"
+}

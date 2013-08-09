@@ -1,0 +1,7 @@
+{
+  "id": "twoshortnessofbreath",
+  "display_name": "New or worse shortness of breath",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

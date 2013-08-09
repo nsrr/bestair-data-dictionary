@@ -1,0 +1,7 @@
+{
+  "id": "twonoise",
+  "display_name": "Noise",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

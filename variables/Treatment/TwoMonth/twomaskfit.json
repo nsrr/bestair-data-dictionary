@@ -1,0 +1,7 @@
+{
+  "id": "twomaskfit",
+  "display_name": "Mask Fit",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

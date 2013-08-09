@@ -1,0 +1,6 @@
+{
+  "id": "twospecify4",
+  "display_name": "If Yes, please list diagnosis, start and stop date, severity, treatment, outcome and relation to study participation:",
+  "description": "",
+  "type": "string"
+}

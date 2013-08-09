@@ -1,0 +1,7 @@
+{
+  "id": "usualpace",
+  "display_name": "When you walk outside of your home, what is your usual pace?",
+  "description": "",
+  "type": "choices",
+  "domain": "twpaspace"
+}

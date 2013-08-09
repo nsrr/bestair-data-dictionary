@@ -1,0 +1,7 @@
+{
+  "id": "twomaskleaks",
+  "display_name": "Mask Leaks",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

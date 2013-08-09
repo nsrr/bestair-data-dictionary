@@ -1,0 +1,7 @@
+{
+  "id": "compsnoring",
+  "display_name": "Snoring",
+  "description": "",
+  "type": "choices",
+  "domain": "worsened"
+}

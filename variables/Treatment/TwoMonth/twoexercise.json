@@ -1,0 +1,7 @@
+{
+  "id": "twoexercise",
+  "display_name": "What, if anything, have you been able to do regarding exercise?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

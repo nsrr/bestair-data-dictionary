@@ -1,0 +1,7 @@
+{
+  "id": "twoovernightstay",
+  "display_name": "Since our last contact with you, have you had an overnight stay in a hospital?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

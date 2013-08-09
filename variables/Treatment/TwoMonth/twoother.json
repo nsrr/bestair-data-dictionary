@@ -1,0 +1,7 @@
+{
+  "id": "twoother",
+  "display_name": "Other:",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

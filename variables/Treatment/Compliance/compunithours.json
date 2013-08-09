@@ -1,0 +1,7 @@
+{
+  "id": "compunithours",
+  "display_name": "Unit Hrs:",
+  "description": "",
+  "type": "integer",
+  "units": "hours"
+}

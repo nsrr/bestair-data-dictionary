@@ -1,0 +1,7 @@
+{
+  "id": "twonasalstrips",
+  "display_name": "During the past 2 months, have you used the nasal dilator strips (Breathe Right)?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "compweight",
+  "display_name": "Weight Gain/Obesity",
+  "description": "",
+  "type": "choices",
+  "domain": "worsened"
+}
