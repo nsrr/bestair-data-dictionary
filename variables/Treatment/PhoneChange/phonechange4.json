@@ -1,0 +1,7 @@
+{
+  "id": "phonechange4",
+  "display_name": "What was changed (choice=Chin Strap)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

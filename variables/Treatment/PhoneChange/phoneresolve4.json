@@ -1,0 +1,7 @@
+{
+  "id": "phoneresolve4",
+  "display_name": "How was the problem or issue resolved? (choice=Other)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "aeactiontaken",
+  "display_name": "Action Taken:",
+  "description": "",
+  "type": "choices",
+  "domain": "action"
+}

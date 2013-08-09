@@ -1,0 +1,7 @@
+{
+  "id": "phonereason2",
+  "display_name": "What is the reason for the call? (choice=Problem with dry throat/mouth)",
+  "description": "",
+  "type": "choices",
+  "domain": "check"
+}

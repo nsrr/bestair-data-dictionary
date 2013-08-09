@@ -1,0 +1,7 @@
+{
+  "id": "aerelationship",
+  "display_name": "Relationship to Study Treatment:",
+  "description": "",
+  "type": "choices",
+  "domain": "studyrelation"
+}

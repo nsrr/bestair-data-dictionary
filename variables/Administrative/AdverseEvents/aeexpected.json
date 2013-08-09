@@ -1,0 +1,7 @@
+{
+  "id": "aeexpected",
+  "display_name": "Expected:",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno12"
+}

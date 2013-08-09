@@ -1,0 +1,7 @@
+{
+  "id": "phoneinitby",
+  "display_name": "Call iniated by:",
+  "description": "",
+  "type": "choices",
+  "domain": "phoneinit"
+}

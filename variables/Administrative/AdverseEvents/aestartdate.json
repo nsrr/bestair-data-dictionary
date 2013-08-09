@@ -1,0 +1,6 @@
+{
+  "id": "aestartdate",
+  "display_name": "Start Date:",
+  "description": "",
+  "type": "date"
+}
