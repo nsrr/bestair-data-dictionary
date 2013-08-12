@@ -1,0 +1,7 @@
+{
+  "id": "mapnondipping",
+  "display_name": "Less than 10% MAP dipping from wake to sleep",
+  "description": "",
+  "type": "choices",
+  "domain":"noyes01"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "heartwakemax",
+  "display_name": "Maximum Mean Heart Rate (wake)",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute"
+}

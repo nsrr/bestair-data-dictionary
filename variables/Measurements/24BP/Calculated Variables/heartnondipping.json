@@ -1,0 +1,7 @@
+{
+  "id": "heartnondipping",
+  "display_name": "Less than 10% heart rate dipping from wake to sleep",
+  "description": "",
+  "type": "choices",
+  "domain":"noyes01"
+}

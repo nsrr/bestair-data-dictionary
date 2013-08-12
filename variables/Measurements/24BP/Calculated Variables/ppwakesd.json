@@ -1,0 +1,7 @@
+{
+  "id": "ppwakesd",
+  "display_name": "Standard Deviation of Pulse Pressure (wake)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

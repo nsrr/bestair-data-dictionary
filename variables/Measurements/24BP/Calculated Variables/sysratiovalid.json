@@ -1,0 +1,7 @@
+{
+  "id": "sysratiovalid",
+  "display_name": "Ratio of mean systolic between sleep and wake with valid sleep and wake",
+  "description": "",
+  "type": "numeric",
+  "units":""
+}

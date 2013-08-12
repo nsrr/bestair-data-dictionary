@@ -1,0 +1,7 @@
+{
+  "id": "mapratiovalid",
+  "display_name": "Ratio of mean MAP from sleep to wake with valid sleep and wake",
+  "description": "",
+  "type": "numeric",
+  "units":""
+}

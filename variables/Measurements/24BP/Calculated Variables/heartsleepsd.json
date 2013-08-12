@@ -1,0 +1,7 @@
+{
+  "id": "heartsleepsd",
+  "display_name": "Standard Deviation of Heart Rate (asleep)",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute"
+}

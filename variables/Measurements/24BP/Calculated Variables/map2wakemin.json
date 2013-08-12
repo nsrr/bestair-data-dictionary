@@ -1,0 +1,7 @@
+{
+  "id": "map2wakemin",
+  "display_name": "Minimum Mean Arterial Pressure (wake)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

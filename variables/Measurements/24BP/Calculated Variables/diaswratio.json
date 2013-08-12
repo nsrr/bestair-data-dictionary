@@ -1,0 +1,7 @@
+{
+  "id": "diaswratio",
+  "display_name": "Ratio of diastolic between sleep and wake",
+  "description": "",
+  "type": "numeric",
+  "units":""
+}

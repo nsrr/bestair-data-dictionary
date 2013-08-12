@@ -1,0 +1,7 @@
+{
+  "id": "mapallmax",
+  "display_name": "Maximum Mean Arterial Pressure (all readings)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

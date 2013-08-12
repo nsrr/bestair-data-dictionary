@@ -1,0 +1,7 @@
+{
+  "id": "diawakevalid",
+  "display_name": "Mean of diastolic readings with valid wake",
+  "description": "",
+  "type": "numeric",
+  "units":"mmHG"
+}

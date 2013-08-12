@@ -1,0 +1,7 @@
+{
+  "id": "mapsleepmin",
+  "display_name": "Minimum Mean Arterial Pressure (asleep)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

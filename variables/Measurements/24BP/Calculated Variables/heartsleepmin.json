@@ -1,0 +1,7 @@
+{
+  "id": "heartsleepmin",
+  "display_name": "Minimum Mean Heart Rate (asleep)",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute"
+}

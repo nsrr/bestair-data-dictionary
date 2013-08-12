@@ -1,0 +1,7 @@
+{
+  "id": "ppallmean",
+  "display_name": "Average Pulse Pressure (all readings)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

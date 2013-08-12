@@ -1,0 +1,7 @@
+{
+  "id": "mapsleepsd",
+  "display_name": "Standard Deviation of Mean Arterial Pressure (asleep)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

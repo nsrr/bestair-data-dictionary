@@ -1,0 +1,7 @@
+{
+  "id": "diasleepmean",
+  "display_name": "Average Diastolic Pressure (asleep)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

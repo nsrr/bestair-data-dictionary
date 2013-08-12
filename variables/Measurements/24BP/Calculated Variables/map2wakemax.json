@@ -1,0 +1,7 @@
+{
+  "id": "map2wakemax",
+  "display_name": "Maximum Mean Arterial Pressure (wake)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

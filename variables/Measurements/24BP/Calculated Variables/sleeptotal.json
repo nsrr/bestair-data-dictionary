@@ -1,0 +1,6 @@
+{
+  "id": "sleeptotal",
+  "display_name": "Total Study Time Asleep",
+  "description": "",
+  "type": "time"
+}

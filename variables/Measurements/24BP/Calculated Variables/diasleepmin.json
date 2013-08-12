@@ -1,0 +1,7 @@
+{
+  "id": "diasleepmin",
+  "display_name": "Minimum Diastolic Pressure (asleep)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

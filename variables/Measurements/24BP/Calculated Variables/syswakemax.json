@@ -1,0 +1,7 @@
+{
+  "id": "syswakemax",
+  "display_name": "Maximum Systolic Pressure (wake)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

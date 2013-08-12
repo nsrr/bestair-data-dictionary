@@ -1,0 +1,7 @@
+{
+  "id": "mapallmin",
+  "display_name": "Minimum Mean Arterial Pressure (all readings)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

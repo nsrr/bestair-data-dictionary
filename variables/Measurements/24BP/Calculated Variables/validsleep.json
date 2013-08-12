@@ -1,0 +1,7 @@
+{
+  "id": "validsleep",
+  "display_name": "At least 4 sleep readings",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

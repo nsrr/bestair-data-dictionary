@@ -1,0 +1,7 @@
+{
+  "id": "syswakesd",
+  "display_name": "Standard Deviation of Systolic Pressure (wake)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "syswakevalid",
+  "display_name": "Mean of systolic readings with valid wake",
+  "description": "",
+  "type": "numeric",
+  "units":"mmHG"
+}

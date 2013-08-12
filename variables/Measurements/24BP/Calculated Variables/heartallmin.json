@@ -1,0 +1,7 @@
+{
+  "id": "heartallmin",
+  "display_name": "Minimum Mean Heart Rate (all readings)",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute"
+}

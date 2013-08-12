@@ -1,0 +1,7 @@
+{
+  "id": "map2wakesd",
+  "display_name": "Standard Deviation of Mean Arterial Pressure (wake)",
+  "description": "",
+  "type": "numeric",
+  "units": "mmHg"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "heartallsd",
+  "display_name": "Standard Deviation of Heart Rate (all readings)",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute"
+}
