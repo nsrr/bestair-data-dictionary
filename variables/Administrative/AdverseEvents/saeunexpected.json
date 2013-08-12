@@ -1,0 +1,7 @@
+{
+  "id": "saeunexpected",
+  "display_name": "Was this an unexpected adverse event?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

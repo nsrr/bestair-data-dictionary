@@ -1,0 +1,6 @@
+{
+  "id": "saemedsteps",
+  "display_name": "What medications or other steps were taken to treat serious adverse event?",
+  "description": "",
+  "type": "string"
+}

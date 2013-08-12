@@ -1,0 +1,7 @@
+{
+  "id": "saecat",
+  "display_name": "Category of the serious adverse event:",
+  "description": "",
+  "type": "choices",
+  "domain": "catsae"
+}

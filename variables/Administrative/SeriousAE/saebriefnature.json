@@ -1,0 +1,6 @@
+{
+  "id": "saebriefnature",
+  "display_name": "Brief description of the nature of the serious adverse event (attach description if more space needed):",
+  "description": "",
+  "type": "string"
+}

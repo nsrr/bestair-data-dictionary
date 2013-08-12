@@ -1,0 +1,7 @@
+{
+  "id": "saediscontinued",
+  "display_name": "Was study intervention discontinued due to event?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}

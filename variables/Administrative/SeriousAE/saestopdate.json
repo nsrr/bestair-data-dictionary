@@ -1,0 +1,6 @@
+{
+  "id": "saestopdate",
+  "display_name": "SAE Stop Date:",
+  "description": "",
+  "type": "date"
+}

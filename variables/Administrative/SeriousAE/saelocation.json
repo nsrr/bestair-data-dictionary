@@ -1,0 +1,6 @@
+{
+  "id": "saelocation",
+  "display_name": "Location of serious adverse event:",
+  "description": "",
+  "type": "string"
+}

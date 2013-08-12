@@ -1,0 +1,6 @@
+{
+  "id": "saeonsetdate",
+  "display_name": "SAE Onset Date:",
+  "description": "",
+  "type": "date"
+}

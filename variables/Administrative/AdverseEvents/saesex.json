@@ -1,0 +1,7 @@
+{
+  "id": "saesex",
+  "display_name": "Sex:",
+  "description": "",
+  "type": "choices",
+  "domain": "sex"
+}
