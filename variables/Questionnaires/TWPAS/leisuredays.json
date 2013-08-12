@@ -1,0 +1,7 @@
+{
+  "id": "leisuredays",
+  "display_name": "Leisure Activities (Days/Week)",
+  "description": "",
+  "type": "choices",
+  "domain": "twpasday"
+}

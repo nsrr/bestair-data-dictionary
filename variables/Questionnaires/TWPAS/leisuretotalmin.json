@@ -1,0 +1,7 @@
+{
+  "id": "leisuretotalmin",
+  "display_name": "Leisure Activities Time",
+  "description": "",
+  "type": "integer",
+  "units": "minutes"
+}

@@ -1,6 +1,6 @@
 {
-  "id": "moderateyn",
-  "display_name": "Moderate or Heavy Effort",
+  "id": "leisureyn",
+  "display_name": "Leisure Activities",
   "description": "",
   "type": "choices",
   "domain": "noyes01"
