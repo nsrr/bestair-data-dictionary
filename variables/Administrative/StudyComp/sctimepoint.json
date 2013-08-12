@@ -1,0 +1,7 @@
+{
+  "id": "sctimepoint",
+  "display_name": "Last Timepoint Completed",
+  "description": "",
+  "type": "choices",
+  "domain": "sctime"
+}

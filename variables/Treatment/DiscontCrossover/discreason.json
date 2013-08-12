@@ -1,0 +1,7 @@
+{
+  "id": "discreason",
+  "display_name": "Reason of discontinuation",
+  "description": "",
+  "type": "choices",
+  "domain": "discreason"
+}

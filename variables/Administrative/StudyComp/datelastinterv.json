@@ -1,0 +1,6 @@
+{
+  "id": "datelastinterv",
+  "display_name": "Date of last known study visit",
+  "description": "",
+  "type": "date"
+}
