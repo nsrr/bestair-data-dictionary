@@ -1,0 +1,7 @@
+{
+  "id": "worksittingmet",
+  "display_name": "Metabolic Equivalent of Light Work Sitting",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "walktravelmet",
+  "display_name": "Metabolic Equivalent of Walking for Travel",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

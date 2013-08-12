@@ -1,0 +1,7 @@
+{
+  "id": "workmodmet",
+  "display_name": "Metabolic Equivalent of Moderate Work",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

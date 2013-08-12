@@ -1,0 +1,7 @@
+{
+  "id": "walktotalmet",
+  "display_name": "Metabolic Equivalent of Total Walking",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

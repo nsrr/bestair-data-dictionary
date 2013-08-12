@@ -1,0 +1,7 @@
+{
+  "id": "sporttotalmet",
+  "display_name": "Metabolic Equivalent of All Combined Sports",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

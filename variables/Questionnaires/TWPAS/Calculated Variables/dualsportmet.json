@@ -1,0 +1,7 @@
+{
+  "id": "dualsportmet",
+  "display_name": "Metabolic Equivalent of Dual Sport",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

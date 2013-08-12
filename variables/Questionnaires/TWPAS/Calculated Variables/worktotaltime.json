@@ -1,0 +1,7 @@
+{
+  "id": "worktotalmin",
+  "display_name": "Total Work Time",
+  "description": "",
+  "type": "integer",
+  "units": "minutes"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "workstandingmet",
+  "display_name": "Metabolic Equivalent of Light Work Standing",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

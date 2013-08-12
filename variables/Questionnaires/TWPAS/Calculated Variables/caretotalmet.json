@@ -1,0 +1,7 @@
+{
+  "id": "caretotalmet",
+  "display_name": "Metabolic Equivalent of Total Care of Children/Adults",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

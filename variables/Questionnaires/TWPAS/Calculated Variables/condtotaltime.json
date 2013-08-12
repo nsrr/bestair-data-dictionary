@@ -1,0 +1,7 @@
+{
+  "id": "condtotalmin",
+  "display_name": "Total Conditioning Activities Time",
+  "description": "",
+  "type": "integer",
+  "units": "minutes"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "housetotalmin",
+  "display_name": "Total Household Chores Time",
+  "description": "",
+  "type": "integer",
+  "units": "minutes"
+}

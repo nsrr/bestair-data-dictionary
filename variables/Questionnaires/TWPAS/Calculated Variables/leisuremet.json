@@ -1,0 +1,7 @@
+{
+  "id": "leisuremet",
+  "display_name": "Metabolic Equivalent of Leisure Activities",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

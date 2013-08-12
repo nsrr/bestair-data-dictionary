@@ -1,0 +1,7 @@
+{
+  "id": "condmodmet",
+  "display_name": "Metabolic Equivalent of Moderate Conditioning Activities",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

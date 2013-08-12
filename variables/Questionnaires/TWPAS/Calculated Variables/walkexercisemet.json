@@ -1,0 +1,7 @@
+{
+  "id": "walkexercisemet",
+  "display_name": "Metabolic Equivalent of Walking for Exercise",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

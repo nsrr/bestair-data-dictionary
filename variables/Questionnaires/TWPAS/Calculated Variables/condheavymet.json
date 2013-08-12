@@ -1,0 +1,7 @@
+{
+  "id": "condheavymet",
+  "display_name": "Metabolic Equivalent of Heavy Conditioning Activities",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

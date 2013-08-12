@@ -1,0 +1,7 @@
+{
+  "id": "worktotalmet",
+  "display_name": "Metabolic Equivalent of Work",
+  "description": "",
+  "type": "numeric",
+  "units": "MET"
+}

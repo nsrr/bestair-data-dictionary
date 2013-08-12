@@ -1,0 +1,7 @@
+{
+  "id": "sporttotalmin",
+  "display_name": "Total Sports Time",
+  "description": "",
+  "type": "integer",
+  "units": "minutes"
+}
