@@ -1,0 +1,7 @@
+{
+  "id": "calcmiss",
+  "display_name": "Number of Questions in Emotional Functioning Missing",
+  "description": "",
+  "type": "integer",
+  "units": "unit count"
+}

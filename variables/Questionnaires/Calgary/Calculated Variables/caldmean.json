@@ -1,0 +1,7 @@
+{
+  "id": "caldmean",
+  "display_name": "Average Score of Symptoms",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

@@ -1,0 +1,7 @@
+{
+  "id": "calamiss",
+  "display_name": "Number of Questions in Daily Functioning Missing",
+  "description": "",
+  "type": "integer",
+  "units": "unit count"
+}

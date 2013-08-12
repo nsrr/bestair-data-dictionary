@@ -1,0 +1,7 @@
+{
+  "id": "caltotal",
+  "display_name": "Total Calgary Score",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

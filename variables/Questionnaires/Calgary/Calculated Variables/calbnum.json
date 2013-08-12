@@ -1,0 +1,7 @@
+{
+  "id": "calbnum",
+  "display_name": "Number of Questions in Social Interactions",
+  "description": "",
+  "type": "integer",
+  "units": "unit count"
+}

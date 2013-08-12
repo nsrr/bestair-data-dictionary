@@ -1,0 +1,7 @@
+{
+  "id": "caleraw",
+  "display_name": "Raw Score of Treatment-Related Symptoms",
+  "description": "",
+  "type": "integer",
+  "units": ""
+}
