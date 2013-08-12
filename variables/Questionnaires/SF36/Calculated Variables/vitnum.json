@@ -1,0 +1,7 @@
+{
+  "id": "vitnum",
+  "display_name": "Number of Questions Answered in Vitality",
+  "description": "",
+  "type": "integer",
+  "units": ""
+}

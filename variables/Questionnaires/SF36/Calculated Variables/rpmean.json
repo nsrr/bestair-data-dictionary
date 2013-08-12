@@ -1,0 +1,7 @@
+{
+  "id": "rpmean",
+  "display_name": "Average Score of Answered Role-Physical",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

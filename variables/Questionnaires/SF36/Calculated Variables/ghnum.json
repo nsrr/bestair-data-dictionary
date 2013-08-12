@@ -1,0 +1,7 @@
+{
+  "id": "ghnum",
+  "display_name": "Number of Questions Answered in General Health",
+  "description": "",
+  "type": "integer",
+  "units": ""
+}

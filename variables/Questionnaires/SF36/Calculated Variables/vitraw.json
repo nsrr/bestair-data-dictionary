@@ -1,0 +1,7 @@
+{
+  "id": "vitraw",
+  "display_name": "Raw Score of Vitality",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

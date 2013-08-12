@@ -1,0 +1,7 @@
+{
+  "id": "pfmean",
+  "display_name": "Average Score of Answered Physical Functioning",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

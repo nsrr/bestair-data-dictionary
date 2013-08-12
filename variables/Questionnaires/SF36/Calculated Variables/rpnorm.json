@@ -1,0 +1,7 @@
+{
+  "id": "rpnorm",
+  "display_name": "Norm Score of Role-Physical",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}
