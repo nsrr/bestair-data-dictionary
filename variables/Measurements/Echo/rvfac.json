@@ -2,5 +2,6 @@
   "id": "rvfac",
   "display_name": "RV Fractional Area Change",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

@@ -2,5 +2,6 @@
   "id": "phqtotal",
   "display_name": "PHQ-8 Total",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": ""
 }

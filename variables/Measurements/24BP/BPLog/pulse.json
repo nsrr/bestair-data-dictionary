@@ -3,5 +3,5 @@
   "display_name": "Pulse",
   "description": "",
   "type": "integer",
-  "units": "bp,"
+  "units": "beats per minute"
 }

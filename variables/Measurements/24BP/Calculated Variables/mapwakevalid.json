@@ -3,5 +3,5 @@
   "display_name": "Mean MAP with valid wake",
   "description": "",
   "type": "numeric",
-  "units":"mmHG"
+  "units":"mmHg"
 }

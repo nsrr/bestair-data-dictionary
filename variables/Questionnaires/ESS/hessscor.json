@@ -2,5 +2,6 @@
   "id": "hessscor",
   "display_name": "Hand-Calculated ESS Score",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

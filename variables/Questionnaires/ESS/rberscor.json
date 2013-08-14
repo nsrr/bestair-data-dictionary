@@ -2,5 +2,6 @@
   "id": "rberscor",
   "display_name": "REDCap Calculated Berlin Score",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

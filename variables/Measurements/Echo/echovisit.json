@@ -2,5 +2,6 @@
   "id": "echovisit",
   "display_name": "Echo Visit",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": ""
 }

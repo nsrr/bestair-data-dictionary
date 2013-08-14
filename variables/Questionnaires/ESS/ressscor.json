@@ -2,5 +2,6 @@
   "id": "ressscor",
   "display_name": "REDCap Calculated ESS Score",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

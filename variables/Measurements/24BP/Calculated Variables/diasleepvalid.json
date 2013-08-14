@@ -3,5 +3,5 @@
   "display_name": "Mean of diastolic readings with valid sleep",
   "description": "",
   "type": "numeric",
-  "units":"mmHG"
+  "units":"mmHg"
 }

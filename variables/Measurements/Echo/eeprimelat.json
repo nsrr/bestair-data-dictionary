@@ -2,5 +2,6 @@
   "id": "eeprimelat",
   "display_name": "E/Em Lateral Ratio",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

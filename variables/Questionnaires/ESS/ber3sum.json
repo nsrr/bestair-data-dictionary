@@ -2,5 +2,6 @@
   "id": "ber3sum",
   "display_name": "Berlin Category 3 Sum",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

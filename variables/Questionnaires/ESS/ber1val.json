@@ -2,5 +2,6 @@
   "id": "ber1val",
   "display_name": "Berlin Category 1 Value",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

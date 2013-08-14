@@ -3,5 +3,5 @@
   "display_name": "Radial Pulse",
   "description": "",
   "type": "numeric",
-  "units": "bpm"
+  "units": "beats per minute"
 }

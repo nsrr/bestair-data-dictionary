@@ -2,5 +2,6 @@
   "id": "emblahi",
   "display_name": "First Pass AHI",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }
