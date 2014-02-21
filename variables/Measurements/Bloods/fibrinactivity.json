@@ -3,5 +3,5 @@
   "display_name": "Fibrinogen Activity",
   "description": "",
   "type": "numeric",
-  "units": "mg/dl"
+  "units": "milligrams per deciliter"
 }

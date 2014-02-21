@@ -3,5 +3,5 @@
   "display_name": "HDL Cholesterol",
   "description": "",
   "type": "numeric",
-  "units": "mg/dl"
+  "units": "milligrams per deciliter"
 }

@@ -3,5 +3,5 @@
   "display_name": "Glucose, Serum",
   "description": "",
   "type": "numeric",
-  "units": "mg/dl"
+  "units": "milligrams per deciliter"
 }
