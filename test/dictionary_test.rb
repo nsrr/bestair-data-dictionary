@@ -3,11 +3,12 @@ require 'test_helper'
 class DictionaryTest < Test::Unit::TestCase
   include Spout::Tests
 
-  VALID_UNITS = ['minutes', 'hours', 'mm H2O', 'units', 'nights', 'cm H2O', 'MET',
-    'unit count', 'years old', 'event count', 'mm', 'cm', 'ft', 'lbs', 'in', 'kg/m2',
-    'm/s', 'cm/sec', 'g', 'g/m2', 'ml', 'percent', 'mmHg', 'mg/L', 'mg/dl', 'ug/mL',
-    'cm2', 'ml/m2', 'Wood', 'days', 'beats per minute', 'kg', 'years', 'events per hour',
-     '']
+  VALID_UNITS = ['minutes', 'hours', 'millimeters of water', 'units', 'nights', 'centimeters of water',
+   'metabolic equivalents', 'unit count', 'years old', 'event count', 'millimeters', 'centimeters', 'feet',
+   'pounds', 'inches', 'kilograms per meter squared', 'meters per second', 'centimeters per second',
+   'grams', 'grams per meter squared', 'milliliters', 'percent', 'millimeters of mercury', 'milligrams per liter',
+   'milligrams per deciliter', 'micrograms per deciliter', 'centimeters squared', 'milliliters per meter squared',
+   'Wood', 'days', 'beats per minute', 'kilograms', 'years', 'events per hour', '']
 
   def assert_units(units, msg = nil)
     full_message = build_message(msg, "? invalid units. Valid types: #{VALID_UNITS.join(', ')}", units)

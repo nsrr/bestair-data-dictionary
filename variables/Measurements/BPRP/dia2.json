@@ -3,5 +3,5 @@
   "display_name": "Diastolic 2",
   "description": "",
   "type": "numeric",
-  "units": "mmHg"
+  "units": "millimeters of mercury"
 }

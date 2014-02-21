@@ -3,5 +3,5 @@
   "display_name": "Systolic 1",
   "description": "",
   "type": "numeric",
-  "units": "mmHg"
+  "units": "millimeters of mercury"
 }
