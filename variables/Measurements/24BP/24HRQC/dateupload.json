@@ -1,6 +1,6 @@
 {
   "id": "dateupload",
   "display_name": "Date",
-  "description": "",
+  "description": "Date data was uploaded to the network",
   "type": "date"
 }

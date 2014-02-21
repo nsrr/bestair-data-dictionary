@@ -3,5 +3,5 @@
   "display_name": "Weighted average of diastolic readings across sleep and wake",
   "description": "",
   "type": "numeric",
-  "units":"mmHg"
+  "units":"millimeters of mercury"
 }

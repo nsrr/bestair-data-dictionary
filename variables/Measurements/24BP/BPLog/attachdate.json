@@ -1,6 +1,6 @@
 {
   "id": "attachdate",
   "display_name": "Attach Date",
-  "description": "",
+  "description": "Date of monitor attachment",
   "type": "date"
 }

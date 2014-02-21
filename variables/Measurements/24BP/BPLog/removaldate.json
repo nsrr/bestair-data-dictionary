@@ -1,6 +1,6 @@
 {
   "id": "removaldate",
   "display_name": "Removal Date",
-  "description": "",
+  "description": "Date of monitor removal",
   "type": "date"
 }

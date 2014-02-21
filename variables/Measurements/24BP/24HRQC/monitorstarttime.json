@@ -1,6 +1,6 @@
 {
   "id": "monitorstarttime",
   "display_name": "Start Time:",
-  "description": "",
+  "description": "Time recording started",
   "type": "time"
 }

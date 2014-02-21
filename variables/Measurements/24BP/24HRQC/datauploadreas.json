@@ -1,6 +1,6 @@
 {
   "id": "datauploadreas",
   "display_name": "If no, state reason:",
-  "description": "",
+  "description": "Reason data was not uploaded to the network",
   "type": "string"
 }
