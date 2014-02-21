@@ -3,5 +3,5 @@
   "display_name": "Weight",
   "description": "",
   "type": "numeric",
-  "units": "kg"
+  "units": "kilograms"
 }
