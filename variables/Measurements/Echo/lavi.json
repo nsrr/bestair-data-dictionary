@@ -1,7 +1,7 @@
 {
   "id": "lavi",
-  "display_name": "LA Volume Index",
+  "display_name": "Left Atrium Volume Index",
   "description": "",
   "type": "numeric",
-  "units": "ml/m2"
+  "units": "milliliters per meter squared"
 }

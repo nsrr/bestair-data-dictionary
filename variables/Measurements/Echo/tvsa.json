@@ -3,5 +3,5 @@
   "display_name": "Tricuspid Annular Peak Systolic Myocardial Velocity",
   "description": "",
   "type": "numeric",
-  "units": "cm/sec"
+  "units": "centimeters per second"
 }

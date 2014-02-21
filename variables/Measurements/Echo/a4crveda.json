@@ -1,7 +1,7 @@
 {
   "id": "a4crveda",
-  "display_name": "Apical 4 Chamber View: RV End Diastolic Area",
+  "display_name": "Apical 4 Chamber View: Right Ventricle End Diastolic Area",
   "description": "",
   "type": "numeric",
-  "units": "cm2"
+  "units": "centimeters squared"
 }

@@ -1,7 +1,7 @@
 {
   "id": "a4crvesa",
-  "display_name": "Apical 4 Chamber View: RV End Systolic Area",
+  "display_name": "Apical 4 Chamber View: Right Ventricle End Systolic Area",
   "description": "",
   "type": "numeric",
-  "units": "cm2"
+  "units": "centimeters squared"
 }

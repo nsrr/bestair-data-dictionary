@@ -1,7 +1,7 @@
 {
   "id": "lvmi",
-  "display_name": "LV Mass Index",
+  "display_name": "Left Ventricle Mass Index",
   "description": "",
   "type": "numeric",
-  "units": "g/m2"
+  "units": "grams per meter squared"
 }

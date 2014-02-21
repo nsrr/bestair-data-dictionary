@@ -1,7 +1,7 @@
 {
   "id": "iasep",
   "display_name": "Interatrial septum",
-  "description": "",
+  "description": "Characterization of the interatrial septum",
   "type": "choices",
   "domain": "iaseptum"
 }

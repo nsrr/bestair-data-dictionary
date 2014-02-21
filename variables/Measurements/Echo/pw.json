@@ -3,5 +3,5 @@
   "display_name": "Parasternal long axis view: Posterior wall thickness",
   "description": "",
   "type": "numeric",
-  "units": "cm"
+  "units": "centimeters"
 }
