@@ -3,5 +3,5 @@
   "display_name": "Proximal Distance:",
   "description": "",
   "type": "integer",
-  "units": "mm"
+  "units": "millimeters"
 }

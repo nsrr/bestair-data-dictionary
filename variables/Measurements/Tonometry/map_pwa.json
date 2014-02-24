@@ -1,7 +1,7 @@
 {
   "id": "map_pwa",
-  "display_name": "MAP:",
+  "display_name": "Mean Arterial Pressure during Pulse Wave Analysis",
   "description": "",
   "type": "integer",
-  "units": ""
+  "units": "millimeters of mercury"
 }
