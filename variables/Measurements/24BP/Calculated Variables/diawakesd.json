@@ -3,5 +3,5 @@
   "display_name": "Standard Deviation of Diastolic Pressure (wake)",
   "description": "",
   "type": "numeric",
-  "units": "mmHg"
+  "units": "millimeters of mercury"
 }
