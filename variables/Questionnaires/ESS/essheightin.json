@@ -1,7 +1,7 @@
 {
   "id": "essheightin",
-  "display_name": "Height (in)",
+  "display_name": "Height",
   "description": "",
   "type": "numeric",
-  "units": "in"
+  "units": "inches"
 }

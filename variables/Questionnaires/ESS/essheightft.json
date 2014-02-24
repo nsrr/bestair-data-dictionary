@@ -1,7 +1,7 @@
 {
   "id": "essheightft",
-  "display_name": "Height (feet)",
+  "display_name": "Height",
   "description": "",
   "type": "numeric",
-  "units": "ft"
+  "units": "feet"
 }

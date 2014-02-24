@@ -3,5 +3,5 @@
   "display_name": "BMI (kg/m2)",
   "description": "",
   "type": "numeric",
-  "units": "kg/m2"
+  "units": "kilograms per meter squared"
 }

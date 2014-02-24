@@ -1,7 +1,7 @@
 {
   "id": "essweight",
-  "display_name": "Weight (pounds)",
+  "display_name": "Weight",
   "description": "",
   "type": "numeric",
-  "units": "lbs"
+  "units": "pounds"
 }
