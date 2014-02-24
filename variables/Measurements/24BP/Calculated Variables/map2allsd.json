@@ -3,5 +3,6 @@
   "display_name": "Standard Deviation of Mean Arterial Pressure (all readings)",
   "description": "",
   "type": "numeric",
-  "units": "mmHg"
+  "units": "millimeters of mercury",
+  "calculation": "std( ( 1/3 ) * sysall + ( 2/3 ) * diaall )"
 }

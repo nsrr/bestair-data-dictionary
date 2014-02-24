@@ -3,5 +3,5 @@
   "display_name": "Maximum Systolic Pressure (all readings)",
   "description": "",
   "type": "numeric",
-  "units": "mmHg"
+  "units": "millimeters of mercury"
 }

@@ -3,5 +3,5 @@
   "display_name": "Maximum Pulse Pressure (wake)",
   "description": "",
   "type": "numeric",
-  "units": "mmHg"
+  "units": "millimeters of mercury"
 }
