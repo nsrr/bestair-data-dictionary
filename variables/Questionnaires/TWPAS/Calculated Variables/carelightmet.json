@@ -3,5 +3,5 @@
   "display_name": "Metabolic Equivalent of Light Care of Children/Adults",
   "description": "",
   "type": "numeric",
-  "units": "MET"
+  "units": "metabolic equivalents"
 }

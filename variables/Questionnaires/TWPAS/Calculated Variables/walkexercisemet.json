@@ -3,5 +3,5 @@
   "display_name": "Metabolic Equivalent of Walking for Exercise",
   "description": "",
   "type": "numeric",
-  "units": "MET"
+  "units": "metabolic equivalents"
 }

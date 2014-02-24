@@ -3,5 +3,5 @@
   "display_name": "Metabolic Equivalent of Moderate or Heavy Household Chores",
   "description": "",
   "type": "numeric",
-  "units": "MET"
+  "units": "metabolic equivalents"
 }

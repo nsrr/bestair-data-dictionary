@@ -3,5 +3,5 @@
   "display_name": "Metabolic Equivalent of Heavy Work",
   "description": "",
   "type": "numeric",
-  "units": "MET"
+  "units": "metabolic equivalents"
 }
