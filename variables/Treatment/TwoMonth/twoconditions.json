@@ -1,7 +1,7 @@
 {
   "id": "twoconditions",
-  "display_name": "Have you experienced any medical conditions (adverse events) or worsening of medical conditions since enrolling in the BestAIR study? (An adverse event includes all new and/or worsening medical occurrences. Include intercurrent illness, physical injury, significant worsening of the disease under study or other pre-existing conditions, drug interactions, events occurring during diagnostic procedures, and significant laboratory or diagnostic test result.)",
-  "description": "",
+  "display_name": "Have you experienced any medical conditions (adverse events) or worsening of medical conditions since enrolling in the BestAIR study?",
+  "description": "An adverse event includes all new and/or worsening medical occurrences. Include intercurrent illness, physical injury, significant worsening of the disease under study or other pre-existing conditions, drug interactions, events occurring during diagnostic procedures, and significant laboratory or diagnostic test result.",
   "type": "choices",
   "domain": "noyes01"
 }
