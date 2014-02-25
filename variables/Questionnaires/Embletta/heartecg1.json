@@ -3,5 +3,5 @@
   "display_name": "Heart Rate/ECG Finding (Heart rate for more than 2 continuous minutes is <40 beats per minute)",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

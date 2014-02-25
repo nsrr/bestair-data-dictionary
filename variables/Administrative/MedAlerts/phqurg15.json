@@ -3,5 +3,5 @@
   "display_name": "PHQ-8 Urgent Alert: Score >10 but <15",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

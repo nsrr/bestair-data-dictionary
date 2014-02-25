@@ -3,5 +3,5 @@
   "display_name": "Prior ischemic stroke without major functional impairment",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

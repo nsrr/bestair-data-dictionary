@@ -3,5 +3,5 @@
   "display_name": "What is the reason for the call? (choice=Problem with mask fit)",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

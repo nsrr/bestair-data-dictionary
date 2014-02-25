@@ -3,5 +3,5 @@
   "display_name": "Triglyceride Urgent Alert: >=500 but <1000",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

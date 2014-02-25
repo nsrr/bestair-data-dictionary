@@ -3,5 +3,5 @@
   "display_name": "ECG Immediate Alert: CRC/CCI Study: Any smptomatic arrhythmia",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

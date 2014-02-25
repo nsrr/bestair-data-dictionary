@@ -3,5 +3,5 @@
   "display_name": "Heart Rate Immediate Alert: >140 beats/min at rest",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

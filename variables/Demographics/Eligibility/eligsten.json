@@ -3,5 +3,5 @@
   "display_name": "Angiographically documented stenosis (>70%) of a major coronary artery",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

@@ -3,5 +3,5 @@
   "display_name": "Having obstructive sleep apnea, how great is your risk for being depressed?",
   "description": "",
   "type": "choices",
-  "domain": "sarp"
+  "domain": "sarprisk"
 }

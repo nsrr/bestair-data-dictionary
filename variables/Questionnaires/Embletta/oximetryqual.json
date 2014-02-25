@@ -3,5 +3,5 @@
   "display_name": "Oximetry Signal Quality Code",
   "description": "",
   "type": "choices",
-  "domain": "pctestsleep"
+  "domain": "percentestimatedsleep"
 }

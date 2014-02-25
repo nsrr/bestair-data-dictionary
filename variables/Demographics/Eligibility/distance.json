@@ -3,5 +3,5 @@
   "display_name": "Distance too far to travel to study visits",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

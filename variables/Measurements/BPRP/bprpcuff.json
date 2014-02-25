@@ -3,5 +3,5 @@
   "display_name": "Cuff size",
   "description": "",
   "type": "choices",
-  "domain": "bprpcuff"
+  "domain": "cuffsize"
 }

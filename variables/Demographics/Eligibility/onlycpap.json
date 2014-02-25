@@ -3,5 +3,5 @@
   "display_name": "Only wants CPAP - can't risk not getting CPAP",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

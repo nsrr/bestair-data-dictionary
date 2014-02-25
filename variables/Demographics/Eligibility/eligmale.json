@@ -3,5 +3,5 @@
   "display_name": "Male sex",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

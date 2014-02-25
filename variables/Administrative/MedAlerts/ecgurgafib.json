@@ -3,5 +3,5 @@
   "display_name": "ECG Urgent Alert: CRC/CCI Study: New atrial fibrillation/flutter with HR 50-120",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

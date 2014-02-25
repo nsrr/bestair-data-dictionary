@@ -3,5 +3,5 @@
   "display_name": "Thoracic Signal Quality Code",
   "description": "",
   "type": "choices",
-  "domain": "pctestsleep"
+  "domain": "percentestimatedsleep"
 }

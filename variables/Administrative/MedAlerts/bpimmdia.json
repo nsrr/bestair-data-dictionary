@@ -3,5 +3,5 @@
   "display_name": "BP Immediate Alert: Diastolic blood pressure greater than or equal to 120 mmHg",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

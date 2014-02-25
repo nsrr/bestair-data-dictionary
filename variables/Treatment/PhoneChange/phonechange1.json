@@ -3,5 +3,5 @@
   "display_name": "What was changed (choice=Pressure)",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

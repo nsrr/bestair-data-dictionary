@@ -3,5 +3,5 @@
   "display_name": "If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?",
   "description": "",
   "type": "choices",
-  "domain": "phqdiff"
+  "domain": "phqdifficulty"
 }

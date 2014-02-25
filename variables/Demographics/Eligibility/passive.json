@@ -3,5 +3,5 @@
   "display_name": "Passive refusal",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

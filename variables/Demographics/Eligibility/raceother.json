@@ -3,5 +3,5 @@
   "display_name": "Race (Other)",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }

@@ -3,5 +3,5 @@
   "display_name": "Diabetes mellitus treated with medication or >=2 fasting glucose levels >=126 mg/dl",
   "description": "",
   "type": "choices",
-  "domain": "check"
+  "domain": "check01"
 }
