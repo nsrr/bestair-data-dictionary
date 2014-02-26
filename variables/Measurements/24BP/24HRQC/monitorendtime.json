@@ -1,6 +1,0 @@
-{
-  "id": "monitorendtime",
-  "display_name": "end Time:",
-  "description": "Time recording stopped",
-  "type": "time"
-}

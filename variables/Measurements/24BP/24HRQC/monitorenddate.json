@@ -1,6 +1,0 @@
-{
-  "id": "monitorenddate",
-  "display_name": "End Date:",
-  "description": "Date recording stopped",
-  "type": "date"
-}

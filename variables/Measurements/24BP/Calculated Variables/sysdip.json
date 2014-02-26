@@ -1,0 +1,7 @@
+{
+  "id": "sysdip",
+  "display_name": "Systolic dipping from wake to sleep",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

@@ -1,6 +1,0 @@
-{
-  "id": "monitorstartdate",
-  "display_name": "Start Date:",
-  "description": "Date recording started",
-  "type": "date"
-}
