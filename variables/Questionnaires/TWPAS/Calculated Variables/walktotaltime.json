@@ -1,5 +1,5 @@
 {
-  "id": "walktotalmin",
+  "id": "walktotaltime",
   "display_name": "Total Walking Time",
   "description": "",
   "type": "integer",
