@@ -1,0 +1,8 @@
+{
+  "id": "semsatse",
+  "display_name": "Calculated SEMSA treatment self-efficacy",
+  "description": "",
+  "type": "numeric",
+  "units": "",
+  "calculation": "semsanose + semsatight + semsabother + semsaembarrassed + semsaclaustro + semsareadybed + semsacost + semsatravel + semsadisturb"
+}

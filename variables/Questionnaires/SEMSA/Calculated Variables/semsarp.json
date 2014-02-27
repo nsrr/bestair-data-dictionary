@@ -1,0 +1,8 @@
+{
+  "id": "semsarp",
+  "display_name": "Calculated SEMSA risk perception",
+  "description": "",
+  "type": "numeric",
+  "units": "",
+  "calculation": "semsadriving + semsaaccident + semsaheartattack + semsaasleepday + semsahighbp + semsadiffconcen + semsadepressed + semsasexdesire"
+}
