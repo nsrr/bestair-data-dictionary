@@ -1,0 +1,8 @@
+{
+  "id": "dailyvigmet",
+  "display_name": "Average Daily Vigorous METs",
+  "description": "",
+  "type": "integer",
+  "units": "metabolic equivalents",
+  "calculation": "totalvigmet / 7"
+}

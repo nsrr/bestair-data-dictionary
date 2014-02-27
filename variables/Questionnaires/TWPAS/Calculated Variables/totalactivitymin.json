@@ -1,0 +1,8 @@
+{
+  "id": "totalactivitymin",
+  "display_name": "Average Weekly Active Time",
+  "description": "",
+  "type": "integer",
+  "units": "minutes",
+  "calculation": "HouseTotalMin + LawnTotalMin + CareTotalMin + WalkTotalTime + SportTotalMin + CondTotalTime + LeisureTotalMin + WorkTotalTime"
+}

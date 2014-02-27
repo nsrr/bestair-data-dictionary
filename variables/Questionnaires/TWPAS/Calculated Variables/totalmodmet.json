@@ -1,0 +1,8 @@
+{
+  "id": "totalmodmet",
+  "display_name": "Average Weekly Moderate METs",
+  "description": "",
+  "type": "integer",
+  "units": "metabolic equivalents",
+  "calculation": "HouseModMET + HouseModMET + CareModMET + WalkExerciseMET + DancingMET + IndivActMET + CondModMET + WalkTravelMET + WorkModMET"
+}
