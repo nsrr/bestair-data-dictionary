@@ -1,7 +1,0 @@
-{
-  "id": "tonomcomplete",
-  "display_name": "Complete?",
-  "description": "",
-  "type": "choices",
-  "domains": "complete"
-}
