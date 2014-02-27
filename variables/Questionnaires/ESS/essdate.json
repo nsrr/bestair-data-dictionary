@@ -1,6 +1,0 @@
-{
-  "id": "essdate",
-  "display_name": "Date of ESS Completion",
-  "description": "",
-  "type": "date"
-}
