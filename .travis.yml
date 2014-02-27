@@ -1,6 +1,7 @@
 language: ruby
 rvm:
   - 2.1.0
+  - 2.1.1
 notifications:
   email:
     - cailler.michael@gmail.com
