@@ -1,5 +1,5 @@
 {
-  "id": "10readingsday",
+  "id": "tenreadingsday",
   "display_name": "Received at least 10 readings from day BP?",
   "description": "",
   "type": "choices",
