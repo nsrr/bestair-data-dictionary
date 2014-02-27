@@ -1,0 +1,8 @@
+{
+  "id": "avgaugix",
+  "display_name": "Average Augmentation Index",
+  "description": "",
+  "type": "numeric",
+  "units": "",
+  "calculation": "( augix1 + augix2 + augix3 + augix4 ) / 4"
+}
