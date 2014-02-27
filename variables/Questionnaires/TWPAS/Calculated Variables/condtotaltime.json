@@ -1,5 +1,5 @@
 {
-  "id": "condtotalmin",
+  "id": "condtotaltime",
   "display_name": "Total Conditioning Activities Time",
   "description": "",
   "type": "integer",

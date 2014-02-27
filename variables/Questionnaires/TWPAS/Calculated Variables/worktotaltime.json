@@ -1,5 +1,5 @@
 {
-  "id": "worktotalmin",
+  "id": "worktotaltime",
   "display_name": "Total Work Time",
   "description": "",
   "type": "integer",
