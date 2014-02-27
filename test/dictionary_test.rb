@@ -8,7 +8,7 @@ class DictionaryTest < Test::Unit::TestCase
    'pounds', 'inches', 'kilograms per meter squared', 'meters per second', 'centimeters per second',
    'grams', 'grams per meter squared', 'milliliters', 'percent', 'millimeters of mercury', 'milligrams per liter',
    'milligrams per deciliter', 'micrograms per deciliter', 'centimeters squared', 'milliliters per meter squared',
-   'Wood', 'days', 'beats per minute', 'kilograms', 'years', 'events per hour', '']
+   'Wood', 'days', 'beats per minute', 'kilograms', 'years', 'events per hour', 'hours per week', '']
 
   def assert_units(units, msg = nil)
     full_message = build_message(msg, "? invalid units. Valid types: #{VALID_UNITS.join(', ')}", units)
