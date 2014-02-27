@@ -1,0 +1,8 @@
+{
+  "id": "rp",
+  "display_name": "Weighted Score of Role-Physical index",
+  "description": "",
+  "type": "numeric",
+  "units": "",
+  "calculation": "( ( rpraw - 4 ) / ( 20 - 4 ) ) * 100"
+}

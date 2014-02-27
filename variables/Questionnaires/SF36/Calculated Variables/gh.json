@@ -1,0 +1,8 @@
+{
+  "id": "gh",
+  "display_name": "Weighted Score of General Health",
+  "description": "",
+  "type": "numeric",
+  "units": "",
+  "calculation": "( ( ghraw - 5 ) / ( 25 - 5 ) ) * 100"
+}
