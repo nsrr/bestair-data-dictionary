@@ -1,0 +1,6 @@
+{
+  "id": "cbtp2motivated",
+  "display_name": "How motivated or ready are you to use PAP nightly for at least X hours on a scale of 1-10?",
+  "description": "",
+  "type": "string"
+}
