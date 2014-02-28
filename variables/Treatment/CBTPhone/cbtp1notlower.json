@@ -1,0 +1,6 @@
+{
+  "id": "cbtp1notlower",
+  "display_name": "What makes you an X and not a lower number?",
+  "description": "What makes you a [response to cbtp1confidence] and not lower?",
+  "type": "string"
+}

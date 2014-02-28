@@ -1,0 +1,7 @@
+{
+  "id": "cbtp1situations8",
+  "display_name": "Do you think it would be more challenging to use PAP when you face concerns you mentioned last time?",
+  "description": "Exact text: Do you think it would be more challenging to use PAP when you INSERT PARTICIPANT'S UNIQUE CONCERNS FROM PREVIOUS CONTACT",
+  "type": "choices",
+  "domain": "papchallenge"
+}

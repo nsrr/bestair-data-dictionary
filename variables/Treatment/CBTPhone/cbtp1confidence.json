@@ -1,0 +1,6 @@
+{
+  "id": "cbtp1confidence",
+  "display_name": "Rate your confidence on a scale of 1 to 10",
+  "description": "Rate your confidence on a scale of 1 to 10, where 1 is not very confident and 10 is extremely confident",
+  "type": "string"
+}

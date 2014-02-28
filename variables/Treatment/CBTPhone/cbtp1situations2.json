@@ -1,0 +1,7 @@
+{
+  "id": "cbtp1situations2",
+  "display_name": "Do you think it would be more challenging to use PAP when the mask feels somewhat uncomfortable?",
+  "description": "",
+  "type": "choices",
+  "domain": "papchallenge"
+}

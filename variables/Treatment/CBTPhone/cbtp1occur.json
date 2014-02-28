@@ -1,0 +1,7 @@
+{
+  "id": "cbtp1occur",
+  "display_name": "Did the call occur?",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes01"
+}
