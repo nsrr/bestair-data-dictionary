@@ -1,6 +1,6 @@
 {
   "id": "bpjtimebed",
-  "display_name": "What time did you wake up? (Midnight is 12:00 AM)",
+  "display_name": "What time did you go to bed? (Midnight is 12:00 AM)",
   "description": "",
   "type": "time"
 }
