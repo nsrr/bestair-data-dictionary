@@ -1,7 +1,0 @@
-{
-  "id": "saeptf",
-  "display_name": "Was this an SAE, PTF, or both?",
-  "description": "",
-  "type": "choices",
-  "domain": "saeptf"
-}
