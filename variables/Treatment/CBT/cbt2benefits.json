@@ -1,0 +1,6 @@
+{
+  "id": "cbt2benefits",
+  "display_name": "What, if any, benefits have you noticed?",
+  "description": "",
+  "type": "string"
+}

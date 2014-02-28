@@ -1,0 +1,6 @@
+{
+  "id": "cbt2use",
+  "display_name": "Tell me how much you have been able to use the CPAP machine this week",
+  "description": "",
+  "type": "string"
+}
