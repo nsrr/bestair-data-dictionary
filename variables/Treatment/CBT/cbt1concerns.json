@@ -1,0 +1,6 @@
+{
+  "id": "cbt1concerns",
+  "display_name": "What kind of concerns do you have?",
+  "description": "What kind of concerns, if any, do you have about your ability to concentrate or remember what you have been experiencing?",
+  "type": "string"
+}

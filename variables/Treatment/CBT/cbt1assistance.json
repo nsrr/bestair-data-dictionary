@@ -1,0 +1,7 @@
+{
+  "id": "cbt1assistance",
+  "display_name": "I will need assistance in order to use CPAP nightly",
+  "description": "",
+  "type": "choices",
+  "domain": "likertagree"
+}

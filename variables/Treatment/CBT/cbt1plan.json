@@ -1,0 +1,6 @@
+{
+  "id": "cbt1plan",
+  "display_name": "What are your thoughts about using CPAP this week?",
+  "description": "To what extent do you think you will be able to use it to begin with?",
+  "type": "string"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "cbt1motivation2",
+  "display_name": "How much do you want to start using CPAP",
+  "description": "Rate your motivation to use CPAP on a scale of 1 to 10",
+  "type": "string"
+}
