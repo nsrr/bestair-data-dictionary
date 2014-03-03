@@ -3,5 +3,5 @@
   "display_name": "Concurrent involvement in another research study that will result in conflict as determined by study doctors",
   "description": "",
   "type": "choices",
-  "domain": "yesno12"
+  "domain": "noyes01"
 }
