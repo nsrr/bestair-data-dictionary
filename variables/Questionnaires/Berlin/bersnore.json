@@ -3,5 +3,5 @@
   "display_name": "1. Do you snore?",
   "description": "",
   "type": "choices",
-  "domain": "noyes01"
+  "domain": "noyes01p2"
 }
