@@ -3,5 +3,5 @@
   "display_name": "Would the participant have liked to continue/start/be referred to PAP?",
   "description": "",
   "type": "choices",
-  "domain": "noyes01"
+  "domain": "noyes012"
 }

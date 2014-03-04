@@ -3,5 +3,5 @@
   "display_name": "How much bodily pain have you had during the past 4 weeks?",
   "description": "",
   "type": "choices",
-  "domain": "sf36extremely"
+  "domain": "sf36severity"
 }
