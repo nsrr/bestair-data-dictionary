@@ -2,6 +2,6 @@
   "id": "studyvisit",
   "display_name": "Study Visit",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "choices",
+  "domain": "visit"
 }
