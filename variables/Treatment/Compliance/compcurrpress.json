@@ -1,7 +1,0 @@
-{
-  "id": "compcurrpress",
-  "display_name": "Current Pressure",
-  "description": "",
-  "type": "integer",
-  "units": "centimeters of water"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "compheadaches",
-  "display_name": "Morning Headaches",
-  "description": "",
-  "type": "choices",
-  "domain": "worsened"
-}

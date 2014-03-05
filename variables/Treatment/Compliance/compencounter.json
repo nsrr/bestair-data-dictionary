@@ -1,7 +1,0 @@
-{
-  "id": "compencounter",
-  "display_name": "Encounter Type",
-  "description": "",
-  "type": "choices",
-  "domain": "encounter"
-}

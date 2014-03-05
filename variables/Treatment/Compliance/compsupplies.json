@@ -1,7 +1,0 @@
-{
-  "id": "compsupplies",
-  "display_name": "Do you need any supplies or re-instruction?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

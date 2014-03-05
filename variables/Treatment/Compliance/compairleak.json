@@ -1,7 +1,0 @@
-{
-  "id": "compairleak",
-  "display_name": "Do you feely any air leaks?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

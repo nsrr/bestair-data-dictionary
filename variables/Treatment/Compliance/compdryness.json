@@ -1,7 +1,0 @@
-{
-  "id": "compdryness",
-  "display_name": "Have you experienced any discomfort or dryness in your nose, throat or mouth?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "compsleepiness",
-  "display_name": "Daytime Sleepiness",
-  "description": "",
-  "type": "choices",
-  "domain": "worsened"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "compredface",
-  "display_name": "Is your face red or irritated in the morning?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "compenergy",
-  "display_name": "Energy Level",
-  "description": "",
-  "type": "choices",
-  "domain": "worsened"
-}

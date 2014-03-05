@@ -1,7 +1,0 @@
-{
-  "id": "compinstruct",
-  "display_name": "Are you following the cleaning instruction as taught to you?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

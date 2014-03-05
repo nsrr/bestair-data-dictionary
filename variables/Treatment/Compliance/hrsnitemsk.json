@@ -1,7 +1,0 @@
-{
-  "id": "hrsnitemsk",
-  "display_name": "How many hours per night do you wear the mask?",
-  "description": "",
-  "type": "integer",
-  "units": "hours"
-}

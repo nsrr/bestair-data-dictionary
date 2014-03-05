@@ -1,7 +1,0 @@
-{
-  "id": "compmskcomf",
-  "display_name": "Is the mask comofrtable?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}
