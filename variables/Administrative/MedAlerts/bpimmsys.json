@@ -1,7 +1,0 @@
-{
-  "id": "bpimmsys",
-  "display_name": "BP Immediate Alert: Systolic blood pressure greater than or equal to 210 mmHg",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

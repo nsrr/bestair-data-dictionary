@@ -1,7 +1,0 @@
-{
-  "id": "alert24hrbpurgsys",
-  "display_name": "BP Urgent Alert: Avg Systolic blood pressure >=160 but <210 mmHg",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

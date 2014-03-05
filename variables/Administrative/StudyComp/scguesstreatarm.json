@@ -1,7 +1,0 @@
-{
-  "id": "scguesstreatarm",
-  "display_name": "Could the participant guess which treatment he or she received?",
-  "description": "",
-  "type": "choices",
-  "domain": "guess"
-}

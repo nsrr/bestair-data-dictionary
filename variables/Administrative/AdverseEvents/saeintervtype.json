@@ -1,7 +1,0 @@
-{
-  "id": "saeintervtype",
-  "display_name": "Intervention type:",
-  "description": "",
-  "type": "choices",
-  "domain": "intervtype"
-}

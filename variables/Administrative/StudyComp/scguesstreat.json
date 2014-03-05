@@ -1,7 +1,0 @@
-{
-  "id": "scguesstreat",
-  "display_name": "Ask the participant to guess which treatment he or she received.",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

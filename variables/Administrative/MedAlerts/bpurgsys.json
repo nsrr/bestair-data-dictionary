@@ -1,7 +1,0 @@
-{
-  "id": "bpurgsys",
-  "display_name": "BP Urgent Alert: Systolic blood pressure greater than or equal to 170 but less than 210 mmHg",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

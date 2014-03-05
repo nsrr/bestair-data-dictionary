@@ -1,7 +1,0 @@
-{
-  "id": "ecgimmnofib",
-  "display_name": "ECG Immediate Alert: CRC/CCI Study: Heart rate >=150 or <=30 (no a-fib/flutter) for 2 consecutive minutes",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

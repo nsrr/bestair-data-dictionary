@@ -1,7 +1,0 @@
-{
-  "id": "gluurg",
-  "display_name": "Glucose Urgent Alert: Score >150 but <300",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "saetype",
-  "display_name": "Type of report:",
-  "description": "",
-  "type": "choices",
-  "domain": "saetype"
-}

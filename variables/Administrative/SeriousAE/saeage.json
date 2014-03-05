@@ -1,7 +1,0 @@
-{
-  "id": "saeage",
-  "display_name": "Age:",
-  "description": "",
-  "type": "integer",
-  "units": "years old"
-}

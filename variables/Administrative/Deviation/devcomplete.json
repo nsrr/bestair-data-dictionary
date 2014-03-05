@@ -1,7 +1,0 @@
-{
-  "id": "devcomplete",
-  "display_name": "Complete?",
-  "description": "",
-  "type": "choices",
-  "domain": "complete"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "alertbp",
-  "display_name": "Was a medical alert noted on BP? If yes, check all that apply: awake, seated, average of last two readings)",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

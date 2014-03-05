@@ -1,7 +1,0 @@
-{
-  "id": "tri",
-  "display_name": "Was a medical alert noted on triglyceride levels??",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

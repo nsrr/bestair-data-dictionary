@@ -1,7 +1,0 @@
-{
-  "id": "saetimepoint",
-  "display_name": "Last Timepoint Completed",
-  "description": "",
-  "type": "choices",
-  "domain": "timepoint"
-}

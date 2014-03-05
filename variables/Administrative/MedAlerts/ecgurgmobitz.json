@@ -1,7 +1,0 @@
-{
-  "id": "ecgurgmobitz",
-  "display_name": "ECG Urgent Alert: CRC/CCI Study: Mobitz type II AV block or 3rd degree heart block",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

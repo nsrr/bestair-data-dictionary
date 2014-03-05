@@ -1,7 +1,0 @@
-{
-  "id": "ecgimmfibduration",
-  "display_name": "ECG Immediate Alert: CRC/CCI Study: Previously known atrial fibrillation/flutter but HR>120 or HR<50 for 2 minutes duration",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

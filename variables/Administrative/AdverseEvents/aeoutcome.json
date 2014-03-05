@@ -1,7 +1,0 @@
-{
-  "id": "aeoutcome",
-  "display_name": "Outcome of AE:",
-  "description": "",
-  "type": "choices",
-  "domain": "outcome"
-}

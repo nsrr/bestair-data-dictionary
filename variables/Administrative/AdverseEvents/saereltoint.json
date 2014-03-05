@@ -1,7 +1,0 @@
-{
-  "id": "saereltoint",
-  "display_name": "Relationship of event to intervention",
-  "description": "",
-  "type": "choices",
-  "domain": "relateinterv"
-}

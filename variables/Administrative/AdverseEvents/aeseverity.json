@@ -1,7 +1,0 @@
-{
-  "id": "aeseverity",
-  "display_name": "Severity",
-  "description": "",
-  "type": "choices",
-  "domain": "severity"
-}

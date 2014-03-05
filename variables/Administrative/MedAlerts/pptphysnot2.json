@@ -1,7 +1,0 @@
-{
-  "id": "pptphysnot2",
-  "display_name": "Was the participant's physician notified",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "triimm",
-  "display_name": "Triglyceride Immediate Alert: >=1000",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}
