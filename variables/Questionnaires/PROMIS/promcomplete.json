@@ -1,7 +1,0 @@
-{
-  "id": "promcomplete",
-  "display_name": "Complete?",
-  "description": "",
-  "type": "choices",
-  "domain": "complete"
-}
