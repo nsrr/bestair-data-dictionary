@@ -1,6 +1,0 @@
-{
-  "id": "humidserial",
-  "display_name": "Humidifier Instrument Serial Number",
-  "description": "",
-  "type": "string"
-}
