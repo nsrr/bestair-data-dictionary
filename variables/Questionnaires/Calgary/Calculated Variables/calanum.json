@@ -3,5 +3,5 @@
   "display_name": "Number of Questions in Daily Functioning",
   "description": "",
   "type": "integer",
-  "units": "unit count"
+  "units": "units"
 }

@@ -3,5 +3,5 @@
   "display_name": "How many periods have you had in the last 12 months?",
   "description": "",
   "type": "integer",
-  "units": "unit count"
+  "units": "periods"
 }

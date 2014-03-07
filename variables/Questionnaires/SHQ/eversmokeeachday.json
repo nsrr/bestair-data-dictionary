@@ -3,5 +3,5 @@
   "display_name": "On the average, over the entire time you smoked, how many cigarettes did you smoke each day?",
   "description": "",
   "type": "integer",
-  "units": "unit count"
+  "units": "cigarettes per day"
 }

@@ -3,5 +3,5 @@
   "display_name": "Over the LAST 4 WEEKS, how many cigarettes did you smoke per day?",
   "description": "",
   "type": "integer",
-  "units": "unit count"
+  "units": "cigarettes per day"
 }
