@@ -4,7 +4,7 @@ class DictionaryTest < Test::Unit::TestCase
   include Spout::Tests
 
   VALID_UNITS = ['minutes', 'hours', 'millimeters of water', 'units', 'nights', 'centimeters of water',
-   'metabolic equivalents', 'cigarettes per day', 'units', 'event count', 'millimeters', 'centimeters', 'feet',
+   'metabolic equivalents', 'cigarettes per day', 'units', 'periods', 'ovaries', 'millimeters', 'centimeters', 'feet',
    'pounds', 'inches', 'kilograms per meter squared', 'meters per second', 'centimeters per second',
    'grams', 'grams per meter squared', 'milliliters', 'percent', 'millimeters of mercury', 'milligrams per liter',
    'milligrams per deciliter', 'micrograms per deciliter', 'centimeters squared', 'milliliters per meter squared',
