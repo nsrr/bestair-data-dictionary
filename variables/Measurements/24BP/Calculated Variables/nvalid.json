@@ -3,5 +3,5 @@
   "display_name": "Number of Valid Readings",
   "description": "",
   "type": "integer",
-  "units": "event count"
+  "units": "readings"
 }

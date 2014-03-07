@@ -3,5 +3,5 @@
   "display_name": "Number of Readings",
   "description": "",
   "type": "integer",
-  "units": "event count"
+  "units": "readings"
 }
