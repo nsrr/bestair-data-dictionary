@@ -3,5 +3,5 @@
   "display_name": "At what age did you begin?",
   "description": "",
   "type": "integer",
-  "units": "years old"
+  "units": "years"
 }
