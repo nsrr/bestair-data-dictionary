@@ -161,7 +161,7 @@ proc sort data=bestairtonometry;
 run;
 
 data ba_master;
-  merge bapromis basarp basemsa batwpas bestairbloods bestairbp24hr bestairecho bestairess bestairphq8 bestairsf36 bestairtonometry baredcap;
+  merge bapromis basarp babprp basemsa batwpas bestairbloods bestairbp24hr bestairecho bestairess bestairphq8 bestairsf36 bestairtonometry baredcap;
   by elig_studyid study_visit;
 
   attrib _all_ label = "";
@@ -1043,7 +1043,7 @@ data bestair_master;
   if shq_eversmokeagestart < 0 then shq_eversmokeagestart = '';
   if shq_eversmokeeachday < 1 then shq_eversmokeeachday = '';
   if shq_eversmokeoldstop < 0 then shq_eversmokeoldstop = '';
-  if shq_smokenow < 1 then then shq_smokenow = '';
+  if shq_smokenow < 1 then shq_smokenow = '';
   if shq_ovariesremov < 1 then shq_ovariesremov = '';
   if shq_hysterectomyage < 0 then shq_hysterectomyage = '';
   if shq_menstrualnumber < 0 then shq_menstrualnumber = '';
