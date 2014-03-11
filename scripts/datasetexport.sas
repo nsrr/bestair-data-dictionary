@@ -15,6 +15,14 @@ data babprp;
   drop bprp_studyvisit;
 run;
 
+data baanthro;
+  set bestair.baanthro;
+
+  study_visit = anth_studyvisit;
+
+  drop anth_studyvisit;
+run;
+
 data bapromis;
   set bestair.bapromis;
 
@@ -161,7 +169,7 @@ proc sort data=bestairtonometry;
 run;
 
 data ba_master;
-  merge bapromis basarp babprp basemsa batwpas bestairbloods bestairbp24hr bestairecho bestairess bestairphq8 bestairsf36 bestairtonometry baredcap;
+  merge bapromis basarp babprp baanthro basemsa batwpas bestairbloods bestairbp24hr bestairecho bestairess bestairphq8 bestairsf36 bestairtonometry baredcap;
   by elig_studyid study_visit;
 
   attrib _all_ label = "";
@@ -1541,6 +1549,7 @@ data bamaster2;
   anth_heightcm1
   anth_heightcm2
   anth_heightcm3
+  avgheightcm_atbaseline
   anth_weightkg
   anth_neckcm1
   anth_neckcm2
