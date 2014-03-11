@@ -1555,6 +1555,7 @@ data bamaster2;
   anth_neckcm1
   anth_neckcm2
   anth_neckcm3
+  avgneckcm
   anth_waistcm1
   anth_waistcm2
   anth_waistcm3

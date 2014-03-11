@@ -1,0 +1,8 @@
+{
+  "id": "avgneckcm",
+  "display_name": "Average neck circumference measured at the time of visit",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters",
+  "calculation": "( neck1 + neck2 + neck3 ) / 3"
+}
