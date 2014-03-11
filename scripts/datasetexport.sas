@@ -116,6 +116,15 @@ data baredcap;
   set bestair.baredcap;
 
   study_visit = anth_studyvisit;
+  race_total = elig_raceamerind + elig_raceasian + elig_racehawaiian + elig_raceblack + elig_racewhite + elig_raceother;
+  if elig_ethnicity = 1 then race = 4;
+  else if race_total > 1 then race = 7;
+  else if elig_raceamerind = 1 then race = 1;
+  else if elig_raceasian = 1 then race = 2;
+  else if elig_raceblack = 1 then race = 3;
+  else if elig_racehawaiian = 1 then race = 5;
+  else if elig_racewhite = 1 then race = 6;
+  else race = 8;
 
   drop anth_studyvisit;
 run;
@@ -165,6 +174,14 @@ proc sort data=bestairsf36;
 run;
 
 proc sort data=bestairtonometry;
+  by elig_studyid study_visit;
+run;
+
+proc sort data=baanthro;
+  by elig_studyid study_visit;
+run;
+
+proc sort data=babprp;
   by elig_studyid study_visit;
 run;
 
@@ -1529,6 +1546,7 @@ data bamaster2;
   elig_otherreasonspecify
   elig_physiciandoesnotgrant
   elig_gender
+  race
   elig_raceamerind
   elig_raceasian
   elig_racehawaiian
