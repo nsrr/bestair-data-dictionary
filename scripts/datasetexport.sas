@@ -115,8 +115,14 @@ run;
 data baredcap;
   set bestair.baredcap;
 
-  study_visit = anth_studyvisit;
-  if study_visit = 0 then do;
+  if redcap_event_name = '00_bv_arm_1' then study_visit = 0;
+  else if redcap_event_name = '06_fu_arm_1' then study_visit = 6;
+  else if redcap_event_name = '12_fu_arm_1' then study_visit = 12;
+  else if redcap_event_name = 'screening_arm_0' then study_visit = -1;
+  else if redcap_event_name = 'unscheduled_arm_0' then study_visit = -2;
+  else if redcap_event_name = '99_us_arm_1' then study_visit = 99;
+
+  if study_visit = -1 then do;
     race_total = elig_raceamerind + elig_raceasian + elig_racehawaiian + elig_raceblack + elig_racewhite + elig_raceother;
     if elig_ethnicity = 1 then race = 4;
     else if race_total > 1 then race = 7;
