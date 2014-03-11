@@ -1,0 +1,8 @@
+{
+  "id": "avgheightcm",
+  "display_name": "Average of the three height measurements taken at visit",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters",
+  "calculation": "( height1 + height2 + height3 ) / 3"
+}

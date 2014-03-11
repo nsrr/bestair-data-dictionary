@@ -1550,6 +1550,7 @@ data bamaster2;
   anth_heightcm2
   anth_heightcm3
   avgheightcm_atbaseline
+  avgheightcm
   anth_weightkg
   anth_neckcm1
   anth_neckcm2
