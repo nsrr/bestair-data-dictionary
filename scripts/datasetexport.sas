@@ -1563,6 +1563,7 @@ data bamaster2;
   anth_hipcm1
   anth_hipcm2
   anth_hipcm3
+  avghipcm
   bprp_bpsys1
   bprp_bpdia1
   bprp_bpsys2

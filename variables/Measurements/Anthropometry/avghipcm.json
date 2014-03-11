@@ -1,0 +1,8 @@
+{
+  "id": "avghipcm",
+  "display_name": "Average hip circumference measured at the time of visit",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters",
+  "calculation": "( hip1 + hip2 + hip3 ) / 3"
+}
