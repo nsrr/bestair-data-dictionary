@@ -8,6 +8,7 @@
   - Extreme values for numeric variables have been validated against the source data in REDCap
     - Incorrect instances of extreme values have been fixed in the source itself
 - **Changes Made by Export Script**
+  - The export script is included in the `scripts` folder
   - The BestAIR SAS export script modifies the dataset exported from the source data in the following manner:
     - Tracking and administrative variables have been removed
     - Identifiers, including dates, are removed
