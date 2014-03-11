@@ -7,6 +7,14 @@ data bestairbp24hr;
   drop studyid timepoint;
 run;
 
+data babprp;
+  set bestair.babprp;
+
+  study_visit = bprp_studyvisit;
+
+  drop bprp_studyvisit;
+run;
+
 data bapromis;
   set bestair.bapromis;
 
@@ -1554,6 +1562,7 @@ data bamaster2;
   bprp_rp1
   bprp_rp2
   bprp_rp3
+  avgseatedpulse
   bpj_78am
   bpj_89am
   bpj_910am
