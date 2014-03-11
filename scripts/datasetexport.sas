@@ -1557,6 +1557,7 @@ data bamaster2;
   bprp_bpdia2
   bprp_bpsys3
   bprp_bpdia3
+  avgseatedsystolic
   bprp_bpsite
   bprp_cuffsize
   bprp_rp1
