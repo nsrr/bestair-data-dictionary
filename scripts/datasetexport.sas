@@ -1564,6 +1564,7 @@ data bamaster2;
   anth_hipcm2
   anth_hipcm3
   avghipcm
+  bmi
   bprp_bpsys1
   bprp_bpdia1
   bprp_bpsys2
