@@ -1,0 +1,8 @@
+{
+  "id": "avgseatedpulse",
+  "display_name": "Average pulse rate at the time of visit",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute",
+  "calculation": "( rp1 + rp2 + rp3 ) / 3"
+}
