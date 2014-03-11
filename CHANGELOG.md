@@ -10,6 +10,8 @@
 - **Changes Made by Export Script**
   - The export script is included in the `scripts` folder
   - The BestAIR SAS export script modifies the dataset exported from the source data in the following manner:
+    - Adds newly calculated averages from permanent SAS datasets
+    - Creates a single, categorical race variable for all participants
     - Tracking and administrative variables have been removed
     - Identifiers, including dates, are removed
     - Missing codes stripped out of data from questionnaires and data on CRF forms that are numeric variables
