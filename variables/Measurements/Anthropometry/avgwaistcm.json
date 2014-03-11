@@ -1,0 +1,8 @@
+{
+  "id": "avgwaistcm",
+  "display_name": "Average waist circumference measured at each visit",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters",
+  "calculation": "( waist1 + waist2 + waist3 ) / 3"
+}

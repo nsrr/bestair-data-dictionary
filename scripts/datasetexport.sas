@@ -1559,6 +1559,7 @@ data bamaster2;
   anth_waistcm1
   anth_waistcm2
   anth_waistcm3
+  avgwaistcm
   anth_hipcm1
   anth_hipcm2
   anth_hipcm3
