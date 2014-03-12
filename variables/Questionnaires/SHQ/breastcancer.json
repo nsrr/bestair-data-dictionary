@@ -1,6 +1,6 @@
 {
   "id": "breastcancer",
-  "display_name": "Breast Cancer",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had breast cancer",
   "description": "",
   "type": "choices",
   "domain": "noyes01"

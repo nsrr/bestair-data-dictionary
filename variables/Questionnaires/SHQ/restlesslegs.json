@@ -1,6 +1,6 @@
 {
   "id": "restlesslegs",
-  "display_name": "Restless Legs or Periodic Leg Movements",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had restless legs syndrome or periodic leg movements?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

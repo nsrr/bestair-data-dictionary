@@ -1,6 +1,6 @@
 {
   "id": "epilepsy",
-  "display_name": "Epilepsy (Seizure Disorder)",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had epilepsy (Seizure Disorder)?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

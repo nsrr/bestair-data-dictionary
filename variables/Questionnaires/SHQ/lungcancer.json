@@ -1,6 +1,6 @@
 {
   "id": "lungcancer",
-  "display_name": "Lung Cancer",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had lung cancer?",
   "description": "",
   "type": "choices",
   "domain": "noyes01"

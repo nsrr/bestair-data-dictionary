@@ -1,6 +1,6 @@
 {
   "id": "diabetes",
-  "display_name": "Diabetes",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had diabetes?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

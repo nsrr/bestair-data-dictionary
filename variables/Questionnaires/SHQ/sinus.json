@@ -1,6 +1,6 @@
 {
   "id": "sinus",
-  "display_name": "Sinus Problems",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had sinus problems?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

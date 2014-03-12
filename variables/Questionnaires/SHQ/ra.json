@@ -1,6 +1,6 @@
 {
   "id": "ra",
-  "display_name": "Rheumatoid Arthritis, Lupus, or other Collagen Vascular Disease",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had rheumatoid arthritis, lupus, or other collagen vascular disease?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

@@ -1,6 +1,6 @@
 {
   "id": "ibm",
-  "display_name": "Inflammatory Bowel Disease (Ulcerative Colitis or Crohns Disease)",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had inflammatory bowel disease (Ulcerative Colitis or Crohns Disease)?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

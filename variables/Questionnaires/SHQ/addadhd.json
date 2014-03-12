@@ -1,6 +1,6 @@
 {
   "id": "addadhd",
-  "display_name": "Attention Deficit Hyperactivity Disorder (ADD/ADHD)",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had attention deficit hyperactivity disorder (ADD/ADHD)?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

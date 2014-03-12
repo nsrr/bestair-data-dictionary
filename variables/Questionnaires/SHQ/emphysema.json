@@ -1,6 +1,6 @@
 {
   "id": "emphysema",
-  "display_name": "Emphysema or COPD",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had emphysema or COPD?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

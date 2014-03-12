@@ -1,6 +1,6 @@
 {
   "id": "highbp",
-  "display_name": "High Blood Pressure or Hypertension",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had high blood pressure or hypertension?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

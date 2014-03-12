@@ -1,6 +1,6 @@
 {
   "id": "depression",
-  "display_name": "Depression",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had depression?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

@@ -1,6 +1,6 @@
 {
   "id": "insomnia",
-  "display_name": "Insomnia",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had insomnia?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

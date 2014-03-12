@@ -1,6 +1,6 @@
 {
   "id": "anxietydisorder",
-  "display_name": "Anxiety Disorder",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had anxiety disorder?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

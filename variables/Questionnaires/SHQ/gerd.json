@@ -1,6 +1,6 @@
 {
   "id": "gerd",
-  "display_name": "Gastroesophageal Reflux Disease (GERD)",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had gastroesophageal reflux disease (GERD)",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

@@ -1,6 +1,6 @@
 {
   "id": "ms",
-  "display_name": "Multiple Sclerosis",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had multiple sclerosis?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

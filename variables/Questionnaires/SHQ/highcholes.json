@@ -1,6 +1,6 @@
 {
   "id": "highcholes",
-  "display_name": "High Blood Cholesterol",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had high blood cholesterol?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

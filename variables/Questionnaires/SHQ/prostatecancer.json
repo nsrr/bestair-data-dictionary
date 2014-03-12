@@ -1,6 +1,6 @@
 {
   "id": "prostatecancer",
-  "display_name": "Prostate Cancer",
+  "display_name": "Has a doctor or other healthcare professional ever told you that you had prostate cancer?",
   "description": "",
   "type": "choices",
   "domain": "noyes01"
