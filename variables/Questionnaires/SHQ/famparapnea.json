@@ -1,6 +1,6 @@
 {
   "id": "famparapnea",
-  "display_name": "Apnea",
+  "display_name": "Did either of your parents have sleep apnea?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

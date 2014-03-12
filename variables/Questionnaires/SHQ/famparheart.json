@@ -1,6 +1,6 @@
 {
   "id": "famparheart",
-  "display_name": "Heart Attack",
+  "display_name": "Did either of your parents have a heart attack?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

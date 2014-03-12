@@ -1,6 +1,6 @@
 {
   "id": "famchistroke",
-  "display_name": "Stroke",
+  "display_name": "Did any of your children (by blood) have a stroke?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

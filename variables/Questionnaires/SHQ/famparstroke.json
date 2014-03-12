@@ -1,6 +1,6 @@
 {
   "id": "famparstroke",
-  "display_name": "Stroke",
+  "display_name": "Did either of your parents have a stroke?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

@@ -1,6 +1,6 @@
 {
   "id": "famsibheart",
-  "display_name": "Heart Attack",
+  "display_name": "Did any of your siblings (by blood) have heart attack?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

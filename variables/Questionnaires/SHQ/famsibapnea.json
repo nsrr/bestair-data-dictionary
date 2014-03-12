@@ -1,6 +1,6 @@
 {
   "id": "famsibapnea",
-  "display_name": "Apnea",
+  "display_name": "Did any of your siblings (by blood) have sleep apnea?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"

@@ -1,6 +1,6 @@
 {
   "id": "famchiheart",
-  "display_name": "Heart Attack",
+  "display_name": "Did any of your children (by blood) have a heart attack?",
   "description": "",
   "type": "choices",
   "domain": "noyes012"
