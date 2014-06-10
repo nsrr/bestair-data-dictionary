@@ -1,4 +1,4 @@
-## 0.1.1
+## 0.1.1 (June 10, 2014)
 
 ### Changes
 - **Gem Changes**
