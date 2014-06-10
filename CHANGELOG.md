@@ -8,8 +8,8 @@
 ## 0.1.0 (March 21, 2014)
 
 ### Changes
-- The CSV dataset generated from [BestAIR SAS](https://github.com/sleepepi/bestair-sas) is located here:
-  - `\\rfa01\bwh-sleepepi-bestair\Data\SAS\_datasets\`
+- The CSV dataset generated from [the SAS export](https://github.com/sleepepi/bestair-data-dictionary/blob/master/scripts/datasetexport.sas) is located here:
+  - `\\rfa01\bwh-sleepepi-bestair\nsrr-prep\_releases\0.1.0\`
     - `bestair-dataset-0.1.0.csv`
 - **Changes in Source Data**
   - Extreme values for numeric variables have been validated against the source data in REDCap
