@@ -1,7 +1,0 @@
-{
-  "id": "studyvisit",
-  "display_name": "Study Visit",
-  "description": "",
-  "type": "choices",
-  "domain": "visit"
-}
