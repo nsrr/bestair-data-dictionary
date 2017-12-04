@@ -1,7 +1,0 @@
-{
-  "id": "cannulasignal",
-  "display_name": "Cannula Flow/Pressure Hours of Useable Signal",
-  "description": "",
-  "type": "integer",
-  "units": "hours"
-}

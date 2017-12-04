@@ -1,7 +1,0 @@
-{
-  "id": "qcnumbersredpwa1",
-  "display_name": "Are any of the QC numbers red?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

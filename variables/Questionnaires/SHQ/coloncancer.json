@@ -1,7 +1,0 @@
-{
-  "id": "coloncancer",
-  "display_name": "Colon Cancer",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

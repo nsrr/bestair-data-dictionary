@@ -1,7 +1,0 @@
-{
-  "id": "eligcvd",
-  "display_name": "Presence of CVD -or- 3+ Risk Factors",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

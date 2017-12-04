@@ -1,7 +1,0 @@
-{
-  "id": "randdiag",
-  "display_name": "Diagnostic Type",
-  "description": "",
-  "type": "choices",
-  "domain": "diagtype"
-}

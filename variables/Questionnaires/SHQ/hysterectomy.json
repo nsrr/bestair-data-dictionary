@@ -1,7 +1,0 @@
-{
-  "id": "hysterectomy",
-  "display_name": "Have you had a hysterectomy (surgery to remove your uterus/womb)",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

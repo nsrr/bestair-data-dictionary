@@ -1,7 +1,0 @@
-{
-  "id": "houselightmet",
-  "display_name": "Metabolic Equivalent of Light Household Chores",
-  "description": "",
-  "type": "numeric",
-  "units": "metabolic equivalents"
-}

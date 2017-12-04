@@ -1,7 +1,0 @@
-{
-  "id": "dayscomplete",
-  "display_name": "Number of days completed",
-  "description": "",
-  "type": "integer",
-  "units": "days"
-}

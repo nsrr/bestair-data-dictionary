@@ -1,7 +1,0 @@
-{
-  "id": "hormonert",
-  "display_name": "Are you currently using hormone replacement therapy?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

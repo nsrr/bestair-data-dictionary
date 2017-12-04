@@ -1,7 +1,0 @@
-{
-  "id": "ppallmin",
-  "display_name": "Minimum Mean Pulse Pressure (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

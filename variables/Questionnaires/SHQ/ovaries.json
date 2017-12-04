@@ -1,7 +1,0 @@
-{
-  "id": "ovaries",
-  "display_name": "Have you had surgery to remove your ovaries?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

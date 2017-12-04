@@ -1,8 +1,0 @@
-{
-  "id": "map2sleepmax",
-  "display_name": "Maximum Mean Arterial Pressure (asleep)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury",
-  "calculation": "max( ( 1/3 ) * syssleep + ( 2/3 ) * diasleep )"
-}

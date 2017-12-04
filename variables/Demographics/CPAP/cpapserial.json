@@ -1,6 +1,0 @@
-{
-  "id": "cpapserial",
-  "display_name": "CPAP Instrument Serial Number",
-  "description": "",
-  "type": "string"
-}

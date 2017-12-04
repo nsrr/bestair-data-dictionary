@@ -1,7 +1,0 @@
-{
-  "id": "eversmokeoldstop",
-  "display_name": "How old were you when you stopped smoking?",
-  "description": "",
-  "type": "integer",
-  "units": "years"
-}

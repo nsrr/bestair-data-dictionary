@@ -1,7 +1,0 @@
-{
-  "id": "heartallmax",
-  "display_name": "Maximum Mean Heart Rate (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "beats per minute"
-}

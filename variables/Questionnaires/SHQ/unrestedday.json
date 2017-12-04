@@ -1,7 +1,0 @@
-{
-  "id": "unrestedday",
-  "display_name": "Felt unrested during the day, no matter how many hours of sleep you had",
-  "description": "",
-  "type": "choices",
-  "domain": "shqalways"
-}

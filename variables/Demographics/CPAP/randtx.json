@@ -1,7 +1,0 @@
-{
-  "id": "randtx",
-  "display_name": "What arm of treatment was the participant originally randomized to?",
-  "description": "",
-  "type": "choices",
-  "domain": "treatarm"
-}

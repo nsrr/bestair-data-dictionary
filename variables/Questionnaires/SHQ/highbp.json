@@ -1,7 +1,0 @@
-{
-  "id": "highbp",
-  "display_name": "High Blood Pressure or Hypertension",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "hip1",
-  "display_name": "Hip circumference",
-  "description": "First hip circumference measurement",
-  "type": "numeric",
-  "units": "centimeters"
-}

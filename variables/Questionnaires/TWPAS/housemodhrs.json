@@ -1,7 +1,0 @@
-{
-  "id": "housemodhrs",
-  "display_name": "Moderate or Heavy Effort (Hours/Day)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpashr"
-}

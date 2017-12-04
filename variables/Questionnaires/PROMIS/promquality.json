@@ -1,7 +1,0 @@
-{
-  "id": "promquality",
-  "display_name": "My sleep quality was",
-  "description": "",
-  "type": "choices",
-  "domain": "promgood"
-}

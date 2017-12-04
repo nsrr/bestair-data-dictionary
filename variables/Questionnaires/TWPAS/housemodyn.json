@@ -1,7 +1,0 @@
-{
-  "id": "housemodyn",
-  "display_name": "Moderate or Heavy Effort",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

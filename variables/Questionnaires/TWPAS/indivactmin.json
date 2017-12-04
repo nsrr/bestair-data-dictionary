@@ -1,7 +1,0 @@
-{
-  "id": "indivactmin",
-  "display_name": "Individual activities (Minutes/Hour)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpasmin"
-}

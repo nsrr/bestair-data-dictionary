@@ -1,7 +1,0 @@
-{
-  "id": "ppsleepmin",
-  "display_name": "Minimum Pulse Pressure (asleep)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

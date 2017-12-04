@@ -1,7 +1,0 @@
-{
-  "id": "walkgetmin",
-  "display_name": "Walking to get places (Minutes/Hour)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpasmin"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "emblalert",
-  "display_name": "Did review of this sleep breathing assessment result in an urgent alert?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

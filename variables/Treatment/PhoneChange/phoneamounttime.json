@@ -1,7 +1,0 @@
-{
-  "id": "phoneamounttime",
-  "display_name": "Total amount of staff time spent on call and follow-up",
-  "description": "",
-  "type": "integer",
-  "units": "minutes"
-}

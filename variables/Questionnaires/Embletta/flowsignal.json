@@ -1,7 +1,0 @@
-{
-  "id": "flowsignal",
-  "display_name": "Flow Hours of Useable Signal",
-  "description": "",
-  "type": "integer",
-  "units": "hours"
-}

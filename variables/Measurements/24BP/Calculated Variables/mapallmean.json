@@ -1,7 +1,0 @@
-{
-  "id": "mapallmean",
-  "display_name": "Average Mean Arterial Pressure (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

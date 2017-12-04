@@ -1,7 +1,0 @@
-{
-  "id": "twohealthprofess",
-  "display_name": "Since our last contact with you, have you at any time seen a doctor or other healthcare professional?",
-  "description": "A healthcare professional is a doctor, nurse, nurse practitioner, or other certified specialist working in a clinic, hospital, or ambulance.",
-  "type": "choices",
-  "domain": "noyes01"
-}

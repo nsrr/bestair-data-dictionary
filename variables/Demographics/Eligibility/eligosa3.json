@@ -1,7 +1,0 @@
-{
-  "id": "eligosa3",
-  "display_name": "3% (AHI >=15 events/hour)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

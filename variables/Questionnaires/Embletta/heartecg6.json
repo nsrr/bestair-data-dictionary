@@ -1,7 +1,0 @@
-{
-  "id": "heartecg6",
-  "display_name": "Heart Rate/ECG Finding (Atrial fibrillation and/or flutter)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

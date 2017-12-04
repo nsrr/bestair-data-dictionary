@@ -1,7 +1,0 @@
-{
-  "id": "syssleepsd",
-  "display_name": "Standard Deviation of Systolic Pressure (asleep)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "phoneresolve3",
-  "display_name": "How was the problem or issue resolved? (choice=Discussed with clinician)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

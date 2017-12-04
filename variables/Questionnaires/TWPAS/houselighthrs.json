@@ -1,7 +1,0 @@
-{
-  "id": "houselighthrs",
-  "display_name": "Light Effort (Hours/Day)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpashr"
-}

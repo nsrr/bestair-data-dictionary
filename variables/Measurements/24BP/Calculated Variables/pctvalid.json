@@ -1,7 +1,0 @@
-{
-  "id": "pctvalid",
-  "display_name": "Percent Valid Readings",
-  "description": "",
-  "type": "numeric",
-  "units": "percent"
-}

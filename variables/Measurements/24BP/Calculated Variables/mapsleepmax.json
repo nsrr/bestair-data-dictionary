@@ -1,7 +1,0 @@
-{
-  "id": "mapsleepmax",
-  "display_name": "Maximum Mean Arterial Pressure (asleep)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

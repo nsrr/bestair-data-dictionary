@@ -1,7 +1,0 @@
-{
-  "id": "dataupload",
-  "display_name": "Data uploaded successfully?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

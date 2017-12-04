@@ -1,8 +1,0 @@
-{
-  "id": "semsaoe",
-  "display_name": "Calculated SEMSA outcome expectancies",
-  "description": "",
-  "type": "numeric",
-  "units": "",
-  "calculation": "semsaactive + semsadesire + semsajob + semsarelationship + semsafeelbetter + semsadecaccident + semsalessalert + semsasnore + semsapartsleep"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "diasleepmax",
-  "display_name": "Maximum Diastolic Pressure (asleep)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

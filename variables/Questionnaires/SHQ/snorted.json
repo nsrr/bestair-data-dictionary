@@ -1,7 +1,0 @@
-{
-  "id": "snorted",
-  "display_name": "In the LAST 4 WEEKS, were there times when you snorted or gasped during your sleep?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

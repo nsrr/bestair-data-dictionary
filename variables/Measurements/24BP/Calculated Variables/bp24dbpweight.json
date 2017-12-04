@@ -1,7 +1,0 @@
-{
-  "id": "bp24dbpweight",
-  "display_name": "Weighted average of diastolic readings across sleep and wake",
-  "description": "",
-  "type": "numeric",
-  "units":"millimeters of mercury"
-}

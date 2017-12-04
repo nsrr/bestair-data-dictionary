@@ -1,7 +1,0 @@
-{
-  "id": "stoppedcar",
-  "display_name": "In a car, while stopped for a few minutes in traffic",
-  "description": "",
-  "type": "choices",
-  "domain": "ess"
-}

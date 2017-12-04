@@ -1,7 +1,0 @@
-{
-  "id": "heartsleepmean",
-  "display_name": "Average Heart Rate (asleep)",
-  "description": "",
-  "type": "numeric",
-  "units": "beats per minute"
-}

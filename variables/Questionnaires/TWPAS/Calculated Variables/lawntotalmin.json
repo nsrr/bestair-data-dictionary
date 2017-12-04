@@ -1,7 +1,0 @@
-{
-  "id": "lawntotalmin",
-  "display_name": "Total Lawn/Yard/Garden/Farm Work Time",
-  "description": "",
-  "type": "integer",
-  "units": "minutes"
-}

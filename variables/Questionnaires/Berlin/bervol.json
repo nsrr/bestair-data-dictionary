@@ -1,7 +1,0 @@
-{
-  "id": "bervol",
-  "display_name": "2. Your snoring is:",
-  "description": "",
-  "type": "choices",
-  "domain": "snorevolume"
-}

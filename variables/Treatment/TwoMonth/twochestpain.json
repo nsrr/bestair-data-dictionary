@@ -1,7 +1,0 @@
-{
-  "id": "twochestpain",
-  "display_name": "New or worse discomfort or pain in your chest",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

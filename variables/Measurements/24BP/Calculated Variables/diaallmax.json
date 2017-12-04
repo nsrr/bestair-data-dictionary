@@ -1,7 +1,0 @@
-{
-  "id": "diaallmax",
-  "display_name": "Maximum Diastolic Pressure (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

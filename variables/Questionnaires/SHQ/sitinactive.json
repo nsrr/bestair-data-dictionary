@@ -1,7 +1,0 @@
-{
-  "id": "sitinactive",
-  "display_name": "Sitting, inactive, in a public place (e.g., a movie theater or classroom)",
-  "description": "",
-  "type": "choices",
-  "domain": "ess"
-}

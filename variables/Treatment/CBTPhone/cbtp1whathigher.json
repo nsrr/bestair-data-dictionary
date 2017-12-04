@@ -1,6 +1,0 @@
-{
-  "id": "cbtp1whathigher",
-  "display_name": "What would have to happen for your confidence level to move up from X to an 8 or 9",
-  "description": "What would have to happen for your confidence level to move up from [response to cbtp1confidence] to an 8 or 9 (or 10)",
-  "type": "string"
-}

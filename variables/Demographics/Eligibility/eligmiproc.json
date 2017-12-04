@@ -1,7 +1,0 @@
-{
-  "id": "eligmiproc",
-  "display_name": "Less than 4 months since MI, stroke or revascularization procedure",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

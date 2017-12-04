@@ -1,7 +1,0 @@
-{
-  "id": "worklightsitdays",
-  "display_name": "Light Effort: While Sitting (Days/Week)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpasday"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "syssleepmean",
-  "display_name": "Average Systolic Pressure (asleep)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

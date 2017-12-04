@@ -1,7 +1,0 @@
-{
-  "id": "semsapartsleep",
-  "display_name": "If I use CPAP my bed partner will sleep better.",
-  "description": "",
-  "type": "choices",
-  "domain": "semsatrue"
-}

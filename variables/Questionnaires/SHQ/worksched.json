@@ -1,7 +1,0 @@
-{
-  "id": "worksched",
-  "display_name": "Which of the following best describes your usual work schedule?",
-  "description": "",
-  "type": "choices",
-  "domain": "shqwork"
-}

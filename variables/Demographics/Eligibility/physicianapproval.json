@@ -1,7 +1,0 @@
-{
-  "id": "physicianapproval",
-  "display_name": "Physicial does not grant approval",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

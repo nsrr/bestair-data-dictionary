@@ -1,8 +1,0 @@
-{
-  "id": "bp",
-  "display_name": "Weighted Score of Bodily Pain",
-  "description": "",
-  "type": "numeric",
-  "units": "",
-  "calculation": "( bpraw - 2 ) / ( 12 - 2 ) * 100"
-}

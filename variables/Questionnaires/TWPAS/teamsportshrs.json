@@ -1,7 +1,0 @@
-{
-  "id": "teamsportshrs",
-  "display_name": "Team sports (Hours/Day)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpashr"
-}

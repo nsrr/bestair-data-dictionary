@@ -1,7 +1,0 @@
-{
-  "id": "proximaldistance2",
-  "display_name": "Proximal Distance:",
-  "description": "",
-  "type": "integer",
-  "units": "millimeters"
-}

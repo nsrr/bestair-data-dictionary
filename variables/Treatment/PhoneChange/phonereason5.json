@@ -1,7 +1,0 @@
-{
-  "id": "phonereason5",
-  "display_name": "What is the reason for the call? (choice=Problem with skin irritation)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

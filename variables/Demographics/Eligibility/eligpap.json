@@ -1,7 +1,0 @@
-{
-  "id": "eligpap",
-  "display_name": "Prior use of prescribed PAP for sleep apnea",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

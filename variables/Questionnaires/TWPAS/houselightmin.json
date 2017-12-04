@@ -1,7 +1,0 @@
-{
-  "id": "houselightmin",
-  "display_name": "Light Effort (Minutes/Hour)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpasmin"
-}

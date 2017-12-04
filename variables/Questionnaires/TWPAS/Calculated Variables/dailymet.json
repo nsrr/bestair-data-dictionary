@@ -1,8 +1,0 @@
-{
-  "id": "dailymet",
-  "display_name": "Average Daily METs",
-  "description": "",
-  "type": "integer",
-  "units": "metabolic equivalents",
-  "calculation": "totalmet / 7"
-}

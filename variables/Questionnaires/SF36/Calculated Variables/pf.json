@@ -1,8 +1,0 @@
-{
-  "id": "pf",
-  "display_name": "Weighted Score of Physical Functioning index",
-  "description": "",
-  "type": "numeric",
-  "units": "",
-  "calculation": "( ( pfraw - 10 ) / ( 30 - 10 ) ) * 100"
-}

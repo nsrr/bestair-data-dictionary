@@ -1,7 +1,0 @@
-{
-  "id": "heartecg3",
-  "display_name": "Heart Rate/ECG Finding (The presence of a sustained wide complex rhythem (>3 consecutive beats))",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

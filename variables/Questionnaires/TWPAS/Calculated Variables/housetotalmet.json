@@ -1,7 +1,0 @@
-{
-  "id": "housetotalmet",
-  "display_name": "Metabolic Equivalent of Total Household Chores",
-  "description": "",
-  "type": "numeric",
-  "units": "metabolic equivalents"
-}

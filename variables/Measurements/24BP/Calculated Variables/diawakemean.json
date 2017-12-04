@@ -1,7 +1,0 @@
-{
-  "id": "diawakemean",
-  "display_name": "Average Diastolic Pressure (wake)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

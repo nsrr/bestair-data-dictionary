@@ -1,7 +1,0 @@
-{
-  "id": "ewave",
-  "display_name": "Peak E Wave Velocity",
-  "description": "Peak blood velocity in early-stage ventricular filling",
-  "type": "numeric",
-  "units": "centimeters per second"
-}

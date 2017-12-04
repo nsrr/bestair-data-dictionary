@@ -1,7 +1,0 @@
-{
-  "id": "fourreadingsnight",
-  "display_name": "Received at least 4 readings from night BP",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "walkexhrs",
-  "display_name": "Walking for exercise (Hours/Day)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpashr"
-}

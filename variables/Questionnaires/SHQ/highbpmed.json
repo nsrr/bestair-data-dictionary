@@ -1,7 +1,0 @@
-{
-  "id": "highbpmed",
-  "display_name": "Are you taking medicine for this?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

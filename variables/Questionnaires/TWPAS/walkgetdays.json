@@ -1,7 +1,0 @@
-{
-  "id": "walkgetdays",
-  "display_name": "Walking to get places (Days/Week)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpasday"
-}

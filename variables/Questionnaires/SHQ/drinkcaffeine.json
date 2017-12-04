@@ -1,7 +1,0 @@
-{
-  "id": "drinkcaffeine",
-  "display_name": "In the LAST 4 WEEKS, how often did you drink beverages containing caffeine (cola, coffee, tea, etc)?",
-  "description": "",
-  "type": "choices",
-  "domain": "shqcaffeine"
-}

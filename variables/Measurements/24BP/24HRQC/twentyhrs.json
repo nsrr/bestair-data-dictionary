@@ -1,7 +1,0 @@
-{
-  "id": "twentyhrs",
-  "display_name": "Received at least 20 hrs of recorded data?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

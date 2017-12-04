@@ -1,7 +1,0 @@
-{
-  "id": "randmanu",
-  "display_name": "Device Manufacturer",
-  "description": "",
-  "type": "choices",
-  "domain": "devicemanu"
-}

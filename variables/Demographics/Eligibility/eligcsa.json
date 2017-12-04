@@ -1,7 +1,0 @@
-{
-  "id": "eligcsa",
-  "display_name": "Central sleep apnea, with >50% of respiratory events classified as central apneas",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

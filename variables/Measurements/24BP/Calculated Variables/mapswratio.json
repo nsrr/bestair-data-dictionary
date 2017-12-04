@@ -1,7 +1,0 @@
-{
-  "id": "mapswratio",
-  "display_name": "Ratio of MAP between sleep and wake",
-  "description": "",
-  "type": "numeric",
-  "units":""
-}

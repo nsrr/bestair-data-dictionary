@@ -1,7 +1,0 @@
-{
-  "id": "painlegsrad",
-  "display_name": "Radiates in the absence of any pain in the calf",
-  "description": "",
-  "type": "choices",
-  "domain": "check12"
-}

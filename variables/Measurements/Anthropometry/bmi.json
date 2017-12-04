@@ -1,8 +1,0 @@
-{
-  "id": "bmi",
-  "display_name": "Body Mass Index calculated at the time of visit",
-  "description": "Body Mass Index calculated using average height and weight variables, should be used for analysis",
-  "type": "numeric",
-  "units": "",
-  "calculation": "( avgheightcm / 100 ) / ( weight * weight )"
-}

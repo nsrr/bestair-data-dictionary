@@ -1,7 +1,0 @@
-{
-  "id": "menstrual",
-  "display_name": "Have you had a menstrual period in the past 12 months?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

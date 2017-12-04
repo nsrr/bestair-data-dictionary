@@ -1,7 +1,0 @@
-{
-  "id": "semsaactive",
-  "display_name": "If I use CPAP I will be more active.",
-  "description": "",
-  "type": "choices",
-  "domain": "semsatrue"
-}

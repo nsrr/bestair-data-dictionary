@@ -1,7 +1,0 @@
-{
-  "id": "oximetrysignal",
-  "display_name": "Oximetry Hours of Useable Signal",
-  "description": "",
-  "type": "integer",
-  "units": "hours"
-}

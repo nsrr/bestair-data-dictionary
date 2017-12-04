@@ -1,7 +1,0 @@
-{
-  "id": "twosinus",
-  "display_name": "Sinus",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

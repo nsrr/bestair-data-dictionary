@@ -1,8 +1,0 @@
-{
-  "id": "avgheightcm_atbaseline",
-  "display_name": "Average height at time of baseline visit",
-  "description": "Average of three height measurements taken at the baseline visit (study_visit = 0)",
-  "type": "numeric",
-  "units": "centimeters",
-  "calculation": "( ( height1 + height2 + height3 ) / 3 ) where study_visit = 0"
-}

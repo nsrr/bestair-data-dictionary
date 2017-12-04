@@ -1,7 +1,0 @@
-{
-  "id": "notinterested",
-  "display_name": "Not interested in research",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

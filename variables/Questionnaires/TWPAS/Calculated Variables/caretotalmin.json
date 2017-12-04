@@ -1,7 +1,0 @@
-{
-  "id": "caretotalmin",
-  "display_name": "Total Care of Children/Adults Time",
-  "description": "",
-  "type": "integer",
-  "units": "minutes"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "validall",
-  "display_name": "At least 4 sleep readings and 10 wake readings",
-  "description": "",
-  "type": "choices",
-  "domain":"noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "ekgsignal",
-  "display_name": "EKG Hours of Useable Signal",
-  "description": "",
-  "type": "integer",
-  "units": "hours"
-}

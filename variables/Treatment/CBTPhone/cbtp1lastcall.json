@@ -1,6 +1,0 @@
-{
-  "id": "cbtp1lastcall",
-  "display_name": "What, if anything, particularly stood out for you?",
-  "description": "Summarize the key points from the last call",
-  "type": "string"
-}

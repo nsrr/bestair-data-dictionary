@@ -1,7 +1,0 @@
-{
-  "id": "diabetesinsulin",
-  "display_name": "Was insulin your first diabetes medicine?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

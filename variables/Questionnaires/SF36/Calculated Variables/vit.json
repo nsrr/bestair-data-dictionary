@@ -1,8 +1,0 @@
-{
-  "id": "vit",
-  "display_name": "Weighted Score of Vitality Index",
-  "description": "",
-  "type": "numeric",
-  "units": "",
-  "calculation": "( ( vtraw - 4 ) / ( 20 - 4 ) ) * 100"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "cvdstatus",
-  "display_name": "CVD Status",
-  "description": "",
-  "type": "choices",
-  "domain": "cvdstatus"
-}

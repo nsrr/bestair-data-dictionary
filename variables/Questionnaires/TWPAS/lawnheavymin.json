@@ -1,7 +1,0 @@
-{
-  "id": "lawnheavymin",
-  "display_name": "Heavy Effort (Minutes/Hour)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpasmin"
-}

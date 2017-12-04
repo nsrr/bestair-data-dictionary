@@ -1,7 +1,0 @@
-{
-  "id": "standdev3",
-  "display_name": "Is that standard deviation within 10% of the PWV?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

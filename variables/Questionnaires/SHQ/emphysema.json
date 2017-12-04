@@ -1,7 +1,0 @@
-{
-  "id": "emphysema",
-  "display_name": "Emphysema or COPD",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

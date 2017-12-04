@@ -1,7 +1,0 @@
-{
-  "id": "sysallmin",
-  "display_name": "Minimum Systolic Pressure (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

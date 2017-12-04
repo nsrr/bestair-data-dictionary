@@ -1,7 +1,0 @@
-{
-  "id": "echovisit",
-  "display_name": "Echo Visit",
-  "description": "Baseline, 6 month Follow-up, or 12-month Follow-up",
-  "type": "integer",
-  "units": ""
-}

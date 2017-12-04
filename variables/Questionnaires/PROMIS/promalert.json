@@ -1,7 +1,0 @@
-{
-  "id": "promalert",
-  "display_name": "I felt alert when I woke up",
-  "description": "",
-  "type": "choices",
-  "domain": "prommuch"
-}

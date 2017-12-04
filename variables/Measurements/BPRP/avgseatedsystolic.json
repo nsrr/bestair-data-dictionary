@@ -1,8 +1,0 @@
-{
-  "id": "avgseatedsystolic",
-  "display_name": "Average seated systolic blood pressure at the time of visit",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury",
-  "calculation": "( sys1 + sys2 + sys3 ) / 3"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "race",
-  "display_name": "Race",
-  "description": "Categorical race",
-  "type": "choices",
-  "domain": "race"
-}

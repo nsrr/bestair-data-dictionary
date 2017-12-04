@@ -1,8 +1,0 @@
-{
-  "id": "avgseateddiastolic",
-  "display_name": "Average seated diastolic blood pressure at the time of visit",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury",
-  "calculation": "( dia1 + dia2 + dia3 ) / 3"
-}

@@ -1,8 +1,0 @@
-{
-  "id": "map2wakemax",
-  "display_name": "Maximum Mean Arterial Pressure (wake)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury",
-  "calculation": "max( ( 1/3 ) * syswake + ( 2/3 ) * diawake )"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "nvalid",
-  "display_name": "Number of Valid Readings",
-  "description": "",
-  "type": "integer",
-  "units": "readings"
-}

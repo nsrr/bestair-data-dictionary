@@ -1,7 +1,0 @@
-{
-  "id": "eversnored",
-  "display_name": "Have you ever snored (now or at any time in the past)?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

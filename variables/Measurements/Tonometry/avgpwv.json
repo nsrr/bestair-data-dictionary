@@ -1,8 +1,0 @@
-{
-  "id": "avgpwv",
-  "display_name": "Average Pulse Wave Velocity",
-  "description": "",
-  "type": "numeric",
-  "units": "meters per second",
-  "calculation": "( pwv1 + pwv2 + pwv3 + pwv4 ) / 4"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "ppsleepmax",
-  "display_name": "Maximum Pulse Pressure (asleep)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "raceother",
-  "display_name": "Race (Other)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

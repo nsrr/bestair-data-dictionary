@@ -1,8 +1,0 @@
-{
-  "id": "dailymodmet",
-  "display_name": "Average Daily Moderate METs",
-  "description": "",
-  "type": "integer",
-  "units": "metabolic equivalents",
-  "calculation": "modtotalmet / 7"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "phoneresolve1",
-  "display_name": "How was the problem or issue resolved? (choice=Further education provided over the telephone)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "abdomensignal",
-  "display_name": "Abdomen Hours of Useable Signal",
-  "description": "",
-  "type": "integer",
-  "units": "hours"
-}

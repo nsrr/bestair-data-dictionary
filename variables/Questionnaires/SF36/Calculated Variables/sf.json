@@ -1,8 +1,0 @@
-{
-  "id": "sf",
-  "display_name": "Weighted Score of Social Functioning index",
-  "description": "",
-  "type": "numeric",
-  "units": "",
-  "calculation": "( ( sfraw - 2 ) / ( 10 - 2 ) ) * 100"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "diasleepsd",
-  "display_name": "Standard Deviation of Diastolic Pressure (asleep)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

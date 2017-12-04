@@ -1,7 +1,0 @@
-{
-  "id": "scprimaryreason",
-  "display_name": "Primary reason for terminating participation in the study:",
-  "description": "",
-  "type": "choices",
-  "domain": "screason"
-}

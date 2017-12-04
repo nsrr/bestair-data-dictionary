@@ -1,7 +1,0 @@
-{
-  "id": "dancingmin",
-  "display_name": "Dancing (Minutes/Hour)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpasmin"
-}

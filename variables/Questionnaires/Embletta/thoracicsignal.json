@@ -1,7 +1,0 @@
-{
-  "id": "thoracicsignal",
-  "display_name": "Thoracic Hours of Useable Signal",
-  "description": "",
-  "type": "integer",
-  "units": "hours"
-}

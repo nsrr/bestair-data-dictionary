@@ -1,7 +1,0 @@
-{
-  "id": "phonechange3",
-  "display_name": "What was changed (choice=C-Flex)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

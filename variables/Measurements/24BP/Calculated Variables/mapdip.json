@@ -1,7 +1,0 @@
-{
-  "id": "mapdip",
-  "display_name": "MAP dipping from wake to sleep",
-  "description": "",
-  "type": "numeric",
-  "units": "percent"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "height1",
-  "display_name": "Height",
-  "description": "First height measurement",
-  "type": "numeric",
-  "units": "centimeters"
-}

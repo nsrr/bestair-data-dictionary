@@ -1,7 +1,0 @@
-{
-  "id": "siteid",
-  "display_name": "Site ID",
-  "description": "",
-  "type": "choices",
-  "domain": "siteid"
-}

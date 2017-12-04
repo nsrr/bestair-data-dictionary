@@ -1,7 +1,0 @@
-{
-  "id": "painchest",
-  "display_name": "Have you ever had any pain or discomfort in your chest?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "emblqual",
-  "display_name": "Overall Study Quality",
-  "description": "",
-  "type": "choices",
-  "domain": "emblquality"
-}

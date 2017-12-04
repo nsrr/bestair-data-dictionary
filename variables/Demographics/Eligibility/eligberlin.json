@@ -1,7 +1,0 @@
-{
-  "id": "eligberlin",
-  "display_name": "Low risk relalted to having sleep apnea defined by a Berlin Score of <2",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "syswakemean",
-  "display_name": "Average Systolic Pressure (wake)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

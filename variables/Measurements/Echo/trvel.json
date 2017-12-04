@@ -1,7 +1,0 @@
-{
-  "id": "trvel",
-  "display_name": "Peak Tricuspid Regurgitation Velocity",
-  "description": "",
-  "type": "numeric",
-  "units": "centimeters per second"
-}

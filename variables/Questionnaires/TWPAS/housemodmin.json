@@ -1,7 +1,0 @@
-{
-  "id": "housemodmin",
-  "display_name": "Moderate or Heavy Effort (Minutes/Hour)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpasmin"
-}

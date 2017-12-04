@@ -1,7 +1,0 @@
-{
-  "id": "legsdiscomfortday",
-  "display_name": "Are these symptoms worse later in the day or at night?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

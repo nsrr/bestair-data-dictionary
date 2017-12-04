@@ -1,7 +1,0 @@
-{
-  "id": "flowqual",
-  "display_name": "Flow Signal Quality Code",
-  "description": "",
-  "type": "choices",
-  "domain": "percentestimatedsleep"
-}

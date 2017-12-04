@@ -1,7 +1,0 @@
-{
-  "id": "eligmi",
-  "display_name": "Prior myocardial infarction or a coronary artery revascularization procedure (greater than or equal to 4 months before study entry)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

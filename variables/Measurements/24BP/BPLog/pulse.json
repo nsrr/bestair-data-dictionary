@@ -1,7 +1,0 @@
-{
-  "id": "pulse",
-  "display_name": "Pulse",
-  "description": "",
-  "type": "integer",
-  "units": "beats per minute"
-}

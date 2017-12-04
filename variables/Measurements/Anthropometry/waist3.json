@@ -1,7 +1,0 @@
-{
-  "id": "waist3",
-  "display_name": "Waist circumference",
-  "description": "Third waist circumference measurement, only taken if the first two measurements differ by over 0.5 centimeters",
-  "type": "numeric",
-  "units": "centimeters"
-}

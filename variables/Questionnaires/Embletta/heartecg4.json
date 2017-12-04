@@ -1,7 +1,0 @@
-{
-  "id": "heartecg4",
-  "display_name": "Heart Rate/ECG Finding (Type 2 second degree atrioventricular block)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

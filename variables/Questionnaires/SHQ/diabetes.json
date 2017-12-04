@@ -1,7 +1,0 @@
-{
-  "id": "diabetes",
-  "display_name": "Diabetes",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

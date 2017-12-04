@@ -1,7 +1,0 @@
-{
-  "id": "oximetryqual",
-  "display_name": "Oximetry Signal Quality Code",
-  "description": "",
-  "type": "choices",
-  "domain": "percentestimatedsleep"
-}

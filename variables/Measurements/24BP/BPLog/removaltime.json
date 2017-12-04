@@ -1,6 +1,0 @@
-{
-  "id": "removaltime",
-  "display_name": "Removal time",
-  "description": "Time of monitor removal",
-  "type": "time"
-}

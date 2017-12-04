@@ -1,7 +1,0 @@
-{
-  "id": "waist2",
-  "display_name": "Waist circumference",
-  "description": "Second waist circumference measurement",
-  "type": "numeric",
-  "units": "centimeters"
-}

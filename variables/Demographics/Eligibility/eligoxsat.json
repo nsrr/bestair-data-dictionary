@@ -1,7 +1,0 @@
-{
-  "id": "eligoxsat",
-  "display_name": "Resting oxygen saturation <90% or nocturnal oxygen saturation <85% for >10% of the sleep period",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

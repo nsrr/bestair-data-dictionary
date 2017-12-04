@@ -1,7 +1,0 @@
-{
-  "id": "syswakemin",
-  "display_name": "Minimum Systolic Pressure (wake)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

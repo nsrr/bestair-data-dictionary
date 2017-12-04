@@ -1,7 +1,0 @@
-{
-  "id": "caremodmin",
-  "display_name": "Moderate Effort (Minutes/Hour)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpasmin"
-}

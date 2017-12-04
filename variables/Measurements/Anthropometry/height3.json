@@ -1,7 +1,0 @@
-{
-  "id": "height3",
-  "display_name": "Height",
-  "description": "Third height measurement, only taken if the first two measurements differ by over 0.5 centimeters",
-  "type": "numeric",
-  "units": "centimeters"
-}

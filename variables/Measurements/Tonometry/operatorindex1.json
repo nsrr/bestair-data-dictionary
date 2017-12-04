@@ -1,7 +1,0 @@
-{
-  "id": "operatorindex1",
-  "display_name": "Is the Operator Index greater than or equal to 80?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

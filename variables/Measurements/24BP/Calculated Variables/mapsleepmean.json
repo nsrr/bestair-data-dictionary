@@ -1,7 +1,0 @@
-{
-  "id": "mapsleepmean",
-  "display_name": "Average Mean Arterial Pressure (asleep)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

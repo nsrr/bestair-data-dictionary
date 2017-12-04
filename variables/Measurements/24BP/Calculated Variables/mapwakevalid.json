@@ -1,7 +1,0 @@
-{
-  "id": "mapwakevalid",
-  "display_name": "Mean MAP with valid wake",
-  "description": "",
-  "type": "numeric",
-  "units":"millimeters of mercury"
-}

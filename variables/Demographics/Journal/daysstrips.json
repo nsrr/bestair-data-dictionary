@@ -1,7 +1,0 @@
-{
-  "id": "daysstrips",
-  "display_name": "Number of days strips used",
-  "description": "",
-  "type": "integer",
-  "units": "days"
-}

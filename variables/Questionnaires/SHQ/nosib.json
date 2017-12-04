@@ -1,7 +1,0 @@
-{
-  "id": "nosib",
-  "display_name": "If you don't have any siblings, please mark this box",
-  "description": "",
-  "type": "choices",
-  "domain": "check12"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "eligef",
-  "display_name": "Diagnosed heart failure with known cardiac ejection fraction of <35% or NYHA class 3 or 4 status",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}

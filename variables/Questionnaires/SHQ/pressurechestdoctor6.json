@@ -1,7 +1,0 @@
-{
-  "id": "pressurechestdoctor6",
-  "display_name": "Did you see a doctor because of this pain (or discomfort)?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

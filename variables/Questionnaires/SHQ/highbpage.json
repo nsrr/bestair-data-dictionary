@@ -1,7 +1,0 @@
-{
-  "id": "highbpage",
-  "display_name": "At what age was this first treated?",
-  "description": "",
-  "type": "integer",
-  "units": "years"
-}

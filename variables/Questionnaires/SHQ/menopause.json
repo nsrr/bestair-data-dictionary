@@ -1,7 +1,0 @@
-{
-  "id": "menopause",
-  "display_name": "Have you gone through menopause or change of life?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

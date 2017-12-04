@@ -1,7 +1,0 @@
-{
-  "id": "snortingfreq",
-  "display_name": "In the LAST 4 WEEKS, how often did you have times when you snorted or gasped during your sleep?",
-  "description": "",
-  "type": "choices",
-  "domain": "shqfreq"
-}

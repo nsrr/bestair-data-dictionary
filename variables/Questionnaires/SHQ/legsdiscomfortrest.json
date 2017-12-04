@@ -1,7 +1,0 @@
-{
-  "id": "legsdiscomfortrest",
-  "display_name": "Are these symptoms worse when you are at rest, with at least temporary relief by activity?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

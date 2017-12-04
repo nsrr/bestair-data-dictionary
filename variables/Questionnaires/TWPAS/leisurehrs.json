@@ -1,7 +1,0 @@
-{
-  "id": "leisurehrs",
-  "display_name": "Leisure Activities (Hours/Day)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpashr"
-}

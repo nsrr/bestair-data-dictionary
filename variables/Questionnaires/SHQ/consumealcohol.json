@@ -1,7 +1,0 @@
-{
-  "id": "consumealcohol",
-  "display_name": "In a typical week during the past year, on how many days did you consume an alcoholic beverage of any type?",
-  "description": "",
-  "type": "choices",
-  "domain": "shqalcohol"
-}

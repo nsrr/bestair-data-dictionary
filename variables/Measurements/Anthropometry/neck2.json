@@ -1,7 +1,0 @@
-{
-  "id": "neck2",
-  "display_name": "Neck circumference",
-  "description": "Second neck circumference measurement",
-  "type": "numeric",
-  "units": "centimeters"
-}

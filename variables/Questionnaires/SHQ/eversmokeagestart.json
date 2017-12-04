@@ -1,7 +1,0 @@
-{
-  "id": "eversmokeagestart",
-  "display_name": "How old were you when you first started regular cigarette smoking?",
-  "description": "",
-  "type": "integer",
-  "units": "years"
-}

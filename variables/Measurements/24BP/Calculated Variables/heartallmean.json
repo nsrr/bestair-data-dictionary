@@ -1,7 +1,0 @@
-{
-  "id": "heartallmean",
-  "display_name": "Average Heart Rate (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "beats per minute"
-}

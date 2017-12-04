@@ -1,7 +1,0 @@
-{
-  "id": "bpsite",
-  "display_name": "Arm blood pressure site",
-  "description": "Left or right arm",
-  "type": "choices",
-  "domain": "bpsite"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "height2",
-  "display_name": "Height",
-  "description": "Second height measurement",
-  "type": "numeric",
-  "units": "centimeters"
-}

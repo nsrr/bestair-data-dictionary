@@ -1,8 +1,0 @@
-{
-  "id": "totalvigmet",
-  "display_name": "Average Weekly Vigorous METs",
-  "description": "",
-  "type": "integer",
-  "units": "metabolic equivalents",
-  "calculation": "LawnHeavyMET + TeamSportMET + DualSportMET + CondHeavyMET + WorkHeavyMET"
-}

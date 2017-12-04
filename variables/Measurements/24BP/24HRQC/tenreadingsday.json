@@ -1,7 +1,0 @@
-{
-  "id": "tenreadingsday",
-  "display_name": "Received at least 10 readings from day BP?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

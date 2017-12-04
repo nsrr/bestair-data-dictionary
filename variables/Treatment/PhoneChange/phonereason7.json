@@ -1,7 +1,0 @@
-{
-  "id": "phonereason7",
-  "display_name": "What is the reason for the call? (choice=Other)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

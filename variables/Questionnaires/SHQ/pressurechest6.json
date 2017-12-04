@@ -1,7 +1,0 @@
-{
-  "id": "pressurechest6",
-  "display_name": "Have you ever had any pressure or heaviness in your chest?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes012"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "bloodcancer",
-  "display_name": "Blood Cancer (leukemia, lymphoma, other)",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

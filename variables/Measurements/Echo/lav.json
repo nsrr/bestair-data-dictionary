@@ -1,7 +1,0 @@
-{
-  "id": "lav",
-  "display_name": "Left Atrial Volume",
-  "description": "",
-  "type": "numeric",
-  "units": "milliliters"
-}

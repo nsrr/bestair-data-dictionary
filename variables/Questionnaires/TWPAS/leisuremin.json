@@ -1,7 +1,0 @@
-{
-  "id": "leisuremin",
-  "display_name": "Leisure Activities (Minutes/Hour)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpasmin"
-}

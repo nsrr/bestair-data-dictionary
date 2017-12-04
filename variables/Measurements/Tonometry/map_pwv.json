@@ -1,7 +1,0 @@
-{
-  "id": "map_pwv",
-  "display_name": "Mean Arterial Pressure during Pulse Wave Velocity",
-  "description": "",
-  "type": "integer",
-  "units": "millimeters of mercury"
-}

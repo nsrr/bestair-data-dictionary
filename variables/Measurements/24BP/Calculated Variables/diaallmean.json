@@ -1,7 +1,0 @@
-{
-  "id": "diaallmean",
-  "display_name": "Average Diastolic Pressure (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "walkexmin",
-  "display_name": "Walking for exercise (Minutes/Hour)",
-  "description": "",
-  "type": "choices",
-  "domain": "twpasmin"
-}

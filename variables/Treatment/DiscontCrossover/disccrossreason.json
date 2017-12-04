@@ -1,7 +1,0 @@
-{
-  "id": "disccrossreason",
-  "display_name": "If participant cross over, reason:",
-  "description": "",
-  "type": "choices",
-  "domain": "crossreason"
-}

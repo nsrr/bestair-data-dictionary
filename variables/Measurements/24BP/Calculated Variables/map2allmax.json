@@ -1,8 +1,0 @@
-{
-  "id": "map2allmax",
-  "display_name": "Maximum Mean Arterial Pressure (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury",
-  "calculation": "max( ( 1/3 ) * sysall + ( 2/3 ) * diaall )"
-}

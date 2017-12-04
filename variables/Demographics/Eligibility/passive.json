@@ -1,7 +1,0 @@
-{
-  "id": "passive",
-  "display_name": "Passive refusal",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

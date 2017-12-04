@@ -1,7 +1,0 @@
-{
-  "id": "diaallsd",
-  "display_name": "Standard Deviation of Diastolic Pressure (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

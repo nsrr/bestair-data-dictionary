@@ -1,8 +1,0 @@
-{
-  "id": "totalmet",
-  "display_name": "Average Weekly METs",
-  "description": "",
-  "type": "integer",
-  "units": "metabolic equivalents",
-  "calculation": "totalmodmet + totalvigmet"
-}

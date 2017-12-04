@@ -1,7 +1,0 @@
-{
-  "id": "hrspnightweek",
-  "display_name": "On weekdays or workdays",
-  "description": "",
-  "type": "numeric",
-  "units": "hours"
-}

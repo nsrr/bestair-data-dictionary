@@ -1,7 +1,0 @@
-{
-  "id": "diaallmin",
-  "display_name": "Minimum Diastolic Pressure (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

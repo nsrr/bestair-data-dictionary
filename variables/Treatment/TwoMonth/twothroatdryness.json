@@ -1,7 +1,0 @@
-{
-  "id": "twothroatdryness",
-  "display_name": "Throat Dryness",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

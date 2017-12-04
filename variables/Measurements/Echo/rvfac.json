@@ -1,7 +1,0 @@
-{
-  "id": "rvfac",
-  "display_name": "Right Ventricular Fractional Area Change",
-  "description": "A description of this variable can be found here: [content.onlinejacc.org/article.aspx?articleid=1127928](http://content.onlinejacc.org/article.aspx?articleid=1127928)",
-  "type": "numeric",
-  "units": "percent"
-}

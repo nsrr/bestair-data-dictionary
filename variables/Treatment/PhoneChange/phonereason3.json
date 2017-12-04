@@ -1,7 +1,0 @@
-{
-  "id": "phonereason3",
-  "display_name": "What is the reason for the call? (choice=Problem with noise level of PAP machine)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

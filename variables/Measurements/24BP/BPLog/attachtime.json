@@ -1,6 +1,0 @@
-{
-  "id": "attachtime",
-  "display_name": "Attach Time",
-  "description": "Time of monitor attachment",
-  "type": "time"
-}

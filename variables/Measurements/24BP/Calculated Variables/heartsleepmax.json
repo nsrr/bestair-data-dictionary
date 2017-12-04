@@ -1,7 +1,0 @@
-{
-  "id": "heartsleepmax",
-  "display_name": "Maximum Mean Heart Rate (asleep)",
-  "description": "",
-  "type": "numeric",
-  "units": "beats per minute"
-}

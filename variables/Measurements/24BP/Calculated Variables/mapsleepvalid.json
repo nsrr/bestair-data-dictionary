@@ -1,7 +1,0 @@
-{
-  "id": "mapsleepvalid",
-  "display_name": "Mean MAP reading with valid sleep",
-  "description": "",
-  "type": "numeric",
-  "units":"millimeters of mercury"
-}

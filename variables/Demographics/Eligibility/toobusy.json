@@ -1,7 +1,0 @@
-{
-  "id": "toobusy",
-  "display_name": "Too busy",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

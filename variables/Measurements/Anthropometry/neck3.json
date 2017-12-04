@@ -1,7 +1,0 @@
-{
-  "id": "neck3",
-  "display_name": "Neck circumference",
-  "description": "Third neck circumference measurement, only taken if the first two measurements differ by over 0.5 centimeters",
-  "type": "numeric",
-  "units": "centimeters"
-}

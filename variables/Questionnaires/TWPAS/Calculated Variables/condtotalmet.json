@@ -1,7 +1,0 @@
-{
-  "id": "condtotalmet",
-  "display_name": "Metabolic Equivalent of Total Conditioning Activities",
-  "description": "",
-  "type": "numeric",
-  "units": "metabolic equivalents"
-}

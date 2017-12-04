@@ -1,7 +1,0 @@
-{
-  "id": "bplogcuffsize",
-  "display_name": "Cuff size",
-  "description": "",
-  "type": "choices",
-  "domain": "bplogcuffsize"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "hip3",
-  "display_name": "Hip circumference",
-  "description": "Third hip circumference measurement, only taken if the first two measurements differ by over 0.5 centimeters",
-  "type": "numeric",
-  "units": "centimeters"
-}

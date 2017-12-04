@@ -1,7 +1,0 @@
-{
-  "id": "walktotaltime",
-  "display_name": "Total Walking Time",
-  "description": "",
-  "type": "integer",
-  "units": "minutes"
-}

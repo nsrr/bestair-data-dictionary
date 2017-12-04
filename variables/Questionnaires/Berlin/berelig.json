@@ -1,7 +1,0 @@
-{
-  "id": "berelig",
-  "display_name": "Is participant eligible on ESS/Berlin criteria to continue to Embletta screening?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

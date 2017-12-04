@@ -1,7 +1,0 @@
-{
-  "id": "painlegsuphill",
-  "display_name": "Do you get it if you walk uphill or hurry?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

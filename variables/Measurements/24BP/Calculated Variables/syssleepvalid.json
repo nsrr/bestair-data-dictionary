@@ -1,7 +1,0 @@
-{
-  "id": "syssleepvalid",
-  "display_name": "Mean of systolic readings with valid sleep",
-  "description": "",
-  "type": "numeric",
-  "units":"millimeters of mercury"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "extratests",
-  "display_name": "Too many extra tests (ie: bloodwork, equipment)",
-  "description": "",
-  "type": "choices",
-  "domain": "check01"
-}

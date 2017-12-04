@@ -1,7 +1,0 @@
-{
-  "id": "disccrossover",
-  "display_name": "Did participant crossover to CPAP?",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

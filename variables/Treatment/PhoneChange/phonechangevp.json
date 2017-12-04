@@ -1,7 +1,0 @@
-{
-  "id": "phonechangevp",
-  "display_name": "New Value (Enter All that Apply) Pressure:",
-  "description": "",
-  "type": "integer",
-  "units": "millimeters of water"
-}

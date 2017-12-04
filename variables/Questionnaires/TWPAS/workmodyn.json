@@ -1,7 +1,0 @@
-{
-  "id": "workmodyn",
-  "display_name": "Moderate Effort",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

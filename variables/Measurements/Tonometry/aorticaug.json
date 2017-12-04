@@ -1,7 +1,0 @@
-{
-  "id": "aorticaug",
-  "display_name": "Is the Aortic Pressure from PWA collection 1 within 10% of Aortic Pressure from Collection 2",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

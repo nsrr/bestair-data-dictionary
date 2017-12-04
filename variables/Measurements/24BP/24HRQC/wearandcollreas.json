@@ -1,6 +1,0 @@
-{
-  "id": "wearandcollreas",
-  "display_name": "If no, state reason:",
-  "description": "Amount of time the monitor was worn",
-  "type": "string"
-}

@@ -1,8 +1,0 @@
-{
-  "id": "mh",
-  "display_name": "Weighted Score of Mental Health",
-  "description": "",
-  "type": "numeric",
-  "units": "",
-  "calculation": "( ( mhraw - 5 ) / ( 25 - 5 ) ) * 100"
-}

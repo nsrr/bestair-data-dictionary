@@ -1,7 +1,0 @@
-{
-  "id": "diawakemax",
-  "display_name": "Maximum Diastolic Pressure (wake)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

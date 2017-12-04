@@ -1,7 +1,0 @@
-{
-  "id": "eversmokeeachday",
-  "display_name": "On the average, over the entire time you smoked, how many cigarettes did you smoke each day?",
-  "description": "",
-  "type": "integer",
-  "units": "cigarettes per day"
-}

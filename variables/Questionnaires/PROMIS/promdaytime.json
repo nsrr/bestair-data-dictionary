@@ -1,7 +1,0 @@
-{
-  "id": "promdaytime",
-  "display_name": "I was sleepy during the daytime",
-  "description": "",
-  "type": "choices",
-  "domain": "prommuch"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "sysallmean",
-  "display_name": "Average Systolic Pressure (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

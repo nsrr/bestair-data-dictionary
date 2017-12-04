@@ -1,7 +1,0 @@
-{
-  "id": "averagehoursactivity",
-  "display_name": "Average weekly hours of activity",
-  "description": "",
-  "type": "numeric",
-  "units": "hours per week"
-}

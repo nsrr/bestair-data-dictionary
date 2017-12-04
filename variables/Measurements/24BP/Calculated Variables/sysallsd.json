@@ -1,7 +1,0 @@
-{
-  "id": "sysallsd",
-  "display_name": "Standard Deviation of Systolic Pressure (all readings)",
-  "description": "",
-  "type": "numeric",
-  "units": "millimeters of mercury"
-}

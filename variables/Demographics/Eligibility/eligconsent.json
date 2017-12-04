@@ -1,7 +1,0 @@
-{
-  "id": "eligconsent",
-  "display_name": "Ability to provide informed consent, with patient and physician acknowledging uncertainty on the role of PAP in CVD prevention",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno12"
-}
