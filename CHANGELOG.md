@@ -1,6 +1,8 @@
 ## 0.2.0
 
 ### Changes
+- **General Changes**
+  - Delete domains, scripts, and variables
 - **Gem Changes**
   - Use of Ruby 2.3.3 is now recommended
   - Updated to spout 0.11.1
