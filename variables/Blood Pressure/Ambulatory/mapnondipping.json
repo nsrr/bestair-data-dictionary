@@ -1,0 +1,7 @@
+{
+  "id": "mapnondipping",
+  "display_name": "Presence of Mean Arterial Pressure Dipping",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

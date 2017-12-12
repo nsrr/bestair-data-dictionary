@@ -1,0 +1,7 @@
+{
+  "id": "pooled_treatmentarm",
+  "display_name": "Pooled Treatment Arm",
+  "description": "",
+  "type": "choices",
+  "domain": "treatmentarm"
+}

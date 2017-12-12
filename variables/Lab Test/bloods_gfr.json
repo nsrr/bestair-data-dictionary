@@ -1,0 +1,7 @@
+{
+  "id": "bloods_gfr",
+  "display_name": "Glomerular Filtration Rate (GFR)",
+  "description": "",
+  "type": "numeric",
+  "units": "millilitres per minute per 1.73 squared meters (mL/min per 1.73 m2)"
+}

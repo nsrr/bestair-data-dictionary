@@ -1,0 +1,7 @@
+{
+  "id": "embqs_flow_qcode",
+  "display_name": "Flow Signal Quality Code",
+  "description": "",
+  "type": "choices",
+  "domain": "embqs_flow_qcode"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "sf36_mcs",
+  "display_name": "Standardized Mental Score",
+  "description": "From 36-Item Short Form Survey (SF-36)",
+  "type": "numeric"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "sf_norm",
+  "display_name": "Social Functioning Index Normal Score",
+  "description": "From 36-Item Short Form Survey (SF-36)",
+  "type": "numeric"
+}

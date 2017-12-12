@@ -1,0 +1,7 @@
+{
+  "id": "bloods_insulinfast",
+  "display_name": "Fasting Insulin",
+  "description": "",
+  "type": "numeric",
+  "units": "milli-international units per millilitre (uIU/mL)"
+}

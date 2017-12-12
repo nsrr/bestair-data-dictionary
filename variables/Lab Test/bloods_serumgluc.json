@@ -1,0 +1,7 @@
+{
+  "id": "bloods_serumgluc",
+  "display_name": "Serum Glucose",
+  "description": "",
+  "type": "numeric",
+  "units": "miligrams per decilitre (mg/dL)"
+}

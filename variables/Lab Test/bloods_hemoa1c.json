@@ -1,0 +1,7 @@
+{
+  "id": "bloods_hemoa1c",
+  "display_name": "Glycated hemoglobin (HbA1c)",
+  "description": "",
+  "type": "numeric",
+  "units": "percent (%)"
+}

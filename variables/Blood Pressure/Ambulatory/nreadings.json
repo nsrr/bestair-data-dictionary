@@ -1,0 +1,6 @@
+{
+  "id": "nreadings",
+  "display_name": "Number of Readings",
+  "description": "",
+  "type": "integer"
+}

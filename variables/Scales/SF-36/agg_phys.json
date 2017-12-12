@@ -1,0 +1,6 @@
+{
+  "id": "agg_phys",
+  "display_name": "Aggregated Raw Physical Score",
+  "description": "From 36-Item Short Form Survey (SF-36)",
+  "type": "numeric"
+}

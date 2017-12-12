@@ -1,0 +1,6 @@
+{
+  "id": "pf_norm",
+  "display_name": "Physical Functioning Index Normal Score",
+  "description": "From 36-Item Short Form Survey (SF-36)",
+  "type": "numeric"
+}

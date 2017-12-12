@@ -1,0 +1,7 @@
+{
+  "id": "avgheightcm",
+  "display_name": "Average Height",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters (cm)"
+}

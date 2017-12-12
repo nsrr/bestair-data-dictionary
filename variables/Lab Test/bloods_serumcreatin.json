@@ -1,0 +1,7 @@
+{
+  "id": "bloods_serumcreatin",
+  "display_name": "Serum Creatinine",
+  "description": "",
+  "type": "numeric",
+  "units": "miligrams per decilitre (mg/dL)"
+}

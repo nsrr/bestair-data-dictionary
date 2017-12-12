@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "1: Cmt",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "2: Sham",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "3: CPAP-Active",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "4: Cpap-Cbt",
+    "description": ""
+  }
+]

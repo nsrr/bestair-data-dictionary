@@ -1,0 +1,6 @@
+{
+  "id": "rp_norm",
+  "display_name": "Role-physical Index Normal Score",
+  "description": "From 36-Item Short Form Survey (SF-36)",
+  "type": "numeric"
+}

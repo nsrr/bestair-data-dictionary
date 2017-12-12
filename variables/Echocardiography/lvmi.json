@@ -1,0 +1,7 @@
+{
+  "id": "lvmi",
+  "display_name": "Left Ventricular Mass Index (LVMI)",
+  "description": "",
+  "type": "numeric",
+  "units": "grams per squared meter (g/m2)"
+}

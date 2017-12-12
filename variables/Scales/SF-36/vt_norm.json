@@ -1,0 +1,6 @@
+{
+  "id": "vt_norm",
+  "display_name": "Vitality Index Normal Score",
+  "description": "From 36-Item Short Form Survey (SF-36)",
+  "type": "numeric"
+}

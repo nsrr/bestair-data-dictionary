@@ -1,0 +1,6 @@
+{
+  "id": "embqs_flow_signal",
+  "display_name": "Flow Hours of Useable Signal",
+  "description": "",
+  "type": "integer"
+}

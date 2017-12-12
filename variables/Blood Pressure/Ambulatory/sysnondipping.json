@@ -1,0 +1,7 @@
+{
+  "id": "sysnondipping",
+  "display_name": "Presence of Systolic Blood Pressure Dipping",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

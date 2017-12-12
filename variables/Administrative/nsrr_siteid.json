@@ -1,0 +1,7 @@
+{
+  "id": "nsrr_siteid",
+  "display_name": "Site ID",
+  "description": "",
+  "type": "choices",
+  "domain": "site"
+}

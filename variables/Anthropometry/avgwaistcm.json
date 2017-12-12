@@ -1,0 +1,7 @@
+{
+  "id": "avgwaistcm",
+  "display_name": "Average Waist Circumference",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters (cm)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "embqs_oximetry_qcode",
+  "display_name": "Oximetry Signal Quality Code",
+  "description": "",
+  "type": "choices",
+  "domain": "embqs_oximetry_qcode"
+}

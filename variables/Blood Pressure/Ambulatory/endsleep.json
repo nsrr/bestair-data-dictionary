@@ -1,0 +1,6 @@
+{
+  "id": "endsleep",
+  "display_name": "Sleep End Time",
+  "description": "",
+  "type": "time"
+}

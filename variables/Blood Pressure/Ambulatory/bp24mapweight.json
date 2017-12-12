@@ -1,0 +1,7 @@
+{
+  "id": "bp24mapweight",
+  "display_name": "Weighted Average of Mean Arterial Pressure",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

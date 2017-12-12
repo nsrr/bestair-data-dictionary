@@ -1,0 +1,7 @@
+{
+  "id": "bmi",
+  "display_name": "Body Mass Index (BMI)",
+  "description": "",
+  "type": "numeric",
+  "units": "kilograms per squared meter (kg/m2)"
+}

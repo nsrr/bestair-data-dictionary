@@ -1,0 +1,7 @@
+{
+  "id": "embqs_abdomen_qcode",
+  "display_name": "Abdomen Signal Quality Code",
+  "description": "",
+  "type": "choices",
+  "domain": "embqs_abdomen_qcode"
+}

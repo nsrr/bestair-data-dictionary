@@ -1,0 +1,7 @@
+{
+  "id": "ivs",
+  "display_name": "Parasternal Long Axis View: Interventricular Septum Thickness",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters (cm)"
+}

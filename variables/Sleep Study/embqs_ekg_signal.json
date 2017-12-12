@@ -1,0 +1,6 @@
+{
+  "id": "embqs_ekg_signal",
+  "display_name": "EKG Hours of Useable Signal",
+  "description": "",
+  "type": "integer"
+}

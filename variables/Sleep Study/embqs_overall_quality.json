@@ -1,0 +1,7 @@
+{
+  "id": "embqs_overall_quality",
+  "display_name": "Overall Study Quality",
+  "description": "",
+  "type": "choices",
+  "domain": "embqs_overall_quality"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "rand_treatmentarm",
+  "display_name": "Treatment Arm",
+  "description": "",
+  "type": "choices",
+  "domain": "pooledtreatmentarm"
+}

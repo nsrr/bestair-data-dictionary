@@ -1,0 +1,6 @@
+{
+  "id": "cal_total",
+  "display_name": "Total Score of the Calgary Sleep Apnea Quality of Life Index (SAQLI)",
+  "description": "",
+  "type": "numeric"
+}

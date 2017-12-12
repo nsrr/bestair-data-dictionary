@@ -1,0 +1,7 @@
+{
+  "id": "bloods_triglyc",
+  "display_name": "Triglycerides",
+  "description": "",
+  "type": "numeric",
+  "units": "miligrams per decilitre (mg/dL)"
+}

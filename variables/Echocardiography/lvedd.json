@@ -1,0 +1,7 @@
+{
+  "id": "lvedd",
+  "display_name": "Parasternal Long Axis View: Left Ventricular End-diastolic Diameter (LV - EDD)",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters (cm)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "lvesd",
+  "display_name": "Parasternal Long Axis View: Left Ventricular End-systolic Diameter (LV - ESD)",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters (cm)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "age",
+  "display_name": "Age at visit",
+  "description": "",
+  "type": "integer",
+  "units": "years"
+}

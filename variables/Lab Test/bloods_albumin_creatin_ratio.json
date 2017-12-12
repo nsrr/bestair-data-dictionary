@@ -1,0 +1,6 @@
+{
+  "id": "bloods_albumin_creatin_ratio",
+  "display_name": "Urine Albumin/Creatinine Ratio (ACR)",
+  "description": "",
+  "type": "numeric"
+}

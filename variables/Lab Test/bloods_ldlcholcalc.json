@@ -1,0 +1,7 @@
+{
+  "id": "bloods_ldlcholcalc",
+  "display_name": "Low-density lipoproteins (LDL) Cholesterol",
+  "description": "",
+  "type": "numeric",
+  "units": "miligrams per decilitre (mg/dL)"
+}

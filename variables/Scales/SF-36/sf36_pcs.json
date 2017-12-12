@@ -1,0 +1,6 @@
+{
+  "id": "sf36_pcs",
+  "display_name": "Standardized Physical Score",
+  "description": "From 36-Item Short Form Survey (SF-36)",
+  "type": "numeric"
+}

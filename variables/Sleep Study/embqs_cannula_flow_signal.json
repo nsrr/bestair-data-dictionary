@@ -1,0 +1,6 @@
+{
+  "id": "embqs_cannula_flow_signal",
+  "display_name": "Cannula Flow/Pressure Hours of Useable Signal",
+  "description": "",
+  "type": "integer"
+}

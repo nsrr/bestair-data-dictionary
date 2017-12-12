@@ -1,0 +1,6 @@
+{
+  "id": "endtime",
+  "display_name": "End Time",
+  "description": "",
+  "type": "time"
+}

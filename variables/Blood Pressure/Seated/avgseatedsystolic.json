@@ -1,0 +1,7 @@
+{
+  "id": "avgseatedsystolic",
+  "display_name": "Average Seated Systolic Blood Pressure",
+  "description": "",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "bloods_totalchol",
+  "display_name": "Total Cholesterol",
+  "description": "",
+  "type": "numeric",
+  "units": "miligrams per decilitre (mg/dL)"
+}

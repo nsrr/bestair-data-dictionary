@@ -1,0 +1,7 @@
+{
+  "id": "dianondipping",
+  "display_name": "Presence of Diastolic Blood Pressure Dipping",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}
