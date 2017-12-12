@@ -4,6 +4,7 @@
 - **General Changes**
   - Delete domains, scripts, and variables
   - Upload updated domains, scripts, and variables
+  - Modify units listed in dictionary_test.rb
 - **Gem Changes**
   - Use of Ruby 2.3.3 is now recommended
   - Updated to spout 0.11.1

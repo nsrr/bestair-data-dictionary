@@ -9,12 +9,14 @@ class DictionaryTest < Minitest::Test
   # iterators that can be used to write custom tests
   include Spout::Helpers::Iterators
 
-  VALID_UNITS = ['minutes', 'times per week', 'hours', 'millimeters of water', 'units', 'nights', 'centimeters of water',
-   'metabolic equivalents', 'cigarettes per day', 'units', 'periods', 'ovaries', 'millimeters', 'centimeters', 'feet',
-   'pounds', 'inches', 'readings', 'kilograms per meter squared', 'meters per second', 'centimeters per second',
-   'grams', 'grams per meter squared', 'milliliters', 'percent', 'millimeters of mercury', 'milligrams per liter',
-   'milligrams per deciliter', 'micrograms per deciliter', 'centimeters squared', 'milliliters per meter squared',
-   'Wood units', 'days', 'beats per minute', 'kilograms', 'years', 'events per hour', 'hours per week', '']
+  VALID_UNITS = ['years', 'minutes (min)', 'percent (%)', 'events per hour', 'miligrams per decilitre (mg/dL)', 
+   'milligrams per litre (mg/L)', 'micrograms per millilitre (ug/mL)','picograms per millilitre (pg/mL)',
+   'milli-international units per millilitre (uIU/mL)', 'nanograms per millilitre (ng/mL)', 
+   'millilitres per minute per 1.73 squared meters (mL/min per 1.73 m2)', 
+   'centimeters (cm)', 'kilograms per squared meter (kg/m2)', 'millimeters of mercury (mmHg)', 
+   'millilitres (ml)', 'grams (g)', 'grams per squared meter (g/m2)', 
+   'millilitres per squared meter (ml/m2)', 'centimeters per second (cm/sec)', 'squared centimeters (cm2)', 
+   'Wood','']
 
   @variables.select{|v| ['numeric','integer'].include?(v.type)}.each do |variable|
     define_method("test_units: "+variable.path) do
