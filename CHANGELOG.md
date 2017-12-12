@@ -6,8 +6,8 @@
   - Upload updated domains, scripts, and variables
   - Modify units listed in dictionary_test.rb
 - **Gem Changes**
-  - Use of Ruby 2.3.3 is now recommended
-  - Updated to spout 0.11.1
+  - Use of Ruby 2.4.1 is now recommended
+  - Updated to spout 0.12.1
 
 ## 0.1.1 (June 10, 2014)
 
