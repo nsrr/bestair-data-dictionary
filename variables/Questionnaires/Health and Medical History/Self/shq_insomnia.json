@@ -1,0 +1,7 @@
+{
+  "id": "shq_insomnia",
+  "display_name": "Self-reported Physician Diagnosis of Insomnia",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnodontknow"
+}

@@ -103,6 +103,19 @@
       if embletta(i) < 0 then embletta(i) = .;
     end;
 
+    array shq{*} shq_eversnored_00 -- shq_diabetes_00 shq_emphysema_00 -- shq_eversmoked_00;
+    do i = 1 to dim(shq);
+      if shq(i) = -2 then shq(i) = 2;
+      if shq(i) < 0 then shq(i) = .;
+    end;
+
+    if shq_diabetesmed_00 = -2 then shq_diabetesmed_00 = 4;
+    if shq_diabetesmed_00 = 3 then shq_diabetesmed_00 = 1;
+    if shq_diabetesmed_00 = 1 then shq_diabetesmed_00 = 2;
+    if shq_diabetesmed_00 = 2 then shq_diabetesmed_00 = 3;
+    if shq_diabetesmed_00 = 4 then shq_diabetesmed_00 = 0;
+    if shq_diabetesmed_00 < 0 then shq_diabetesmed_00 = .;
+
     drop i race_count elig_incl01dob_s1 anth_date_00 anth_date_06 anth_date_12 sf36_visitdate_00 
          sf36_visitdate_06 sf36_visitdate_12 elig_raceamerind_s1 -- elig_raceotherspecify_s1;
   run;
@@ -195,7 +208,7 @@
   data new_format;
     set old_format;
     if fmtname = "AHISOURCEF" then fmtname = "ahisource";
-    if fmtname = "CONTROLORPAPF" then fmtname = "treatmentarm";
+    if fmtname = "CONTROLORPAPF" then fmtname = "pooledtreatmentarm";
     if fmtname = "EMBQS_ABDOMEN_QCODE_" then fmtname = "embqs_abdomen_qcode";
     if fmtname = "EMBQS_CANNULA_FLOW_QCODE_" then fmtname = "embqs_cannula_flow_qcode";
     if fmtname = "EMBQS_EKG_QCODE_" then fmtname = "embqs_ekg_qcode";
@@ -203,7 +216,7 @@
     if fmtname = "EMBQS_OVERALL_QUALITY_" then fmtname = "embqs_overall_quality";
     if fmtname = "EMBQS_OXIMETRY_QCODE_" then fmtname = "embqs_oximetry_qcode";
     if fmtname = "EMBQS_THORACIC_QCODE_" then fmtname = "embqs_thoracic_qcode";
-    if fmtname = "RAND_TREATMENTARM_" then fmtname = "pooledtreatmentarm";
+    if fmtname = "RAND_TREATMENTARM_" then fmtname = "treatmentarm";
     if start < 0 then delete;
   run;
 
@@ -227,6 +240,14 @@
                   2 = "2: Aneurysmal";
     value yesno  0 = "0: No"
                  1 = "1: Yes";
+    value yesnodontknow 0 = "0: No"
+                        1 = "1: Yes"
+                        2 = "2: Don't Know";
+    value diabmeds 0 = "0: No-Nothing"
+                   1 = "1: No-Diet Controlled"   
+                   2 = "2: Yes-Insulin"
+                   3 = "3: Yes-Pills"               
+                   4 = "4: Don't Know";
   run;
   
   proc catalog catalog = work.formats;
@@ -252,12 +273,16 @@
   data bestaird.bestairbase_nsrr;  
     set bestair_nsrr;
     rename &s1var_rename &rename_baseline_var;
-    format embqs_ekg_qcode_s1 embqs_ekg_qcode. embqs_cannula_flow_qcode_s1 embqs_cannula_flow_qcode.
+    format pooled_treatmentarm pooledtreatmentarm. rand_treatmentarm treatmentarm. rand_manufacturer manufacturer.
+           embqs_ekg_qcode_s1 embqs_ekg_qcode. embqs_cannula_flow_qcode_s1 embqs_cannula_flow_qcode.
            embqs_thoracic_qcode_s1 embqs_thoracic_qcode. embqs_abdomen_qcode_s1 embqs_abdomen_qcode.
            embqs_oximetry_qcode_s1 embqs_oximetry_qcode. embqs_flow_qcode_s1 embqs_flow_qcode.
            embqs_overall_quality_s1 embqs_overall_quality.
            race race. ethnicity ethnicity. gender gender. iasep_00 iasep. 
-           pfo_00 heartnondipping_00 mapnondipping_00 sysnondipping_00 dianondipping_00 yesno.;           
+           pfo_00 heartnondipping_00 mapnondipping_00 sysnondipping_00 dianondipping_00 
+           shq_eversmoked_00 shq_highbpmed_00 shq_highcholesmed_00 yesno. shq_diabetesmed_00 diabmeds.
+           shq_eversnored_00 shq_anxietydisorder_00 -- shq_diabetes_00 shq_emphysema_00 -- shq_highbp_00 shq_highcholes_00 
+           shq_ibm_00 -- shq_famchiapnea_00 yesnodontknow.;           
     drop &month6_var &month12_var;
   run;
 
@@ -265,7 +290,8 @@
   data bestaird.bestairmon6_nsrr;
     set bestair_nsrr;
     rename &rename_month6_var;
-    format race race_. ethnicity elig_ethnicity_. gender elig_gender_.
+    format pooled_treatmentarm pooledtreatmentarm. rand_treatmentarm treatmentarm. rand_manufacturer manufacturer.
+           race race_. ethnicity elig_ethnicity_. gender elig_gender_.
            heartnondipping_06 mapnondipping_06 sysnondipping_06 dianondipping_06 Yesno_.; 
     drop &baseline_var &month12_var &s1_var;
   run;
@@ -275,7 +301,8 @@
     set bestair_nsrr;
     where final_visit = 12;
     rename &rename_month12_var;
-    format race race_. ethnicity elig_ethnicity_. gender elig_gender_. iasep_12 Iasep_. 
+    format pooled_treatmentarm pooledtreatmentarm. rand_treatmentarm treatmentarm. rand_manufacturer manufacturer.
+           race race_. ethnicity elig_ethnicity_. gender elig_gender_. iasep_12 Iasep_. 
            pfo_12 heartnondipping_12 mapnondipping_12 sysnondipping_12 dianondipping_12  Yesno_.;   
     drop &baseline_var &month6_var &s1_var;
   run;

@@ -1,0 +1,7 @@
+{
+  "id": "shq_diabetesmed",
+  "display_name": "Self-reported Medications for Diabetes",
+  "description": "",
+  "type": "choices",
+  "domain": "diabmeds"
+}

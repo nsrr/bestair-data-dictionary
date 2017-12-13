@@ -1,0 +1,7 @@
+{
+  "id": "shq_lungcancer",
+  "display_name": "Self-reported Physician Diagnosis of Lung Cancer",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnodontknow"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "shq_highbp",
+  "display_name": "Self-reported Physician Diagnosis of High Blood Pressure or Hypertension",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnodontknow"
+}

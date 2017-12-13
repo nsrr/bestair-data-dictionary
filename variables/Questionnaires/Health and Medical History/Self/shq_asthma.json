@@ -1,0 +1,7 @@
+{
+  "id": "shq_asthma",
+  "display_name": "Self-reported Physician Diagnosis of Asthma",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnodontknow"
+}

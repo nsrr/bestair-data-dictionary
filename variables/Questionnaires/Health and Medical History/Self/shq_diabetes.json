@@ -1,0 +1,7 @@
+{
+  "id": "shq_diabetes",
+  "display_name": "Self-reported Physician Diagnosis of Diabetes",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnodontknow"
+}

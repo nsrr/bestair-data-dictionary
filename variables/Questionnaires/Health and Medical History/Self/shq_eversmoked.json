@@ -1,0 +1,7 @@
+{
+  "id": "shq_eversmoked",
+  "display_name": "Have Ever Smoked Cigarettes",
+  "description": "No means less than 20 packs in a lifetime or less than 1 cigarette for 1 year",
+  "type": "choices",
+  "domain": "yesno"
+}

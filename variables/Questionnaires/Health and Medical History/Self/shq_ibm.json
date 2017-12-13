@@ -1,0 +1,7 @@
+{
+  "id": "shq_ibm",
+  "display_name": "Self-reported Physician Diagnosis of Inflammatory Bowel Disease/Ulcerative Colitis/Crohns Disease",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnodontknow"
+}

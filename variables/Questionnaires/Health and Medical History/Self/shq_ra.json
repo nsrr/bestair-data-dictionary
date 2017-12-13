@@ -1,0 +1,7 @@
+{
+  "id": "shq_ra",
+  "display_name": "Self-reported Physician Diagnosis of Rheumatoid Arthritis/Lupus/Other Collagen Vascular Disease",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnodontknow"
+}

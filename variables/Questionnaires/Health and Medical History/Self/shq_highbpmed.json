@@ -1,0 +1,7 @@
+{
+  "id": "shq_highbpmed",
+  "display_name": "Self-reported Medications for High Blood Pressure/Hypertension ",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

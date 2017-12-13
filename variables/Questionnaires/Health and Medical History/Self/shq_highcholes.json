@@ -1,0 +1,7 @@
+{
+  "id": "shq_highcholes",
+  "display_name": "Self-reported Physician Diagnosis of High Blood Cholesterol",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnodontknow"
+}

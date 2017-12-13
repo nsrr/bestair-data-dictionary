@@ -5,6 +5,7 @@
   - Delete domains, scripts, and variables
   - Upload updated domains, scripts, and variables
   - Modify units listed in dictionary_test.rb
+  - Add medical and health history variables, fix issue #70 and #73
 - **Gem Changes**
   - Use of Ruby 2.4.1 is now recommended
   - Updated to spout 0.12.1

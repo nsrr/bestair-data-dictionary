@@ -1,0 +1,7 @@
+{
+  "id": "shq_chronicbronchitis",
+  "display_name": "Self-reported Physician Diagnosis of Chronic Bronchitis",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnodontknow"
+}

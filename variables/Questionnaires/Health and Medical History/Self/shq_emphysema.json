@@ -1,0 +1,7 @@
+{
+  "id": "shq_emphysema",
+  "display_name": "Self-reported Physician Diagnosis of Emphysema/COPD",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnodontknow"
+}

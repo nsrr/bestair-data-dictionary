@@ -1,0 +1,7 @@
+{
+  "id": "shq_bloodcancer",
+  "display_name": "Self-reported Physician Diagnosis of Blood Cancer/Leukemia/Lymphoma/Other",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnodontknow"
+}
