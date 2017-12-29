@@ -1,0 +1,17 @@
+[
+  {
+    "value": "0",
+    "display_name": "0: Baseline Visit",
+    "description": ""
+  },
+  {
+    "value": "6",
+    "display_name": "6: Month-6 Follow-up Visit",
+    "description": ""
+  },
+  {
+    "value": "12",
+    "display_name": "12: Month-12 Follow-up Visit",
+    "description": ""
+  }
+]
