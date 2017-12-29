@@ -3,5 +3,6 @@
   "display_name": "Apnea-Hypopnea Index (AHI)",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "commonly_used": true
 }

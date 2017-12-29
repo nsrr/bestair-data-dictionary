@@ -3,5 +3,6 @@
   "display_name": "Any Siblings Have Had Stroke",
   "description": "",
   "type": "choices",
-  "domain": "yesnodontknow"
+  "domain": "yesnodontknow",
+  "forms": ["health_and_medical_history"]
 }

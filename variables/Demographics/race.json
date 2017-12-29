@@ -3,5 +3,6 @@
   "display_name": "Race",
   "description": "",
   "type": "choices",
-  "domain": "race"
+  "domain": "race",
+  "commonly_used": true
 }

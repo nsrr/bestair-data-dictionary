@@ -2,5 +2,6 @@
   "id": "gh_norm",
   "display_name": "General Health Index Normal Score",
   "description": "From 36-Item Short Form Survey (SF-36)",
-  "type": "numeric"
+  "type": "numeric",
+  "forms": ["medical_outcomes_survey"]
 }

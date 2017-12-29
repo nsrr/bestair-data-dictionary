@@ -2,5 +2,7 @@
   "id": "ess_total",
   "display_name": "Total Score of Epworth Sleepiness Scale (ESS)",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "commonly_used": true,
+  "forms":["epworth_sleepiness_scale"]
 }

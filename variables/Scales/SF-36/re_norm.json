@@ -2,5 +2,6 @@
   "id": "re_norm",
   "display_name": "Role-emotional Index Normal Score",
   "description": "From 36-Item Short Form Survey (SF-36)",
-  "type": "numeric"
+  "type": "numeric",
+  "forms": ["medical_outcomes_survey"]
 }

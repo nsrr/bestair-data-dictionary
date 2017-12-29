@@ -3,5 +3,6 @@
   "display_name": "Very Low-density lipoproteins (LDL) Cholesterol",
   "description": "",
   "type": "numeric",
-  "units": "miligrams per decilitre (mg/dL)"
+  "units": "miligrams per decilitre (mg/dL)",
+  "labels": ["VLDL"]
 }

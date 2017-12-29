@@ -3,5 +3,6 @@
   "display_name": "Self-reported Medications for High Blood Cholesterol",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "yesno",
+  "forms": ["health_and_medical_history"]
 }

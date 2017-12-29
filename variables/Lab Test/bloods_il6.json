@@ -3,5 +3,6 @@
   "display_name": "Interleukin 6 (IL-6)",
   "description": "",
   "type": "numeric",
-  "units": "picograms per millilitre (pg/mL)"
+  "units": "picograms per millilitre (pg/mL)",
+  "labels": ["IL-6"]
 }

@@ -3,5 +3,6 @@
   "display_name": "Parasternal Long Axis View: Posterior Wall Thickness (PWT)",
   "description": "",
   "type": "numeric",
-  "units": "centimeters (cm)"
+  "units": "centimeters (cm)",
+  "labels": ["PWT"]
 }

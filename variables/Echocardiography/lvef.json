@@ -3,5 +3,6 @@
   "display_name": "Ejection Fraction (EF)",
   "description": "",
   "type": "numeric",
-  "units": "percent (%)"
+  "units": "percent (%)",
+  "labels": ["EF"]
 }

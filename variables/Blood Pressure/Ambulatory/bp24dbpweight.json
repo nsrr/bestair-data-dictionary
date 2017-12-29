@@ -3,5 +3,6 @@
   "display_name": "Weighted Average of Diastolic Blood Pressure (DBP)",
   "description": "",
   "type": "numeric",
-  "units": "millimeters of mercury (mmHg)"
+  "units": "millimeters of mercury (mmHg)",
+  "labels":["DBP"]
 }

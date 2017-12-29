@@ -2,5 +2,7 @@
   "id": "prom_sdscale",
   "display_name": "Sleep Disturbance (short form)",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "commonly_used": true,
+  "forms":["promis_sleep_disturbance"]
 }

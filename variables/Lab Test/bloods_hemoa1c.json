@@ -3,5 +3,7 @@
   "display_name": "Glycated hemoglobin (HbA1c)",
   "description": "",
   "type": "numeric",
-  "units": "percent (%)"
+  "units": "percent (%)",
+  "labels": ["HbA1c"],
+  "commonly_used": true
 }

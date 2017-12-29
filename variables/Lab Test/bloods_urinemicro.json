@@ -3,5 +3,6 @@
   "display_name": "Urine Microalbumin",
   "description": "",
   "type": "numeric",
-  "units": "micrograms per millilitre (ug/mL)"
+  "units": "micrograms per millilitre (ug/mL)",
+  "labels": ["MAU"]
 }

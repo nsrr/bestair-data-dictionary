@@ -3,5 +3,6 @@
   "display_name": "Pooled Treatment Arm",
   "description": "",
   "type": "choices",
-  "domain": "pooledtreatmentarm"
+  "domain": "pooledtreatmentarm",
+  "commonly_used": true
 }
