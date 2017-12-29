@@ -12,7 +12,7 @@
 *******************************************************************************;
 * set options and libnames;
 *******************************************************************************;
-  %let version = 0.2.0.beta2;
+  %let version = 0.2.0.beta3;
   libname bestaird "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_datasets"; 
   options  nofmterr;
 
