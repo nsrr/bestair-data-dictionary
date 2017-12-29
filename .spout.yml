@@ -1,8 +1,14 @@
-visit: visit
-charts: []
-# - chart: age
-#   title: Age
-# - chart: gender
-#   title: Gender
-# - chart: race
-#   title: Race
+slug: bestair
+# visit: visitnumber
+# charts:
+#- chart: age_category_s1
+#  title: Age
+#- chart: gender
+#  title: Gender
+#- chart: race
+#  title: Race
+webservers:
+  - name: production
+    url: https://sleepdata.org
+  - name: staging
+    url: https://staging.partners.org/sleepdata.org
