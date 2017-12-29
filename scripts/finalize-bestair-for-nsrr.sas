@@ -12,7 +12,7 @@
 *******************************************************************************;
 * set options and libnames;
 *******************************************************************************;
-  %let version = 0.2.0.beta3;
+  %let version = 0.2.0.beta4;
   libname bestaird "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_datasets"; 
   options  nofmterr;
 
@@ -110,8 +110,8 @@
     select id into:retain separated by " " from bestair_nsrr_var_position;
     select quote(strip(name)) into:mon6 separated by "," from dictionary.columns where libname = "WORK" and memname = "BESTAIR_MONTH6_IN";
     select quote(strip(name)) into:mon12 separated by "," from dictionary.columns where libname = "WORK" and memname = "BESTAIR_MONTH12_IN";
-    select id into:retain_mon6 separated by " " from bestair_nsrr_var_position where id in (&mon6);
-    select id into:retain_mon12 separated by " " from bestair_nsrr_var_position where id in (&mon12);
+    select id into:retain_mon6 separated by " " from bestair_nsrr_var_position where id in ("visitnumber",&mon6);
+    select id into:retain_mon12 separated by " " from bestair_nsrr_var_position where id in ("visitnumber",&mon12);
     select name into:timelistbase separated by " " from content where format = "TIME";
     select name into:timelistmon6 separated by " " from content where format = "TIME" and name in (&mon6);
     select name into:timelistmon12 separated by " " from content where format = "TIME" and name in (&mon12);
@@ -120,28 +120,34 @@
   data bestair_baseline_nsrr;
     retain &retain;
     set bestair_baseline_in;
+    visitnumber = 0;
     format _all_;
     format &timelistbase time8.; 
     label nsrr_subjid = "Participant ID"
-          nsrr_siteid = "Site ID";
+          nsrr_siteid = "Site ID"
+          visitnumber = "Visit Number";
   run;
 
   data bestair_month6_nsrr;
     retain &retain_mon6;
     set bestair_month6_in;
+    visitnumber = 6;
     format _all_;
     format &timelistmon6 time8.; 
     label nsrr_subjid = "Participant ID"
-          nsrr_siteid = "Site ID";
+          nsrr_siteid = "Site ID"
+          visitnumber = "Visit Number";
   run;
 
   data bestair_month12_nsrr;
     retain &retain_mon12;
     set bestair_month12_in;
+    visitnumber = 12;
     format _all_;
     format &timelistmon12 time8.; 
     label nsrr_subjid = "Participant ID"
-          nsrr_siteid = "Site ID";
+          nsrr_siteid = "Site ID"
+          visitnumber = "Visit Number";
   run;
 
 *******************************************************************************;
