@@ -4,6 +4,6 @@
   "description": "",
   "type": "numeric",
   "units": "millimeters of mercury (mmHg)",
-  "commonly_used": true
+  "commonly_used": true,
   "labels": ["DBP"]
 }
