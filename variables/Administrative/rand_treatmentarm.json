@@ -1,7 +1,7 @@
 {
   "id": "rand_treatmentarm",
   "display_name": "Treatment Arm",
-  "description": "",
+  "description": "CMT consisted of education on sleep hygiene, healthy lifestyle, and nasal dilator strips for use during sleep. ME consisted of a behavioral intervention to improve CPAP adherence, as described in [Bakker et al.2017 (PMCID: PMC4980541)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4980541/).",
   "type": "choices",
   "domain": "treatmentarm"
 }

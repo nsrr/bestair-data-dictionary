@@ -9,6 +9,7 @@
   - The CSV dataset is located here:
   - `\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\0.2.0.beta5`
   - Add visit number
+  - Modify domain and variable description for treatment arm variable
 
 - **Gem Changes**
   - Use of Ruby 2.4.1 is now recommended
