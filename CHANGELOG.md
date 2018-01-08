@@ -7,7 +7,7 @@
   - Modify units listed in dictionary_test.rb
   - Add medical and health history variables, fix issue #70 and #73
   - The CSV dataset is located here:
-  - `\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\0.2.0.beta5`
+  - `\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\0.2.0.beta6`
   - Add visit number
   - Modify domain and variable description for treatment arm variable
 
