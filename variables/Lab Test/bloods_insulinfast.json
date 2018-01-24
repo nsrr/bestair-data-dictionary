@@ -3,6 +3,6 @@
   "display_name": "Fasting Insulin",
   "description": "",
   "type": "numeric",
-  "units": "milli-international units per millilitre (uIU/mL)",
+  "units": "milli-international units per milliliter (uIU/mL)",
   "commonly_used": true
 }

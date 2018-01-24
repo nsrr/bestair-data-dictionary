@@ -3,7 +3,7 @@
   "display_name": "Low-density lipoproteins (LDL) Cholesterol",
   "description": "",
   "type": "numeric",
-  "units": "miligrams per decilitre (mg/dL)",
+  "units": "milligrams per deciliter (mg/dL)",
   "labels": ["LDL"],
   "commonly_used": true
 }

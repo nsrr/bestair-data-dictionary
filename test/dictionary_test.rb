@@ -13,14 +13,14 @@ class DictionaryTest < Minitest::Test
 
   # Example 1: Create custom tests to show that `integer` and `numeric`
   # variables have a valid unit type.
-  VALID_UNITS = [nil, 'years', 'minutes (min)', 'percent (%)', 'events per hour', 'miligrams per decilitre (mg/dL)',
-   'milligrams per litre (mg/L)', 'micrograms per millilitre (ug/mL)','picograms per millilitre (pg/mL)',
-   'milli-international units per millilitre (uIU/mL)', 'nanograms per millilitre (ng/mL)',
-   'millilitres per minute per 1.73 squared meters (mL/min per 1.73 m2)',
-   'centimeters (cm)', 'kilograms per squared meter (kg/m2)', 'millimeters of mercury (mmHg)',
-   'millilitres (ml)', 'grams (g)', 'grams per squared meter (g/m2)',
-   'millilitres per squared meter (ml/m2)', 'centimeters per second (cm/sec)', 'squared centimeters (cm2)',
-   'Wood','']
+  VALID_UNITS = [nil, 'years', 'minutes (min)', 'percent (%)', 'events per hour', 'milligrams per deciliter (mg/dL)',
+   'milligrams per liter (mg/L)', 'micrograms per milliliter (ug/mL)','picograms per milliliter (pg/mL)',
+   'milli-international units per milliliter (uIU/mL)', 'nanograms per milliliter (ng/mL)',
+   'milliliters per minute per 1.73 meters squared (mL/min per 1.73 m2)',
+   'centimeters (cm)', 'kilograms per meter squared (kg/m2)', 'millimeters of mercury (mmHg)',
+   'milliliters (mL)', 'grams (g)', 'grams per meter squared (g/m2)',
+   'milliliters per meter squared (mL/m2)', 'centimeters per second (cm/sec)', 'centimeters squared (cm2)',
+   'wood','']
 
   @variables.select { |v| %w(numeric integer).include?(v.type) }.each do |variable|
     define_method("test_units: #{variable.path}") do

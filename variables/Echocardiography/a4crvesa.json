@@ -3,6 +3,6 @@
   "display_name": "Apical 4 Chamber View: Right Ventricular End-systolic Area (RV - ESA)",
   "description": "",
   "type": "numeric",
-  "units": "squared centimeters (cm2)",
+  "units": "centimeters squared (cm2)",
   "labels": ["RVESA"]
 }

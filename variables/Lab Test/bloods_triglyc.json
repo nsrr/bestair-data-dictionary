@@ -3,6 +3,6 @@
   "display_name": "Triglycerides",
   "description": "",
   "type": "numeric",
-  "units": "miligrams per decilitre (mg/dL)",
+  "units": "milligrams per deciliter (mg/dL)",
   "labels": ["TG"]
 }

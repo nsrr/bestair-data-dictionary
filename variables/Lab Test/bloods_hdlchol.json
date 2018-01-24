@@ -3,7 +3,7 @@
   "display_name": "High-density lipoproteins (HDL) Cholesterol",
   "description": "",
   "type": "numeric",
-  "units": "miligrams per decilitre (mg/dL)",
+  "units": "milligrams per deciliter (mg/dL)",
   "labels": ["HDL"],
   "commonly_used": true
 }
