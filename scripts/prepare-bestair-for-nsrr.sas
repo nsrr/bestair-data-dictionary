@@ -72,8 +72,8 @@
 
     if elig_racewhite_s1 = 1 and race_count = 1 then race = 1; *white;
     if elig_raceblack_s1 = 1 and race_count = 1 then race = 2; *Black;
-    if elig_raceasian_s1 = 1 and race_count = 1 then race = 3; *Asian;
-    if race_count > 1 or elig_raceother_s1 = 1 then race = 4;  *Other;
+    if elig_raceasian_s1 = 1 and race_count = 1 then race = 3; *Other;
+    if race_count > 1 or elig_raceother_s1 = 1 then race = 3;  *Other;
     label race = "Race";
 
     if rand_manufacturer_00 = -8 then rand_manufacturer_00 = .;
@@ -229,8 +229,7 @@
                        2 = "2: ResMed";
     value race 1 = "1: White"
                 2 = "2: Black or African American"
-                3 = "3: Asian"
-                4 = "4: Other";
+                3 = "3: Other";
     value ethnicity 1 = "1: Hispanic or Latino"
                     2 = "2: Not Hispanic or Latino";
     value gender 1 = "1: Male"

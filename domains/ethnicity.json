@@ -1,12 +1,12 @@
 [
   {
     "value": "1",
-    "display_name": "1: Hispanic or Latino",
+    "display_name": "Hispanic or Latino",
     "description": ""
   },
   {
     "value": "2",
-    "display_name": "2: Not Hispanic or Latino",
+    "display_name": "Not Hispanic or Latino",
     "description": ""
   }
 ]

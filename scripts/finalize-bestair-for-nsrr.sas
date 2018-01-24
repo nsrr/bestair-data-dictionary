@@ -12,7 +12,7 @@
 *******************************************************************************;
 * set options and libnames;
 *******************************************************************************;
-  %let version = 0.2.0.beta5;
+  %let version = 0.2.0.beta7;
   libname bestaird "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_datasets"; 
   options  nofmterr;
 
@@ -30,7 +30,7 @@
   data bestair_nsrr_subject;
     set bestair_nsrr_subject;
     call streaminit(20171208);
-    nsrr_subjid = rand('UNIFORM');
+    nsrrid = rand('UNIFORM');
   run;
 
   data bestair_nsrr_site;
@@ -41,13 +41,13 @@
   
   *rank random number;
   proc rank data = bestair_nsrr_subject out = bestair_nsrr_subject;
-    var nsrr_subjid;
-    ranks nsrr_subjid;
+    var nsrrid;
+    ranks nsrrid;
   run;
   
   data bestair_nsrr_subject;
     set bestair_nsrr_subject;
-    nsrr_subjid = 400000 + nsrr_subjid;
+    nsrrid = 400000 + nsrrid;
   run;
 
   proc rank data = bestair_nsrr_site out = bestair_nsrr_site;
@@ -71,21 +71,21 @@
   proc sql;
     *baseline dataset;
     create table bestair_baseline_prep(drop=elig_studyid) as  
-    select a.*,b.nsrr_subjid from bestaird.bestairbase_nsrr as a inner join bestair_nsrr_subject as b 
+    select a.*,b.nsrrid from bestaird.bestairbase_nsrr as a inner join bestair_nsrr_subject as b 
     on a.elig_studyid = b.elig_studyid;
     create table bestair_baseline_in(drop=rand_siteid) as 
     select a.*,b.nsrr_siteid from bestair_baseline_prep as a inner join bestair_nsrr_site as b
     on a.rand_siteid = b.rand_siteid;
     *month-6 dataset;
     create table bestair_month6_prep(drop=elig_studyid) as  
-    select a.*,b.nsrr_subjid from bestaird.bestairmon6_nsrr as a inner join bestair_nsrr_subject as b 
+    select a.*,b.nsrrid from bestaird.bestairmon6_nsrr as a inner join bestair_nsrr_subject as b 
     on a.elig_studyid = b.elig_studyid;
     create table bestair_month6_in(drop=rand_siteid) as 
     select a.*,b.nsrr_siteid from bestair_month6_prep as a inner join bestair_nsrr_site as b
     on a.rand_siteid = b.rand_siteid;
     *month-12 dataset;
     create table bestair_month12_prep(drop=elig_studyid) as  
-    select a.*,b.nsrr_subjid from bestaird.bestairmon12_nsrr as a inner join bestair_nsrr_subject as b 
+    select a.*,b.nsrrid from bestaird.bestairmon12_nsrr as a inner join bestair_nsrr_subject as b 
     on a.elig_studyid = b.elig_studyid;
     create table bestair_month12_in(drop=rand_siteid) as 
     select a.*,b.nsrr_siteid from bestair_month12_prep as a inner join bestair_nsrr_site as b
@@ -123,7 +123,7 @@
     visitnumber = 0;
     format _all_;
     format &timelistbase time8.; 
-    label nsrr_subjid = "Participant ID"
+    label nsrrid = "Participant ID"
           nsrr_siteid = "Site ID"
           visitnumber = "Visit Number";
   run;
@@ -134,7 +134,7 @@
     visitnumber = 6;
     format _all_;
     format &timelistmon6 time8.; 
-    label nsrr_subjid = "Participant ID"
+    label nsrrid = "Participant ID"
           nsrr_siteid = "Site ID"
           visitnumber = "Visit Number";
   run;
@@ -145,7 +145,7 @@
     visitnumber = 12;
     format _all_;
     format &timelistmon12 time8.; 
-    label nsrr_subjid = "Participant ID"
+    label nsrrid = "Participant ID"
           nsrr_siteid = "Site ID"
           visitnumber = "Visit Number";
   run;

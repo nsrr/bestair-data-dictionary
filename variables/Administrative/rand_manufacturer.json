@@ -3,5 +3,6 @@
   "display_name": "Device Manufacturer",
   "description": "",
   "type": "choices",
-  "domain": "manufacturer"
+  "domain": "manufacturer",
+  "commonly_used": true
 }

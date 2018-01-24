@@ -1,17 +1,17 @@
 [
   {
     "value": "0",
-    "display_name": "0: Normal",
+    "display_name": "Normal",
     "description": ""
   },
   {
     "value": "1",
-    "display_name": "1: Hypermobile",
+    "display_name": "Hypermobile",
     "description": ""
   },
   {
     "value": "2",
-    "display_name": "2: Aneurysmal",
+    "display_name": "Aneurysmal",
     "description": ""
   }
 ]

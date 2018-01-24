@@ -1,32 +1,32 @@
 [
   {
     "value": "1",
-    "display_name": "1: Fail",
+    "display_name": "Fail",
     "description": ""
   },
   {
     "value": "2",
-    "display_name": "2: Poor",
+    "display_name": "Poor",
     "description": ""
   },
   {
     "value": "3",
-    "display_name": "3: Fair",
+    "display_name": "Fair",
     "description": ""
   },
   {
     "value": "4",
-    "display_name": "4: Good",
+    "display_name": "Good",
     "description": ""
   },
   {
     "value": "5",
-    "display_name": "5: Excellent",
+    "display_name": "Excellent",
     "description": ""
   },
   {
     "value": "6",
-    "display_name": "6: Outstanding",
+    "display_name": "Outstanding",
     "description": ""
   }
 ]

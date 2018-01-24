@@ -3,5 +3,6 @@
   "display_name": "Visit Number",
   "description": "",
   "type": "choices",
-  "domain": "visitnumber"
+  "domain": "visitnumber",
+  "commonly_used": true
 }

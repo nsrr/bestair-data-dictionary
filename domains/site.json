@@ -1,17 +1,17 @@
 [
   {
     "value": "1",
-    "display_name": "1: Site 1",
+    "display_name": "Site 1",
     "description": ""
   },
   {
     "value": "2",
-    "display_name": "2: Site 2",
+    "display_name": "Site 2",
     "description": ""
   },
   {
     "value": "3",
-    "display_name": "3: Site 3",
+    "display_name": "Site 3",
     "description": ""
   }
 ]
