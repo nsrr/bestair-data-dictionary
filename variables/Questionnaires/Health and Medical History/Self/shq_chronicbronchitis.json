@@ -1,6 +1,6 @@
 {
   "id": "shq_chronicbronchitis",
-  "display_name": "Self-reported Physician Diagnosis of Chronic Bronchitis",
+  "display_name": "Self-reported physician diagnosis of chronic bronchitis",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

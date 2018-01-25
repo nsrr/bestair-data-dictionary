@@ -1,6 +1,6 @@
 {
   "id": "shq_coloncancer",
-  "display_name": "Self-reported Physician Diagnosis of Colon Cancer",
+  "display_name": "Self-reported physician diagnosis of colon cancer",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

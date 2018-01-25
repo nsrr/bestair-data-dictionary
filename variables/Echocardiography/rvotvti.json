@@ -1,6 +1,6 @@
 {
   "id": "rvotvti",
-  "display_name": "Right Ventricular Outflow Tract (RVOT) Velocity Time Integral (VTI)",
+  "display_name": "Right ventricular outflow tract (RVOT) velocity time integral (VTI)",
   "description": "",
   "type": "numeric",
   "units": "centimeters (cm)",

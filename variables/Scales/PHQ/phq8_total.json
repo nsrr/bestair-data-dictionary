@@ -1,6 +1,6 @@
 {
   "id": "phq8_total",
-  "display_name": "Total Score of 8-item Patient Health Questionnaire Depression Scale (PHQ-8)",
+  "display_name": "Total score of 8-item Patient Health Questionnaire Depression Scale (PHQ-8)",
   "description": "",
   "type": "integer",
   "commonly_used": true,

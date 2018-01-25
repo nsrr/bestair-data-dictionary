@@ -1,6 +1,6 @@
 {
   "id": "bloods_creactivepro",
-  "display_name": "C-Reactive Protein (CRP)",
+  "display_name": "C-Reactive protein (CRP)",
   "description": "",
   "type": "numeric",
   "units": "milligrams per liter (mg/L)",

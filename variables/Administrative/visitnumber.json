@@ -1,6 +1,6 @@
 {
   "id": "visitnumber",
-  "display_name": "Visit Number",
+  "display_name": "Visit number",
   "description": "",
   "type": "choices",
   "domain": "visitnumber",

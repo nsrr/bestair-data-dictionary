@@ -1,6 +1,6 @@
 {
   "id": "shq_restlesslegs",
-  "display_name": "Self-reported Physician Diagnosis of Restless Legs/Periodic Leg Movements",
+  "display_name": "Self-reported physician diagnosis of Restless Legs/Periodic Leg Movements",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

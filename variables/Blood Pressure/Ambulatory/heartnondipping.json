@@ -1,6 +1,6 @@
 {
   "id": "heartnondipping",
-  "display_name": "Presence of Heart Rate Dipping",
+  "display_name": "Presence of heart rate dipping",
   "description": "",
   "type": "choices",
   "domain": "yesno"

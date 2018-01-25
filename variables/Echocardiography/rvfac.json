@@ -1,6 +1,6 @@
 {
   "id": "rvfac",
-  "display_name": "Right Ventricular Fractional Area Change (RVFAC)",
+  "display_name": "Right ventricular fractional area change (RVFAC)",
   "description": "",
   "type": "numeric",
   "labels": ["RVFAC"]

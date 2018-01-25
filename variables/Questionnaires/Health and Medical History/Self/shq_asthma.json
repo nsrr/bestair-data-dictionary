@@ -1,6 +1,6 @@
 {
   "id": "shq_asthma",
-  "display_name": "Self-reported Physician Diagnosis of Asthma",
+  "display_name": "Self-reported physician diagnosis of asthma",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

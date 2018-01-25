@@ -1,6 +1,6 @@
 {
   "id": "nvalid",
-  "display_name": "Number of Valid Readings",
+  "display_name": "Number of valid readings",
   "description": "",
   "type": "integer"
 }

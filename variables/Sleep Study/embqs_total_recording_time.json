@@ -1,6 +1,6 @@
 {
   "id": "embqs_total_recording_time",
-  "display_name": "Total Recording Time",
+  "display_name": "Total recording time",
   "description": "",
   "type": "time"
 }

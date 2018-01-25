@@ -1,6 +1,6 @@
 {
   "id": "prom_sdscale",
-  "display_name": "Sleep Disturbance (short form)",
+  "display_name": "Sleep disturbance (short form)",
   "description": "",
   "type": "integer",
   "commonly_used": true,

@@ -1,6 +1,6 @@
 {
   "id": "shq_diabetes",
-  "display_name": "Self-reported Physician Diagnosis of Diabetes",
+  "display_name": "Self-reported physician diagnosis of diabetes",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

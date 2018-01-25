@@ -1,6 +1,6 @@
 {
   "id": "shq_highbpmed",
-  "display_name": "Self-reported Medications for High Blood Pressure/Hypertension ",
+  "display_name": "Self-reported medications for high blood pressure/hypertension ",
   "description": "",
   "type": "choices",
   "domain": "yesno",

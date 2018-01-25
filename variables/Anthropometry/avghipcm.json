@@ -1,6 +1,6 @@
 {
   "id": "avghipcm",
-  "display_name": "Average Hip Circumference",
+  "display_name": "Average hip circumference",
   "description": "",
   "type": "numeric",
   "units": "centimeters (cm)"

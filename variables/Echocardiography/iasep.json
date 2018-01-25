@@ -1,6 +1,6 @@
 {
   "id": "iasep",
-  "display_name": "Interatrial Septum Status",
+  "display_name": "Interatrial septum status",
   "description": "",
   "type": "choices",
   "domain": "iasep"

@@ -1,6 +1,6 @@
 {
   "id": "ahi_primary_source",
-  "display_name": "Read Source of Apnea-Hypopnea Index (AHI)",
+  "display_name": "Read source of Apnea-Hypopnea Index (AHI)",
   "description": "",
   "type": "choices",
   "domain": "ahisource"

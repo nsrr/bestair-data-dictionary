@@ -1,6 +1,6 @@
 {
   "id": "embqs_oximetry_signal",
-  "display_name": "Oximetry Hours of Useable Signal",
+  "display_name": "Oximetry hours of useable signal",
   "description": "",
   "type": "integer"
 }

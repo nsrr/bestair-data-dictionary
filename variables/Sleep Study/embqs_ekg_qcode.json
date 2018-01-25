@@ -1,6 +1,6 @@
 {
   "id": "embqs_ekg_qcode",
-  "display_name": "EKG Signal Quality Code",
+  "display_name": "EKG signal quality code",
   "description": "",
   "type": "choices",
   "domain": "embqs_ekg_qcode"

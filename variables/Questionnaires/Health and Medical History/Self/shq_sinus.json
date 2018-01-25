@@ -1,6 +1,6 @@
 {
   "id": "shq_sinus",
-  "display_name": "Self-reported Physician Diagnosis of Sinus Problems",
+  "display_name": "Self-reported physician diagnosis of sinus problems",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

@@ -1,6 +1,6 @@
 {
   "id": "shq_famsibstroke",
-  "display_name": "Any Siblings Have Had Stroke",
+  "display_name": "Any siblings have had stroke",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

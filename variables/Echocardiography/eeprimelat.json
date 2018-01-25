@@ -1,6 +1,6 @@
 {
   "id": "eeprimelat",
-  "display_name": "Ratio of Early Mitral Inflow Velocity to Lateral Mitral Annular Early Diastolic Velocity (E/E' Lateral) ",
+  "display_name": "Ratio of early mitral inflow velocity to lateral mitral annular early diastolic velocity (E/E' Lateral) ",
   "description": "",
   "type": "numeric",
   "labels":["E/e'"]

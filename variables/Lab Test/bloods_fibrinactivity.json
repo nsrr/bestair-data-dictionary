@@ -1,6 +1,6 @@
 {
   "id": "bloods_fibrinactivity",
-  "display_name": "Fibrinogen Activity",
+  "display_name": "Fibrinogen activity",
   "description": "",
   "type": "numeric",
   "units": "milligrams per deciliter (mg/dL)"

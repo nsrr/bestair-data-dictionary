@@ -1,6 +1,6 @@
 {
   "id": "shq_breastcancer",
-  "display_name": "Self-reported Physician Diagnosis of Breast Cancer",
+  "display_name": "Self-reported physician diagnosis of breast cancer",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

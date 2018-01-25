@@ -1,6 +1,6 @@
 {
   "id": "embqs_thoracic_signal",
-  "display_name": "Thoracic Hours of Useable Signal",
+  "display_name": "Thoracic hours of useable signal",
   "description": "",
   "type": "integer"
 }

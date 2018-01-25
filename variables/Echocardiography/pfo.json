@@ -1,6 +1,6 @@
 {
   "id": "pfo",
-  "display_name": "Interatrial Shunt",
+  "display_name": "Interatrial shunt",
   "description": "",
   "type": "choices",
   "domain": "yesno"

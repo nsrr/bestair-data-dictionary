@@ -1,6 +1,6 @@
 {
   "id": "lvesv",
-  "display_name": "End-systolic Volume (ESV)",
+  "display_name": "End-systolic volume (ESV)",
   "description": "",
   "type": "numeric",
   "units": "milliliters (mL)",

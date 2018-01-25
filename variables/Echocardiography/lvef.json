@@ -1,6 +1,6 @@
 {
   "id": "lvef",
-  "display_name": "Ejection Fraction (EF)",
+  "display_name": "Ejection fraction (EF)",
   "description": "",
   "type": "numeric",
   "units": "percent (%)",

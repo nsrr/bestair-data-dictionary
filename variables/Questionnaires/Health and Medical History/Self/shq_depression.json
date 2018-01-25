@@ -1,6 +1,6 @@
 {
   "id": "shq_depression",
-  "display_name": "Self-reported Physician Diagnosis of Depression",
+  "display_name": "Self-reported physician diagnosis of depression",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

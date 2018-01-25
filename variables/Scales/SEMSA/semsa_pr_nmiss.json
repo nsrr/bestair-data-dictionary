@@ -1,6 +1,6 @@
 {
   "id": "semsa_pr_nmiss",
-  "display_name": "Number of Missing Items of Perceived Risk Subscale",
+  "display_name": "Number of missing items of perceived risk subscale",
   "description": "From Self-Efficacy Measure for Sleep Apnea (SEMSA) ",
   "type": "integer"
 }

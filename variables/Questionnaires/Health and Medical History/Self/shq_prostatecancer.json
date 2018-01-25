@@ -1,6 +1,6 @@
 {
   "id": "shq_prostatecancer",
-  "display_name": "Self-reported Physician Diagnosis of Prostate Cancer",
+  "display_name": "Self-reported physician diagnosis of prostate cancer",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

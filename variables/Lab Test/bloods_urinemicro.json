@@ -1,6 +1,6 @@
 {
   "id": "bloods_urinemicro",
-  "display_name": "Urine Microalbumin",
+  "display_name": "Urine microalbumin",
   "description": "",
   "type": "numeric",
   "units": "micrograms per milliliter (ug/mL)",

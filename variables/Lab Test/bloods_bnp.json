@@ -1,6 +1,6 @@
 {
   "id": "bloods_bnp",
-  "display_name": "B-type Natriuretic Peptide (BNP)",
+  "display_name": "B-type natriuretic peptide (BNP)",
   "description": "",
   "type": "numeric",
   "units": "picograms per milliliter (pg/mL)",

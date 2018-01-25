@@ -1,6 +1,6 @@
 {
   "id": "bloods_pai1",
-  "display_name": "Plasminogen Activator Inhibitor-1 (PAI-1)",
+  "display_name": "Plasminogen activator inhibitor-1 (PAI-1)",
   "description": "",
   "type": "numeric",
   "units": "nanograms per milliliter (ng/mL)",

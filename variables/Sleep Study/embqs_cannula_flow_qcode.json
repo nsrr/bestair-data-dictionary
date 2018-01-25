@@ -1,6 +1,6 @@
 {
   "id": "embqs_cannula_flow_qcode",
-  "display_name": "Cannula Flow/Pressure Signal Quality Code",
+  "display_name": "Cannula flow/pressure signal quality code",
   "description": "",
   "type": "choices",
   "domain": "embqs_cannula_flow_qcode"

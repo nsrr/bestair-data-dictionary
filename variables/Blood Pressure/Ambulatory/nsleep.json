@@ -1,6 +1,6 @@
 {
   "id": "nsleep",
-  "display_name": "Number of Sleep Readings",
+  "display_name": "Number of sleep readings",
   "description": "",
   "type": "integer"
 }

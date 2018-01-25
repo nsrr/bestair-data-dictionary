@@ -1,6 +1,6 @@
 {
   "id": "rand_manufacturer",
-  "display_name": "Device Manufacturer",
+  "display_name": "Device manufacturer",
   "description": "",
   "type": "choices",
   "domain": "manufacturer",

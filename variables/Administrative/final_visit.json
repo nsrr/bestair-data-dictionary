@@ -1,6 +1,6 @@
 {
   "id": "final_visit",
-  "display_name": "Final Visit Month",
+  "display_name": "Final visit month",
   "description": "",
   "type": "choices",
   "domain":"finalvisitnumber",

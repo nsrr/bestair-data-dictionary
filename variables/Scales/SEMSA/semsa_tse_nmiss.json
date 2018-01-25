@@ -1,6 +1,6 @@
 {
   "id": "semsa_tse_nmiss",
-  "display_name": "Number of Missing Items of Treatment Self-Efficacy Subscale",
+  "display_name": "Number of missing items of treatment self-efficacy subscale",
   "description": "From Self-Efficacy Measure for Sleep Apnea (SEMSA) ",
   "type": "integer"
 }

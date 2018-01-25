@@ -1,6 +1,6 @@
 {
   "id": "startsleep",
-  "display_name": "Sleep Start Time",
+  "display_name": "Sleep start time",
   "description": "",
   "type": "time"
 }

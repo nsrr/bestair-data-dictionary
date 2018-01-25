@@ -1,6 +1,6 @@
 {
   "id": "shq_ra",
-  "display_name": "Self-reported Physician Diagnosis of Rheumatoid Arthritis/Lupus/Other Collagen Vascular Disease",
+  "display_name": "Self-reported physician diagnosis of Rheumatoid Arthritis/Lupus/other collagen vascular disease",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

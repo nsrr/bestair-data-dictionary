@@ -1,6 +1,6 @@
 {
   "id": "shq_insomnia",
-  "display_name": "Self-reported Physician Diagnosis of Insomnia",
+  "display_name": "Self-reported physician diagnosis of insomnia",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

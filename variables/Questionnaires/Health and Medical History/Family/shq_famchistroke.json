@@ -1,6 +1,6 @@
 {
   "id": "shq_famchistroke",
-  "display_name": "Any Children Have Had Stroke",
+  "display_name": "Any children have had stroke",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

@@ -1,6 +1,6 @@
 {
   "id": "lvm",
-  "display_name": "Left Ventricular Mass (LVM)",
+  "display_name": "Left ventricular mass (LVM)",
   "description": "",
   "type": "numeric",
   "units": "grams (g)",

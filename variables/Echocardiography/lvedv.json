@@ -1,6 +1,6 @@
 {
   "id": "lvedv",
-  "display_name": "End-diastolic Volume (EDV)",
+  "display_name": "End-diastolic volume (EDV)",
   "description": "",
   "type": "numeric",
   "units": "milliliters (mL)",

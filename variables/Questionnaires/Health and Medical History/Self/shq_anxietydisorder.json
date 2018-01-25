@@ -1,6 +1,6 @@
 {
   "id": "shq_anxietydisorder",
-  "display_name": "Self-reported Physician Diagnosis of Anxiety Disorder",
+  "display_name": "Self-reported physician diagnosis of anxiety disorder",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

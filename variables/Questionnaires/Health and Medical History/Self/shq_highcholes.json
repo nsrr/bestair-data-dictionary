@@ -1,6 +1,6 @@
 {
   "id": "shq_highcholes",
-  "display_name": "Self-reported Physician Diagnosis of High Blood Cholesterol",
+  "display_name": "Self-reported physician diagnosis of high blood cholesterol",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

@@ -1,6 +1,6 @@
 {
   "id": "avgseatedpulse",
-  "display_name": "Average Seated Radial Pulse Rate",
+  "display_name": "Average seated radial pulse rate",
   "description": "",
   "type": "numeric"
 }

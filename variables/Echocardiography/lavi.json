@@ -1,6 +1,6 @@
 {
   "id": "lavi",
-  "display_name": "Left Atrial Volume Index (LAVI)",
+  "display_name": "Left atrial volume index (LAVI)",
   "description": "",
   "type": "numeric",
   "units": "milliliters per meter squared (mL/m2)",

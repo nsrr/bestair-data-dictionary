@@ -1,6 +1,6 @@
 {
   "id": "shq_migraine",
-  "display_name": "Self-reported Physician Diagnosis of Migraine Headaches",
+  "display_name": "Self-reported physician diagnosis of migraine headaches",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

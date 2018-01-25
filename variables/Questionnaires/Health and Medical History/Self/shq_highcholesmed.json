@@ -1,6 +1,6 @@
 {
   "id": "shq_highcholesmed",
-  "display_name": "Self-reported Medications for High Blood Cholesterol",
+  "display_name": "Self-reported medications for high blood cholesterol",
   "description": "",
   "type": "choices",
   "domain": "yesno",

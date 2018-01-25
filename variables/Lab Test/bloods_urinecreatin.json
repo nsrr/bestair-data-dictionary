@@ -1,6 +1,6 @@
 {
   "id": "bloods_urinecreatin",
-  "display_name": "Urine Creatinine",
+  "display_name": "Urine creatinine",
   "description": "",
   "type": "numeric",
   "units": "milligrams per deciliter (mg/dL)",

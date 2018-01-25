@@ -1,6 +1,6 @@
 {
   "id": "ewave",
-  "display_name": "Peak E Wave Velocity",
+  "display_name": "Peak E wave velocity",
   "description": "",
   "type": "numeric",
   "units": "centimeters per second (cm/sec)"

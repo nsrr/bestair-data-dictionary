@@ -1,6 +1,6 @@
 {
   "id": "slp_eff",
-  "display_name": "Calculated - Sleep Efficiency",
+  "display_name": "Calculated - sleep efficiency",
   "description": "",
   "type": "numeric",
   "units": "percent (%)",

@@ -1,6 +1,6 @@
 {
   "id": "bp24sbpweight",
-  "display_name": "Weighted Average of Systolic Blood Pressure (SBP)",
+  "display_name": "Weighted average of systolic blood pressure (SBP)",
   "description": "",
   "type": "numeric",
   "units": "millimeters of mercury (mmHg)",

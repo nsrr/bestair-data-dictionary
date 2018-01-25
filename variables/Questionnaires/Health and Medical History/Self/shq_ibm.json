@@ -1,6 +1,6 @@
 {
   "id": "shq_ibm",
-  "display_name": "Self-reported Physician Diagnosis of Inflammatory Bowel Disease/Ulcerative Colitis/Crohns Disease",
+  "display_name": "Self-reported physician diagnosis of inflammatory bowel disease/ulcerative colitis/Crohn's disease",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

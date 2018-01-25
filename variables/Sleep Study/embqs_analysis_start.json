@@ -1,6 +1,6 @@
 {
   "id": "embqs_analysis_start",
-  "display_name": "Analysis Start Time",
+  "display_name": "Analysis start time",
   "description": "",
   "type": "time"
 }

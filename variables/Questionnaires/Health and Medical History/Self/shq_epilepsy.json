@@ -1,6 +1,6 @@
 {
   "id": "shq_epilepsy",
-  "display_name": "Self-reported Physician Diagnosis of Epilepsy/Seizure Disorder",
+  "display_name": "Self-reported physician diagnosis of epilepsy/seizure disorder",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

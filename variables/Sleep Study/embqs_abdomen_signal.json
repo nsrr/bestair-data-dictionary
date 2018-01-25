@@ -1,6 +1,6 @@
 {
   "id": "embqs_abdomen_signal",
-  "display_name": "Abdomen Hours of Useable Signal",
+  "display_name": "Abdomen hours of useable signal",
   "description": "",
   "type": "integer"
 }

@@ -1,6 +1,6 @@
 {
   "id": "shq_add_adhd",
-  "display_name": "Self-reported Physician Diagnosis of Attention Deficit Hyperactivity Disorder (ADD/ADHD)",
+  "display_name": "Self-reported physician diagnosis of attention deficit hyperactivity disorder (ADD/ADHD)",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

@@ -1,6 +1,6 @@
 {
   "id": "embqs_abdomen_qcode",
-  "display_name": "Abdomen Signal Quality Code",
+  "display_name": "Abdomen signal quality code",
   "description": "",
   "type": "choices",
   "domain": "embqs_abdomen_qcode"

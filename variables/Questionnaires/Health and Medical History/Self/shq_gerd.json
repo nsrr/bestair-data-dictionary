@@ -1,6 +1,6 @@
 {
   "id": "shq_gerd",
-  "display_name": "Self-reported Physician Diagnosis of Gastroesophageal Reflux Disease (GERD)",
+  "display_name": "Self-reported physician diagnosis of gastroesophageal reflux disease (GERD)",
   "description": "",
   "type": "choices",
   "domain": "yesnodontknow",

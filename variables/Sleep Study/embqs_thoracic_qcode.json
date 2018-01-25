@@ -1,6 +1,6 @@
 {
   "id": "embqs_thoracic_qcode",
-  "display_name": "Thoracic Signal Quality Code",
+  "display_name": "Thoracic signal quality code",
   "description": "",
   "type": "choices",
   "domain": "embqs_thoracic_qcode"
