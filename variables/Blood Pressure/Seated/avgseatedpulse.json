@@ -2,5 +2,6 @@
   "id": "avgseatedpulse",
   "display_name": "Average seated radial pulse rate",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "forms":["blood_pressure_and_radial_pulse_form"]
 }

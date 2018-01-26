@@ -3,5 +3,6 @@
   "display_name": "Ethnicity",
   "description": "",
   "type": "choices",
-  "domain": "ethnicity"
+  "domain": "ethnicity",
+  "forms":["eligibility"]
 }

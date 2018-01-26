@@ -5,5 +5,6 @@
   "type": "numeric",
   "units": "millimeters of mercury (mmHg)",
   "commonly_used": true,
-  "labels": ["DBP"]
+  "labels": ["DBP"],
+  "forms":["blood_pressure_and_radial_pulse_form"]
 }
