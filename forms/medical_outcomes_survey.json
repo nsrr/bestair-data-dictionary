@@ -1,4 +1,5 @@
 {
   "id": "medical_outcomes_survey",
-  "display_name": "Medical Outcomes Survey (SF-36)"
+  "display_name": "Medical Outcomes Survey (SF-36)",
+  "code_book": "BestAIR_Medical_Outcomes_Survey_(SF-36).pdf"
 }

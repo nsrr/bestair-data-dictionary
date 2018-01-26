@@ -1,4 +1,5 @@
 {
   "id": "health_and_medical_history",
-  "display_name": "Health and Medical History Questionnaire"
+  "display_name": "Health and Medical History Questionnaire",
+  "code_book": "BestAIR_Health_and_Medical_History.pdf"
 }

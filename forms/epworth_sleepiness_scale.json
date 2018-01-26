@@ -1,4 +1,5 @@
 {
   "id": "epworth_sleepiness_scale",
-  "display_name": "Epworth Sleepiness Scale"
+  "display_name": "Epworth Sleepiness Scale",
+  "code_book": "BestAIR_Epworth_Sleepiness_Scale.pdf"
 }

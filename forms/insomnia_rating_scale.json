@@ -1,4 +1,5 @@
 {
   "id": "insomnia_rating_scale",
-  "display_name": "Women's Health Initiaive Insomnia Rating Scale (WHIIRS)"
+  "display_name": "Women's Health Initiaive Insomnia Rating Scale (WHIIRS)",
+  "code_book": "BestAIR_WHIIRS.pdf"
 }
