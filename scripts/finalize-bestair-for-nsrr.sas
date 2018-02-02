@@ -36,7 +36,7 @@
   data bestair_nsrr_site;
     set bestair_nsrr_site;
     call streaminit(20171208);
-    nsrr_siteid = rand('UNIFORM');
+    nsrrsiteid = rand('UNIFORM');
   run;
   
   *rank random number;
@@ -51,8 +51,8 @@
   run;
 
   proc rank data = bestair_nsrr_site out = bestair_nsrr_site;
-    var nsrr_siteid;
-    ranks nsrr_siteid;
+    var nsrrsiteid;
+    ranks nsrrsiteid;
   run;
  
   *export subject and site id reassignment log into a csv file;
@@ -74,21 +74,21 @@
     select a.*,b.nsrrid from bestaird.bestairbase_nsrr as a inner join bestair_nsrr_subject as b 
     on a.elig_studyid = b.elig_studyid;
     create table bestair_baseline_in(drop=rand_siteid) as 
-    select a.*,b.nsrr_siteid from bestair_baseline_prep as a inner join bestair_nsrr_site as b
+    select a.*,b.nsrrsiteid from bestair_baseline_prep as a inner join bestair_nsrr_site as b
     on a.rand_siteid = b.rand_siteid;
     *month-6 dataset;
     create table bestair_month6_prep(drop=elig_studyid) as  
     select a.*,b.nsrrid from bestaird.bestairmon6_nsrr as a inner join bestair_nsrr_subject as b 
     on a.elig_studyid = b.elig_studyid;
     create table bestair_month6_in(drop=rand_siteid) as 
-    select a.*,b.nsrr_siteid from bestair_month6_prep as a inner join bestair_nsrr_site as b
+    select a.*,b.nsrrsiteid from bestair_month6_prep as a inner join bestair_nsrr_site as b
     on a.rand_siteid = b.rand_siteid;
     *month-12 dataset;
     create table bestair_month12_prep(drop=elig_studyid) as  
     select a.*,b.nsrrid from bestaird.bestairmon12_nsrr as a inner join bestair_nsrr_subject as b 
     on a.elig_studyid = b.elig_studyid;
     create table bestair_month12_in(drop=rand_siteid) as 
-    select a.*,b.nsrr_siteid from bestair_month12_prep as a inner join bestair_nsrr_site as b
+    select a.*,b.nsrrsiteid from bestair_month12_prep as a inner join bestair_nsrr_site as b
     on a.rand_siteid = b.rand_siteid;
   quit;
 
@@ -124,7 +124,7 @@
     format _all_;
     format &timelistbase time8.; 
     label nsrrid = "Participant ID"
-          nsrr_siteid = "Site ID"
+          nsrrsiteid = "Site ID"
           visitnumber = "Visit Number";
   run;
 
@@ -135,7 +135,7 @@
     format _all_;
     format &timelistmon6 time8.; 
     label nsrrid = "Participant ID"
-          nsrr_siteid = "Site ID"
+          nsrrsiteid = "Site ID"
           visitnumber = "Visit Number";
   run;
 
@@ -146,7 +146,7 @@
     format _all_;
     format &timelistmon12 time8.; 
     label nsrrid = "Participant ID"
-          nsrr_siteid = "Site ID"
+          nsrrsiteid = "Site ID"
           visitnumber = "Visit Number";
   run;
 
