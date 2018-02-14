@@ -3,6 +3,6 @@
   "display_name": "Self-reported physician diagnosis of multiple sclerosis",
   "description": "",
   "type": "choices",
-  "domain": "yesnodontknow",
+  "domain": "noyesdontknow",
   "forms": ["health_and_medical_history"]
 }

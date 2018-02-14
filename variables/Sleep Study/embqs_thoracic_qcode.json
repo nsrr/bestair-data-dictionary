@@ -3,5 +3,5 @@
   "display_name": "Thoracic signal quality code",
   "description": "",
   "type": "choices",
-  "domain": "embqs_thoracic_qcode"
+  "domain": "embletta_signal_quality"
 }

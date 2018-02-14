@@ -3,5 +3,5 @@
   "display_name": "EKG signal quality code",
   "description": "",
   "type": "choices",
-  "domain": "embqs_ekg_qcode"
+  "domain": "embletta_signal_quality"
 }

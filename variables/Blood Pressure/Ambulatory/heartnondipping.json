@@ -3,5 +3,5 @@
   "display_name": "Presence of heart rate dipping",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes"
 }

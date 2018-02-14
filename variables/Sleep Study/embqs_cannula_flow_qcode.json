@@ -3,5 +3,5 @@
   "display_name": "Cannula flow/pressure signal quality code",
   "description": "",
   "type": "choices",
-  "domain": "embqs_cannula_flow_qcode"
+  "domain": "embletta_signal_quality"
 }

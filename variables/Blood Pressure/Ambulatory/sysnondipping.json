@@ -3,5 +3,5 @@
   "display_name": "Presence of systolic blood pressure dipping",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes"
 }

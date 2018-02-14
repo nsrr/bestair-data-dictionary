@@ -3,7 +3,7 @@
   "display_name": "Self-reported medications for high blood pressure/hypertension ",
   "description": "",
   "type": "choices",
-  "domain": "yesno",
+  "domain": "noyes",
   "commonly_used": true,
   "forms": ["health_and_medical_history"]
 }
