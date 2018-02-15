@@ -4,5 +4,7 @@
   "description": "",
   "type": "integer",
   "commonly_used": true,
-  "forms":["patient_health_questionnaire"]
+  "forms": [
+    "patient_health_questionnaire"
+  ]
 }

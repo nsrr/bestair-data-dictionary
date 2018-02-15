@@ -1,6 +1,6 @@
 {
   "id": "sysnondipping",
-  "display_name": "Presence of systolic blood pressure dipping",
+  "display_name": "Presence of systolic blood pressure (SBP) dipping",
   "description": "",
   "type": "choices",
   "domain": "noyes"

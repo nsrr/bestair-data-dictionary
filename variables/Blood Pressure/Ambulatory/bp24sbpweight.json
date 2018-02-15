@@ -4,5 +4,8 @@
   "description": "",
   "type": "numeric",
   "units": "millimeters of mercury (mmHg)",
-  "labels": ["SBP"]
+  "labels": [
+    "hypertension, high blood pressure"
+  ],
+  "commonly_used": true
 }

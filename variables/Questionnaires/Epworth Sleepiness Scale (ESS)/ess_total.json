@@ -4,5 +4,7 @@
   "description": "",
   "type": "integer",
   "commonly_used": true,
-  "forms":["epworth_sleepiness_scale"]
+  "forms": [
+    "epworth_sleepiness_scale"
+  ]
 }

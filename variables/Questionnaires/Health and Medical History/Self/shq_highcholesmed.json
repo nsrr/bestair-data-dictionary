@@ -4,5 +4,7 @@
   "description": "",
   "type": "choices",
   "domain": "noyes",
-  "forms": ["health_and_medical_history"]
+  "forms": [
+    "health_and_medical_history"
+  ]
 }

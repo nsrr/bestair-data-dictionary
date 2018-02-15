@@ -3,6 +3,6 @@
   "display_name": "Final visit month",
   "description": "",
   "type": "choices",
-  "domain":"finalvisitnumber",
+  "domain": "finalvisitnumber",
   "commonly_used": true
 }

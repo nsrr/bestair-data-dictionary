@@ -3,6 +3,5 @@
   "display_name": "Apical 4 chamber view: Right ventricular end-diastolic area (RV - EDA)",
   "description": "",
   "type": "numeric",
-  "units": "centimeters squared (cm2)",
-  "labels": ["RVEDA"]
+  "units": "centimeters squared (cm2)"
 }

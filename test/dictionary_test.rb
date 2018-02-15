@@ -19,7 +19,7 @@ class DictionaryTest < Minitest::Test
    'milliliters per minute per 1.73 meters squared (mL/min per 1.73 m2)',
    'centimeters (cm)', 'kilograms per meter squared (kg/m2)', 'millimeters of mercury (mmHg)',
    'milliliters (mL)', 'grams (g)', 'grams per meter squared (g/m2)',
-   'milliliters per meter squared (mL/m2)', 'centimeters per second (cm/sec)', 'centimeters squared (cm2)',
+   'milliliters per meter squared (mL/m2)', 'centimeters per second (cm/sec)', 'beats per minute (bpm)','centimeters squared (cm2)',
    'wood','']
 
   @variables.select { |v| %w(numeric integer).include?(v.type) }.each do |variable|

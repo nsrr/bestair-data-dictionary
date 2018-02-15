@@ -3,6 +3,5 @@
   "display_name": "End-systolic volume (ESV)",
   "description": "",
   "type": "numeric",
-  "units": "milliliters (mL)",
-  "labels": ["ESV"]
+  "units": "milliliters (mL)"
 }

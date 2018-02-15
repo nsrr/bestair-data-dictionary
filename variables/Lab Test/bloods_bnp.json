@@ -3,6 +3,5 @@
   "display_name": "B-type natriuretic peptide (BNP)",
   "description": "",
   "type": "numeric",
-  "units": "picograms per milliliter (pg/mL)",
-  "labels": ["BNP"]
+  "units": "picograms per milliliter (pg/mL)"
 }

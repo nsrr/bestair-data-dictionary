@@ -4,5 +4,7 @@
   "description": "",
   "type": "numeric",
   "commonly_used": true,
-  "forms":["calgary"]
+  "forms": [
+    "calgary"
+  ]
 }

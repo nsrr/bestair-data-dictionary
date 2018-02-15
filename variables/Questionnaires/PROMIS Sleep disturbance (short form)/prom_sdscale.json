@@ -4,5 +4,7 @@
   "description": "",
   "type": "integer",
   "commonly_used": true,
-  "forms":["promis_sleep_disturbance"]
+  "forms": [
+    "promis_sleep_disturbance"
+  ]
 }

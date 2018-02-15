@@ -3,6 +3,5 @@
   "display_name": "Serum creatinine",
   "description": "",
   "type": "numeric",
-  "units": "milligrams per deciliter (mg/dL)",
-  "labels": ["SC"]
+  "units": "milligrams per deciliter (mg/dL)"
 }

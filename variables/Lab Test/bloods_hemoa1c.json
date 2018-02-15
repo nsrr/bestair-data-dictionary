@@ -4,6 +4,5 @@
   "description": "",
   "type": "numeric",
   "units": "percent (%)",
-  "labels": ["HbA1c"],
   "commonly_used": true
 }

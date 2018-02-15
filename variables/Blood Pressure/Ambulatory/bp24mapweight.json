@@ -1,7 +1,11 @@
 {
   "id": "bp24mapweight",
-  "display_name": "Weighted average of mean arterial pressure",
+  "display_name": "Weighted average of mean arterial pressure (MAP)",
   "description": "",
   "type": "numeric",
-  "units": "millimeters of mercury (mmHg)"
+  "units": "millimeters of mercury (mmHg)",
+  "labels": [
+    "hypertension, high blood pressure"
+  ],
+  "commonly_used": true
 }

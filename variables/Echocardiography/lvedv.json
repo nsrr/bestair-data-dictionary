@@ -3,6 +3,5 @@
   "display_name": "End-diastolic volume (EDV)",
   "description": "",
   "type": "numeric",
-  "units": "milliliters (mL)",
-  "labels":["EDV"]
+  "units": "milliliters (mL)"
 }

@@ -3,6 +3,5 @@
   "display_name": "Serum glucose",
   "description": "",
   "type": "numeric",
-  "units": "milligrams per deciliter (mg/dL)",
-  "labels": ["BG"]
+  "units": "milligrams per deciliter (mg/dL)"
 }

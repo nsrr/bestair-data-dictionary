@@ -3,6 +3,5 @@
   "display_name": "Glomerular filtration rate (GFR)",
   "description": "",
   "type": "numeric",
-  "units": "milliliters per minute per 1.73 meters squared (mL/min per 1.73 m2)",
-  "labels": ["GFR"]
+  "units": "milliliters per minute per 1.73 meters squared (mL/min per 1.73 m2)"
 }

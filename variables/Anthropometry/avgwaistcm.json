@@ -4,5 +4,7 @@
   "description": "",
   "type": "numeric",
   "units": "centimeters (cm)",
-  "forms":["anthropometry"]
+  "forms": [
+    "anthropometry"
+  ]
 }

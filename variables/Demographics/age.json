@@ -5,5 +5,7 @@
   "type": "integer",
   "units": "years",
   "commonly_used": true,
-  "forms":["eligibility"]
+  "forms": [
+    "eligibility"
+  ]
 }

@@ -3,6 +3,5 @@
   "display_name": "Left ventricular mass (LVM)",
   "description": "",
   "type": "numeric",
-  "units": "grams (g)",
-  "labels": ["LVM"]
+  "units": "grams (g)"
 }

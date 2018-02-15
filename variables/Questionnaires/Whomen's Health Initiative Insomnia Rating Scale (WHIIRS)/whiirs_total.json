@@ -4,5 +4,7 @@
   "description": "",
   "type": "integer",
   "commonly_used": true,
-  "forms": ["insomnia_rating_scale"]
+  "forms": [
+    "insomnia_rating_scale"
+  ]
 }

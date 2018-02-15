@@ -3,5 +3,8 @@
   "display_name": "Average seated radial pulse rate",
   "description": "",
   "type": "numeric",
-  "forms":["blood_pressure_and_radial_pulse_form"]
+  "units": "beats per minute (bpm)",
+  "forms": [
+    "blood_pressure_and_radial_pulse_form"
+  ]
 }

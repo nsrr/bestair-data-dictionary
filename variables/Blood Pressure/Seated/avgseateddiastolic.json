@@ -1,10 +1,11 @@
 {
   "id": "avgseateddiastolic",
-  "display_name": "Average seated diastolic blood pressure",
+  "display_name": "Average seated diastolic blood pressure (DBP)",
   "description": "",
   "type": "numeric",
   "units": "millimeters of mercury (mmHg)",
   "commonly_used": true,
-  "labels": ["DBP"],
-  "forms":["blood_pressure_and_radial_pulse_form"]
+  "forms": [
+    "blood_pressure_and_radial_pulse_form"
+  ]
 }

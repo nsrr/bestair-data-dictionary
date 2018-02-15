@@ -3,6 +3,9 @@
   "display_name": "Ethnicity",
   "description": "",
   "type": "choices",
-  "domain": "ethnicity",
-  "forms":["eligibility"]
+  "domain": "race",
+  "commonly_used": true,
+  "forms": [
+    "eligibility"
+  ]
 }

@@ -3,6 +3,5 @@
   "display_name": "Pulmonary vascular resistance",
   "description": "",
   "type": "numeric",
-  "units": "wood",
-  "labels": ["PVR"]
+  "units": "wood"
 }

@@ -4,5 +4,8 @@
   "description": "",
   "type": "numeric",
   "units": "kilograms per meter squared (kg/m2)",
+  "labels": [
+    "weight"
+  ],
   "commonly_used": true
 }

@@ -1,10 +1,11 @@
 {
   "id": "avgseatedsystolic",
-  "display_name": "Average seated systolic blood pressure",
+  "display_name": "Average seated systolic blood pressure (SBP)",
   "description": "",
   "type": "numeric",
   "units": "millimeters of mercury (mmHg)",
   "commonly_used": true,
-  "labels": ["SBP"],
-  "forms":["blood_pressure_and_radial_pulse_form"]
+  "forms": [
+    "blood_pressure_and_radial_pulse_form"
+  ]
 }

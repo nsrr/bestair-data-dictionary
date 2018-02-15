@@ -4,5 +4,8 @@
   "description": "",
   "type": "choices",
   "domain": "manufacturer",
+  "labels": [
+    "randomization"
+  ],
   "commonly_used": true
 }

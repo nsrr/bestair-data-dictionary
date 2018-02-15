@@ -1,8 +1,7 @@
 {
   "id": "bloods_vldlcholcal",
-  "display_name": "Very Low-density lipoproteins (LDL) cholesterol",
+  "display_name": "Very low-density lipoproteins (VLDL) cholesterol",
   "description": "",
   "type": "numeric",
-  "units": "milligrams per deciliter (mg/dL)",
-  "labels": ["VLDL"]
+  "units": "milligrams per deciliter (mg/dL)"
 }

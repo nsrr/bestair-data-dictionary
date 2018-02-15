@@ -5,5 +5,7 @@
   "type": "choices",
   "domain": "gender",
   "commonly_used": true,
-  "forms":["eligibility"]
+  "forms": [
+    "eligibility"
+  ]
 }

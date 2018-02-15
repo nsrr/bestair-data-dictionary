@@ -3,5 +3,5 @@
   "display_name": "Overall study quality",
   "description": "",
   "type": "choices",
-  "domain": "embletta_signal_quality"
+  "domain": "study_quality"
 }

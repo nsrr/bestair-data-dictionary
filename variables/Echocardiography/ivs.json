@@ -3,6 +3,5 @@
   "display_name": "Parasternal long axis view: Interventricular septum thickness",
   "description": "",
   "type": "numeric",
-  "units": "centimeters (cm)",
-  "labels": ["IVS"]
+  "units": "centimeters (cm)"
 }

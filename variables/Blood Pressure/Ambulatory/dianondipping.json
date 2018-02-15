@@ -1,6 +1,6 @@
 {
   "id": "dianondipping",
-  "display_name": "Presence of diastolic blood pressure dipping",
+  "display_name": "Presence of diastolic blood pressure (DBP) dipping",
   "description": "",
   "type": "choices",
   "domain": "noyes"
