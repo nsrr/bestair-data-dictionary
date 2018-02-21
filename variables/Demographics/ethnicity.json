@@ -3,7 +3,7 @@
   "display_name": "Ethnicity",
   "description": "",
   "type": "choices",
-  "domain": "race",
+  "domain": "ethnicity",
   "commonly_used": true,
   "forms": [
     "eligibility"
