@@ -4,16 +4,16 @@
 * Author           : Na Guo (NG)
 * Date Created     : 20171208
 * Purpose          : replace subject and site ids with random number and finalize datasets
-* Revision History : 
+* Revision History :
 *    Date       Author      Revision
-*   
+*
 *******************************************************************************;
 
 *******************************************************************************;
 * set options and libnames;
 *******************************************************************************;
-  %let version = 0.2.0.beta7;
-  libname bestaird "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_datasets"; 
+  %let version = 0.2.0.beta13;
+  libname bestaird "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_datasets";
   options  nofmterr;
 
 *******************************************************************************;
@@ -38,13 +38,13 @@
     call streaminit(20171208);
     nsrrsiteid = rand('UNIFORM');
   run;
-  
+
   *rank random number;
   proc rank data = bestair_nsrr_subject out = bestair_nsrr_subject;
     var nsrrid;
     ranks nsrrid;
   run;
-  
+
   data bestair_nsrr_subject;
     set bestair_nsrr_subject;
     nsrrid = 400000 + nsrrid;
@@ -54,14 +54,14 @@
     var nsrrsiteid;
     ranks nsrrsiteid;
   run;
- 
+
   *export subject and site id reassignment log into a csv file;
   proc export data = bestair_nsrr_subject outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_ids\bestair-nsrr-id-log.xlsx"
-    dbms = xlsx replace; 
+    dbms = xlsx replace;
     sheet = "Subject ID";
   run;
   proc export data = bestair_nsrr_site outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_ids\bestair-nsrr-id-log.xlsx"
-    dbms = xlsx replace; 
+    dbms = xlsx replace;
     sheet = "Site ID";
   run;
 
@@ -70,24 +70,24 @@
 *******************************************************************************;
   proc sql;
     *baseline dataset;
-    create table bestair_baseline_prep(drop=elig_studyid) as  
-    select a.*,b.nsrrid from bestaird.bestairbase_nsrr as a inner join bestair_nsrr_subject as b 
+    create table bestair_baseline_prep(drop=elig_studyid) as
+    select a.*,b.nsrrid from bestaird.bestairbase_nsrr as a inner join bestair_nsrr_subject as b
     on a.elig_studyid = b.elig_studyid;
-    create table bestair_baseline_in(drop=rand_siteid) as 
+    create table bestair_baseline_in(drop=rand_siteid) as
     select a.*,b.nsrrsiteid from bestair_baseline_prep as a inner join bestair_nsrr_site as b
     on a.rand_siteid = b.rand_siteid;
     *month-6 dataset;
-    create table bestair_month6_prep(drop=elig_studyid) as  
-    select a.*,b.nsrrid from bestaird.bestairmon6_nsrr as a inner join bestair_nsrr_subject as b 
+    create table bestair_month6_prep(drop=elig_studyid) as
+    select a.*,b.nsrrid from bestaird.bestairmon6_nsrr as a inner join bestair_nsrr_subject as b
     on a.elig_studyid = b.elig_studyid;
-    create table bestair_month6_in(drop=rand_siteid) as 
+    create table bestair_month6_in(drop=rand_siteid) as
     select a.*,b.nsrrsiteid from bestair_month6_prep as a inner join bestair_nsrr_site as b
     on a.rand_siteid = b.rand_siteid;
     *month-12 dataset;
-    create table bestair_month12_prep(drop=elig_studyid) as  
-    select a.*,b.nsrrid from bestaird.bestairmon12_nsrr as a inner join bestair_nsrr_subject as b 
+    create table bestair_month12_prep(drop=elig_studyid) as
+    select a.*,b.nsrrid from bestaird.bestairmon12_nsrr as a inner join bestair_nsrr_subject as b
     on a.elig_studyid = b.elig_studyid;
-    create table bestair_month12_in(drop=rand_siteid) as 
+    create table bestair_month12_in(drop=rand_siteid) as
     select a.*,b.nsrrsiteid from bestair_month12_prep as a inner join bestair_nsrr_site as b
     on a.rand_siteid = b.rand_siteid;
   quit;
@@ -96,7 +96,7 @@
 * match variable position based with data dictionary variable sequence;
 *******************************************************************************;
   data bestair_nsrr_var_position;
-    infile "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_datasets\bestair_nsrr_data_dictionary_spout.csv" delimiter = "," firstobs = 2; 
+    infile "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_datasets\bestair_nsrr_data_dictionary_spout.csv" delimiter = "," firstobs = 2;
     length id $32.;
     input id $;
     informat id $32.;
@@ -116,13 +116,13 @@
     select name into:timelistmon6 separated by " " from content where format = "TIME" and name in (&mon6);
     select name into:timelistmon12 separated by " " from content where format = "TIME" and name in (&mon12);
   quit;
- 
+
   data bestair_baseline_nsrr;
     retain &retain;
     set bestair_baseline_in;
     visitnumber = 0;
     format _all_;
-    format &timelistbase time8.; 
+    format &timelistbase time8.;
     label nsrrid = "Participant ID"
           nsrrsiteid = "Site ID"
           visitnumber = "Visit Number";
@@ -133,7 +133,7 @@
     set bestair_month6_in;
     visitnumber = 6;
     format _all_;
-    format &timelistmon6 time8.; 
+    format &timelistmon6 time8.;
     label nsrrid = "Participant ID"
           nsrrsiteid = "Site ID"
           visitnumber = "Visit Number";
@@ -144,7 +144,7 @@
     set bestair_month12_in;
     visitnumber = 12;
     format _all_;
-    format &timelistmon12 time8.; 
+    format &timelistmon12 time8.;
     label nsrrid = "Participant ID"
           nsrrsiteid = "Site ID"
           visitnumber = "Visit Number";
