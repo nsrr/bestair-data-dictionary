@@ -17,11 +17,50 @@
   options  nofmterr;
 
 *******************************************************************************;
-* copy source dataset;
+* copy source datasets;
 *******************************************************************************;
+  data bestair_nsrr_screening;
+    set bestairs.bestair_allscreeningdata;
+
+    *remove extraneous subjects with nonsensical ids;
+    if elig_studyid < 10000;
+  run;
+
   data bestair_nsrr_prep;
     set bestairs.Bestair_alldata_randomizedpts;
   run;
+
+*******************************************************************************;
+* create nsrrid for all screened subjects;
+*******************************************************************************;
+  data bestair_nsrr_ids_in;
+    set bestair_nsrr_screening;
+
+    call streaminit(20180612);
+    nsrrid = rand('UNIFORM');
+
+    keep elig_studyid nsrrid;
+  run;
+
+  proc rank data = bestair_nsrr_ids_in out = bestair_nsrr_ids;
+    var nsrrid;
+    ranks nsrrid;
+  run;
+
+  data bestair_nsrr_ids_out;
+    set bestair_nsrr_ids;
+    nsrrid = 400000 + nsrrid;
+  run;
+
+  /*
+
+  proc export data=bestair_nsrr_ids_out
+    outfile="\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_ids\bestair_nsrr_ids.csv"
+    dbms=csv
+    replace;
+  run;
+
+  */
 
 *******************************************************************************;
 * import source dataset contents spreadsheet;

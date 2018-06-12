@@ -5,13 +5,11 @@
   - Delete domains, scripts, and variables
   - Upload updated domains, scripts, and variables
   - Modify units listed in dictionary_test.rb
-  - Add medical and health history variables, fix issue #70 and #73
+  - Add medical and health history variables
   - Add visit number
   - Modify domain and variable description for treatment arm variable
-  - Fix variable units and display names, fix issue #131 and #132
-  - Add forms to variables, fix issue #129
-  - The CSV dataset is located here:
-  - `\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\0.2.0.beta13`
+  - Fix variable units and display names
+  - Add forms to variables
 
 - **Gem Changes**
   - Use of Ruby 2.4.1 is now recommended

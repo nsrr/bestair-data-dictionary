@@ -17,79 +17,23 @@
   options  nofmterr;
 
 *******************************************************************************;
-* output subject id and site id log into a csv file;
-*******************************************************************************;
-  proc sql;
-    create table bestair_nsrr_subject (elig_studyid num(8));
-    insert into bestair_nsrr_subject select elig_studyid from bestaird.bestairbase_nsrr;
-    create table bestair_nsrr_site (rand_siteid num(3));
-    insert into bestair_nsrr_site select distinct rand_siteid from bestaird.bestairbase_nsrr;
-  quit;
-
-  *assign random number(0~1) for subject id and site id;
-  data bestair_nsrr_subject;
-    set bestair_nsrr_subject;
-    call streaminit(20171208);
-    nsrrid = rand('UNIFORM');
-  run;
-
-  data bestair_nsrr_site;
-    set bestair_nsrr_site;
-    call streaminit(20171208);
-    nsrrsiteid = rand('UNIFORM');
-  run;
-
-  *rank random number;
-  proc rank data = bestair_nsrr_subject out = bestair_nsrr_subject;
-    var nsrrid;
-    ranks nsrrid;
-  run;
-
-  data bestair_nsrr_subject;
-    set bestair_nsrr_subject;
-    nsrrid = 400000 + nsrrid;
-  run;
-
-  proc rank data = bestair_nsrr_site out = bestair_nsrr_site;
-    var nsrrsiteid;
-    ranks nsrrsiteid;
-  run;
-
-  *export subject and site id reassignment log into a csv file;
-  proc export data = bestair_nsrr_subject outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_ids\bestair-nsrr-id-log.xlsx"
-    dbms = xlsx replace;
-    sheet = "Subject ID";
-  run;
-  proc export data = bestair_nsrr_site outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_ids\bestair-nsrr-id-log.xlsx"
-    dbms = xlsx replace;
-    sheet = "Site ID";
-  run;
-
-*******************************************************************************;
 * merge bestair nsrr datasets with new ids;
 *******************************************************************************;
   proc sql;
     *baseline dataset;
-    create table bestair_baseline_prep(drop=elig_studyid) as
-    select a.*,b.nsrrid from bestaird.bestairbase_nsrr as a inner join bestair_nsrr_subject as b
+    create table bestair_baseline_in (drop=elig_studyid) as
+    select a.*,b.nsrrid from bestaird.bestairbase_nsrr as a inner join bestair_nsrr_ids_out as b
     on a.elig_studyid = b.elig_studyid;
-    create table bestair_baseline_in(drop=rand_siteid) as
-    select a.*,b.nsrrsiteid from bestair_baseline_prep as a inner join bestair_nsrr_site as b
-    on a.rand_siteid = b.rand_siteid;
+
     *month-6 dataset;
-    create table bestair_month6_prep(drop=elig_studyid) as
+    create table bestair_month6_in (drop=elig_studyid) as
     select a.*,b.nsrrid from bestaird.bestairmon6_nsrr as a inner join bestair_nsrr_subject as b
     on a.elig_studyid = b.elig_studyid;
-    create table bestair_month6_in(drop=rand_siteid) as
-    select a.*,b.nsrrsiteid from bestair_month6_prep as a inner join bestair_nsrr_site as b
-    on a.rand_siteid = b.rand_siteid;
+
     *month-12 dataset;
-    create table bestair_month12_prep(drop=elig_studyid) as
+    create table bestair_month12_in (drop=elig_studyid) as
     select a.*,b.nsrrid from bestaird.bestairmon12_nsrr as a inner join bestair_nsrr_subject as b
     on a.elig_studyid = b.elig_studyid;
-    create table bestair_month12_in(drop=rand_siteid) as
-    select a.*,b.nsrrsiteid from bestair_month12_prep as a inner join bestair_nsrr_site as b
-    on a.rand_siteid = b.rand_siteid;
   quit;
 
 *******************************************************************************;
@@ -148,6 +92,21 @@
     label nsrrid = "Participant ID"
           nsrrsiteid = "Site ID"
           visitnumber = "Visit Number";
+  run;
+
+*******************************************************************************;
+* sort datasets before output;
+*******************************************************************************;
+  proc sort data=bestair_baseline_nsrr nodupkey;
+    by nsrrid;
+  run;
+
+  proc sort data=bestair_month6_nsrr nodupkey;
+    by nsrrid;
+  run;
+
+  proc sort data=bestair_month12_nsrr nodupkey;
+    by nsrrid;
   run;
 
 *******************************************************************************;
