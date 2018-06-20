@@ -14,7 +14,7 @@
 *******************************************************************************;
   libname bestairs "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_source";
   libname bestaird "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_datasets"; 
-  options  nofmterr;
+  options nofmterr;
 
 *******************************************************************************;
 * copy source datasets;
@@ -23,7 +23,7 @@
     set bestairs.bestair_allscreeningdata;
 
     *remove extraneous subjects with nonsensical ids;
-    if elig_studyid < 10000;
+    if elig_studyid < 100000;
   run;
 
   data bestair_nsrr_prep;
@@ -39,7 +39,7 @@
     call streaminit(20180612);
     nsrrid = rand('UNIFORM');
 
-    keep elig_studyid nsrrid;
+    keep elig_studyid nsrrid randomized;
   run;
 
   proc rank data = bestair_nsrr_ids_in out = bestair_nsrr_ids;

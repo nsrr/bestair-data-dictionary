@@ -12,7 +12,7 @@
 *******************************************************************************;
 * set options and libnames;
 *******************************************************************************;
-  %let version = 0.2.0.beta13;
+  %let version = 0.2.0.rc;
   libname bestaird "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_datasets";
   options  nofmterr;
 
@@ -27,12 +27,12 @@
 
     *month-6 dataset;
     create table bestair_month6_in (drop=elig_studyid) as
-    select a.*,b.nsrrid from bestaird.bestairmon6_nsrr as a inner join bestair_nsrr_subject as b
+    select a.*,b.nsrrid from bestaird.bestairmon6_nsrr as a inner join bestair_nsrr_ids_out as b
     on a.elig_studyid = b.elig_studyid;
 
     *month-12 dataset;
     create table bestair_month12_in (drop=elig_studyid) as
-    select a.*,b.nsrrid from bestaird.bestairmon12_nsrr as a inner join bestair_nsrr_subject as b
+    select a.*,b.nsrrid from bestaird.bestairmon12_nsrr as a inner join bestair_nsrr_ids_out as b
     on a.elig_studyid = b.elig_studyid;
   quit;
 
@@ -113,17 +113,17 @@
 * export csv datasets into release folder;
 *******************************************************************************;
   proc export data = bestair_baseline_nsrr
-    outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\&version.\bestair-baseline-&version..csv"
+    outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\&version.\bestair-baseline-dataset-&version..csv"
     dbms = csv
     replace;
   run;
   proc export data = bestair_month6_nsrr
-    outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\&version.\bestair-month6-&version..csv"
+    outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\&version.\bestair-month6-dataset-&version..csv"
     dbms = csv
     replace;
   run;
   proc export data = bestair_month12_nsrr
-    outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\&version.\bestair-month12-&version..csv"
+    outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\&version.\bestair-month12-dataset-&version..csv"
     dbms = csv
     replace;
   run;

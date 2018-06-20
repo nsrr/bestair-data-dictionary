@@ -10,6 +10,8 @@
   - Modify domain and variable description for treatment arm variable
   - Fix variable units and display names
   - Add forms to variables
+  - The CSV dataset is located here:
+    - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.2.0.rc\`
 
 - **Gem Changes**
   - Use of Ruby 2.4.1 is now recommended
