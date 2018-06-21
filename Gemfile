@@ -1,3 +1,3 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'spout', '~> 0.13.0'
+gem "spout", "~> 0.13.0"

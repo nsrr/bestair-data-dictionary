@@ -1,1 +1,1 @@
-require 'spout/tasks'
+require "spout/tasks"

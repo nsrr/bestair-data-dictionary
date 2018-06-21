@@ -1,1 +1,1 @@
-require 'spout/tests'
+require "spout/tests"
