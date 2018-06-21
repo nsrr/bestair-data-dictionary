@@ -34,7 +34,9 @@
 * create nsrrid for all screened subjects;
 *******************************************************************************;
   data bestair_nsrr_ids_in;
-    set bestair_nsrr_screening;
+    merge bestair_nsrr_screening
+      bestair_nsrr_prep (keep=elig_studyid);
+    by elig_studyid;
 
     call streaminit(20180612);
     nsrrid = rand('UNIFORM');
@@ -61,6 +63,13 @@
   run;
 
   */
+
+  proc import datafile="\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_ids\bestair_nsrr_ids.csv"
+    out=bestair_nsrr_ids_withsite
+    dbms=csv
+    replace;
+  run;
+    
 
 *******************************************************************************;
 * import source dataset contents spreadsheet;
@@ -209,8 +218,7 @@
           age_06 = "Age at visit"
           age_12 = "Age at visit";
     rename rand_manufacturer_00 = rand_manufacturer
-           rand_treatmentarm_00 = rand_treatmentarm
-           rand_siteid_00 = rand_siteid;
+           rand_treatmentarm_00 = rand_treatmentarm;
     drop &droplist;
   run;
 

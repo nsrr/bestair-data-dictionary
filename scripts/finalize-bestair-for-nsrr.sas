@@ -22,17 +22,17 @@
   proc sql;
     *baseline dataset;
     create table bestair_baseline_in (drop=elig_studyid) as
-    select a.*,b.nsrrid from bestaird.bestairbase_nsrr as a inner join bestair_nsrr_ids_out as b
+    select a.*,b.nsrrid, b.siteid from bestaird.bestairbase_nsrr as a inner join bestair_nsrr_ids_withsite as b
     on a.elig_studyid = b.elig_studyid;
 
     *month-6 dataset;
     create table bestair_month6_in (drop=elig_studyid) as
-    select a.*,b.nsrrid from bestaird.bestairmon6_nsrr as a inner join bestair_nsrr_ids_out as b
+    select a.*,b.nsrrid, b.siteid from bestaird.bestairmon6_nsrr as a inner join bestair_nsrr_ids_withsite as b
     on a.elig_studyid = b.elig_studyid;
 
     *month-12 dataset;
     create table bestair_month12_in (drop=elig_studyid) as
-    select a.*,b.nsrrid from bestaird.bestairmon12_nsrr as a inner join bestair_nsrr_ids_out as b
+    select a.*,b.nsrrid, b.siteid from bestaird.bestairmon12_nsrr as a inner join bestair_nsrr_ids_withsite as b
     on a.elig_studyid = b.elig_studyid;
   quit;
 

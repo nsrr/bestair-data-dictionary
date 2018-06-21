@@ -1,8 +1,0 @@
-{
-  "id": "nsrrsiteid",
-  "display_name": "Site ID",
-  "description": "",
-  "type": "choices",
-  "domain": "site",
-  "commonly_used": true
-}

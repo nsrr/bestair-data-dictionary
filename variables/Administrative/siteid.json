@@ -1,0 +1,8 @@
+{
+  "id": "siteid",
+  "display_name": "Recoded Site ID",
+  "description": "Randomized participants were stratified by site. The site location has been recoded because it is an identifier.",
+  "type": "choices",
+  "domain": "site",
+  "commonly_used": true
+}
