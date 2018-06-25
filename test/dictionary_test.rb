@@ -20,7 +20,7 @@ class DictionaryTest < Minitest::Test
    "centimeters (cm)", "kilograms per meter squared (kg/m2)", "millimeters of mercury (mmHg)",
    "milliliters (mL)", "grams (g)", "grams per meter squared (g/m2)",
    "milliliters per meter squared (mL/m2)", "centimeters per second (cm/sec)", "beats per minute (bpm)","centimeters squared (cm2)",
-   "wood",""]
+   "wood", ""]
 
   @variables.select { |v| %w(numeric integer).include?(v.type) }.each do |variable|
     define_method("test_units: #{variable.path}") do
