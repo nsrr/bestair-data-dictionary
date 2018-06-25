@@ -1,4 +1,4 @@
-## 0.2.0
+## 0.2.0 (June 25, 2018)
 
 ### Changes
 - **General Changes**
@@ -11,7 +11,7 @@
   - Fix variable units and display names
   - Add forms to variables
   - The CSV dataset is located here:
-    - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.2.0.rc2\`
+    - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.2.0\`
 
 - **Gem Changes**
   - Use of Ruby 2.5.1 is now recommended
