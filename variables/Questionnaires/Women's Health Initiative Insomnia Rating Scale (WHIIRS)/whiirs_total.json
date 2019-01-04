@@ -1,7 +1,7 @@
 {
   "id": "whiirs_total",
   "display_name": "Total score of the Women's Health Initiative Insomnia Rating Scale (WHIIRS)",
-  "description": "The WHIIRS assesses insomnia symptoms (i.e., sleep latency, sleep maintenance, early morning awakening, and sleep quality). Higher scores indicate worse ratings. <br> Reference: Levine, D. W., Kaplan, R. M., Kripke, D. F., Bowen, D. J., Naughton, M. J., & Shumaker, S. A. (2003). Factor structure and measurement invariance of the Women’s Health Initiative Insomnia Rating Scale. Psychological Assessment, 15, 123–136.",
+  "description": "The WHIIRS assesses insomnia symptoms (i.e., sleep latency, sleep maintenance, early morning awakening, and sleep quality). Higher scores indicate worse ratings. <br><br> Reference: [Levine, D. W., Kaplan, R. M., Kripke, D. F., Bowen, D. J., Naughton, M. J., & Shumaker, S. A. (2003). Factor structure and measurement invariance of the Women’s Health Initiative Insomnia Rating Scale. Psychological Assessment, 15, 123–136.](https://www.ncbi.nlm.nih.gov/pubmed/12847773)",
   "type": "integer",
   "commonly_used": true,
   "forms": [
