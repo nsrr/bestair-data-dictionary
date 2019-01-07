@@ -1,4 +1,4 @@
-## 0.2.1
+## 0.2.1 (January 7, 2019)
 
 - Update form names to include parentheses
 - Tweak description in `whiirs_total` variable for WHIIRS harmonization effort
