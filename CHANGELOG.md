@@ -1,5 +1,10 @@
 ## 0.2.1
 
+- Update form names to include parentheses
+- Tweak description in `whiirs_total` variable for WHIIRS harmonization effort
+- **Gem Changes**
+  - Updated to spout 0.14.1
+
 ## 0.2.0 (June 25, 2018)
 
 ### Changes
