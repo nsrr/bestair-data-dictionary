@@ -1,3 +1,5 @@
+## 0.3.0
+
 ## 0.2.1 (January 7, 2019)
 
 - Update form names to include parentheses
