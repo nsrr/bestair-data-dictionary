@@ -1,5 +1,9 @@
 ## 0.3.0
 
+- **Gem Changes**
+  - Update to ruby 2.6.1
+  - Update to spout 1.0.0
+
 ## 0.2.1 (January 7, 2019)
 
 - Update form names to include parentheses

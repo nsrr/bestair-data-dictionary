@@ -1,7 +1,7 @@
 BestAIR Data Dictionary
 ====================
 
-[![Build Status](https://travis-ci.org/sleepepi/bestair-data-dictionary.svg?branch=master)](https://travis-ci.org/sleepepi/bestair-data-dictionary)
+[![Build Status](https://travis-ci.com/nsrr/bestair-data-dictionary.svg?branch=master)](https://travis-ci.com/nsrr/bestair-data-dictionary)
 
 ### Exports
 
@@ -17,7 +17,7 @@ dictionary.
 
 ### Testing
 
-The BestAIR Data Dictionary is tested using the [Spout Gem](https://github.com/sleepepi/spout).
+The BestAIR Data Dictionary is tested using the [Spout Gem](https://github.com/nsrr/spout).
 
 Data dictionary tests can be run by typing:
 
@@ -42,5 +42,5 @@ approach for changing version numbers uses a variation on
 [Semantic Versioning](http://semver.org).
 
 A full list of changes for each version can be viewed in the
-[CHANGELOG](https://github.com/sleepepi/bestair-data-dictionary/blob/master/CHANGELOG.md).
+[CHANGELOG](https://github.com/nsrr/bestair-data-dictionary/blob/master/CHANGELOG.md).
 

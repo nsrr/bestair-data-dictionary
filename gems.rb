@@ -2,4 +2,4 @@
 
 source "https://rubygems.org"
 
-gem "spout"
+gem "spout", "~> 1.0.0"

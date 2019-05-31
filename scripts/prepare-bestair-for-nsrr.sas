@@ -4,16 +4,16 @@
 * Author           : Na Guo (NG)
 * Date Created     : 20171201
 * Purpose          : Prepare BestAIR data for deposition on sleepdata.org
-* Revision History : 
+* Revision History :
 *    Date       Author      Revision
-*   
+*
 *******************************************************************************;
 
 *******************************************************************************;
 * set options and libnames;
 *******************************************************************************;
   libname bestairs "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_source";
-  libname bestaird "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_datasets"; 
+  libname bestaird "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_datasets";
   options nofmterr;
 
 *******************************************************************************;
@@ -69,26 +69,26 @@
     dbms=csv
     replace;
   run;
-    
+
 
 *******************************************************************************;
 * import source dataset contents spreadsheet;
 *******************************************************************************;
   proc import out = bestair_source_contents
     datafile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_source\bestair_nsrr_source_contents.xlsx"
-    dbms = xlsx replace; 
-    sheet = "bestair_nsrr_source_contents"; 
+    dbms = xlsx replace;
+    sheet = "bestair_nsrr_source_contents";
     getnames = yes;
   run;
- 
+
 *******************************************************************************;
 * extract variables to keep;
 *******************************************************************************;
   proc sql noprint;
-    select name into:varlist separated by " " from bestair_source_contents 
+    select name into:varlist separated by " " from bestair_source_contents
     where keep = 1;
     select cats(name," = ","'",tranwrd(label,"'","''"),"'") into:labelvar separated by " "
-    from bestair_source_contents 
+    from bestair_source_contents
     where keep = 1;
   quit;
 
@@ -97,7 +97,7 @@
     label &labelvar;
     keep &varlist;
   run;
-  
+
   *check race-ethnicity variables;
   proc freq data = bestair_nsrr_keep;
     tables elig_raceamerind_s1 -- elig_raceotherspecify_s1;
@@ -126,14 +126,14 @@
 
     if rand_manufacturer_00 = -8 then rand_manufacturer_00 = .;
     if elig_ethnicity_s1 < 0 then elig_ethnicity_s1 = .;
-    
+
     age_00 = intck("year",elig_incl01dob_s1,anth_date_00);
     age_06 = intck("year",elig_incl01dob_s1,anth_date_06);
     age_12 = intck("year",elig_incl01dob_s1,anth_date_12);
-   
+
     if age_06 = . and sf36_visitdate_06 ne . then age_06 = intck("year",elig_incl01dob_s1,sf36_visitdate_06);
-    if age_12 = . and sf36_visitdate_12 ne . then age_06 = intck("year",elig_incl01dob_s1,sf36_visitdate_12); 
-    
+    if age_12 = . and sf36_visitdate_12 ne . then age_06 = intck("year",elig_incl01dob_s1,sf36_visitdate_12);
+
     if age_06 = . then age_06 = age_00;
     if age_12 = . and final_visit = 12 then age_12 = age_00 + 1;
 
@@ -164,13 +164,13 @@
     if shq_diabetesmed_00 = 4 then shq_diabetesmed_00 = 0;
     if shq_diabetesmed_00 < 0 then shq_diabetesmed_00 = .;
 
-    drop i race_count elig_incl01dob_s1 anth_date_00 anth_date_06 anth_date_12 sf36_visitdate_00 
+    drop i race_count elig_incl01dob_s1 anth_date_00 anth_date_06 anth_date_12 sf36_visitdate_00
          sf36_visitdate_06 sf36_visitdate_12 elig_raceamerind_s1 -- elig_raceotherspecify_s1;
   run;
-           
+
   /*take out variables that are missing for everyone*/
   proc sql noprint;
-    select name into:varlist separated by " " 
+    select name into:varlist separated by " "
     from dictionary.columns where libname = "WORK" and memname = "BESTAIR_NSRR_IN";
   quit;
 
@@ -208,7 +208,7 @@
 
   proc sql noprint;
     select varname into:droplist separated by " "
-    from nmisstbl 
+    from nmisstbl
     where nmiss = 169 or varname like '%99' or varname like '%^_s2' escape '^'; *remove variables with suffix "_s2" or "_99";
   quit;
 
@@ -244,14 +244,14 @@
   run;
 
   proc sql;
-    select distinct a.format into:formatlist separated by " " from bestair_source_contents as a right join content as b 
+    select distinct a.format into:formatlist separated by " " from bestair_source_contents as a right join content as b
     on a.name = b.name where a.format not in ("BEST","F","TIME","","YYMMDD");
   quit;
 
   proc format library = bestairs cntlout = old_format;
     select &formatlist;
   run;
-  
+
   data new_format;
     set old_format;
     if fmtname = "AHISOURCEF" then fmtname = "ahisource";
@@ -269,7 +269,7 @@
 
   proc format library = work cntlin = new_format;
   run;
-  
+
   *create new formats and modify existing formats;
   proc format library = work;
     value manufacturer 1 = "1: Respironics"
@@ -290,17 +290,17 @@
                         1 = "1: Yes"
                         2 = "2: Don't Know";
     value diabmeds 0 = "0: No-Nothing"
-                   1 = "1: No-Diet Controlled"   
+                   1 = "1: No-Diet Controlled"
                    2 = "2: Yes-Insulin"
-                   3 = "3: Yes-Pills"               
+                   3 = "3: Yes-Pills"
                    4 = "4: Don't Know";
   run;
-  
+
   proc catalog catalog = work.formats;
     copy out = bestaird.formats;
   run;
 
-  options fmtsearch = (bestaird.formats); 
+  options fmtsearch = (bestaird.formats);
 
 * strip suffix from variables;
   proc sql noprint;
@@ -311,12 +311,12 @@
     select name into:month12_var separated by " " from content where name like '%^_12' escape '^';
     select cats(name,"=",tranwrd(name,"_12","")) into:rename_month12_var separated by " " from content where name like '%^_12' escape '^';
     select name into:s1_var separated by " " from content where name like '%^_s1' escape '^';
-    select cats(name, "=", tranwrd(name,"_s1","")) into:s1var_rename separated by " " from content where name like '%^_s1' escape '^'; 
+    select cats(name, "=", tranwrd(name,"_s1","")) into:s1var_rename separated by " " from content where name like '%^_s1' escape '^';
   quit;
 
 * subset dataset;
 * baseline;
-  data bestaird.bestairbase_nsrr;  
+  data bestaird.bestairbase_nsrr;
     set bestair_nsrr;
     rename &s1var_rename &rename_baseline_var;
     format pooled_treatmentarm pooledtreatmentarm. rand_treatmentarm treatmentarm. rand_manufacturer manufacturer.
@@ -324,11 +324,11 @@
            embqs_thoracic_qcode_s1 embqs_thoracic_qcode. embqs_abdomen_qcode_s1 embqs_abdomen_qcode.
            embqs_oximetry_qcode_s1 embqs_oximetry_qcode. embqs_flow_qcode_s1 embqs_flow_qcode.
            embqs_overall_quality_s1 embqs_overall_quality.
-           race race. ethnicity ethnicity. gender gender. iasep_00 iasep. 
-           pfo_00 heartnondipping_00 mapnondipping_00 sysnondipping_00 dianondipping_00 
+           race race. ethnicity ethnicity. gender gender. iasep_00 iasep.
+           pfo_00 heartnondipping_00 mapnondipping_00 sysnondipping_00 dianondipping_00
            shq_eversmoked_00 shq_highbpmed_00 shq_highcholesmed_00 yesno. shq_diabetesmed_00 diabmeds.
-           shq_eversnored_00 shq_anxietydisorder_00 -- shq_diabetes_00 shq_emphysema_00 -- shq_highbp_00 shq_highcholes_00 
-           shq_ibm_00 -- shq_famchiapnea_00 yesnodontknow.;           
+           shq_eversnored_00 shq_anxietydisorder_00 -- shq_diabetes_00 shq_emphysema_00 -- shq_highbp_00 shq_highcholes_00
+           shq_ibm_00 -- shq_famchiapnea_00 yesnodontknow.;
     drop &month6_var &month12_var;
   run;
 
@@ -338,7 +338,7 @@
     rename &rename_month6_var;
     format pooled_treatmentarm pooledtreatmentarm. rand_treatmentarm treatmentarm. rand_manufacturer manufacturer.
            race race_. ethnicity elig_ethnicity_. gender elig_gender_.
-           heartnondipping_06 mapnondipping_06 sysnondipping_06 dianondipping_06 Yesno_.; 
+           heartnondipping_06 mapnondipping_06 sysnondipping_06 dianondipping_06 Yesno_.;
     drop &baseline_var &month12_var &s1_var;
   run;
 
@@ -348,8 +348,8 @@
     where final_visit = 12;
     rename &rename_month12_var;
     format pooled_treatmentarm pooledtreatmentarm. rand_treatmentarm treatmentarm. rand_manufacturer manufacturer.
-           race race_. ethnicity elig_ethnicity_. gender elig_gender_. iasep_12 Iasep_. 
-           pfo_12 heartnondipping_12 mapnondipping_12 sysnondipping_12 dianondipping_12  Yesno_.;   
+           race race_. ethnicity elig_ethnicity_. gender elig_gender_. iasep_12 Iasep_.
+           pfo_12 heartnondipping_12 mapnondipping_12 sysnondipping_12 dianondipping_12  Yesno_.;
     drop &baseline_var &month6_var &s1_var;
   run;
 
@@ -358,7 +358,7 @@
 *******************************************************************************;
   proc format library = bestaird cntlout = bestair_nsrr_format;
   run;
-  
+
   data bestair_nsrr_format;
     set bestair_nsrr_format;
     fmtname = lowcase(fmtname);
@@ -370,36 +370,3 @@
     dbms = csv
     replace;
   run;
-
-
-  
-
-
-
-
-
-
-  
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
