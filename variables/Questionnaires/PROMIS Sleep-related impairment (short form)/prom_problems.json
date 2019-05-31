@@ -1,6 +1,6 @@
 {
   "id": "prom_problems",
-  "display_name": "I had problems during the day because of poor sleep",
+  "display_name": "I had problems during the day because of poor sleep (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

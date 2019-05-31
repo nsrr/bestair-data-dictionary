@@ -1,6 +1,6 @@
 {
   "id": "prom_concentrating",
-  "display_name": "I had a hard time concentrating because of poor sleep",
+  "display_name": "I had a hard time concentrating because of poor sleep (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

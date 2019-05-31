@@ -1,6 +1,6 @@
 {
   "id": "prom_satisfied",
-  "display_name": "I was satisfied with my sleep",
+  "display_name": "I was satisfied with my sleep (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

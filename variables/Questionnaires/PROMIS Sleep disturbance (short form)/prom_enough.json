@@ -1,6 +1,6 @@
 {
   "id": "prom_enough",
-  "display_name": "I got enough sleep",
+  "display_name": "I got enough sleep (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7freq",

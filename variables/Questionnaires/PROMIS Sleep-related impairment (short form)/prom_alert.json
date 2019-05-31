@@ -1,6 +1,6 @@
 {
   "id": "prom_alert",
-  "display_name": "I felt alert when I woke up",
+  "display_name": "I felt alert when I woke up (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

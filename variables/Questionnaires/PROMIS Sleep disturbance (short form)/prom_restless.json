@@ -1,6 +1,6 @@
 {
   "id": "prom_restless",
-  "display_name": "My sleep was restless",
+  "display_name": "My sleep was restless (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

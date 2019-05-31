@@ -1,6 +1,6 @@
 {
   "id": "prom_difficulty",
-  "display_name": "I had difficulty falling asleep",
+  "display_name": "I had difficulty falling asleep (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

@@ -1,6 +1,6 @@
 {
   "id": "prom_irritable",
-  "display_name": "I felt irritable because of poor sleep",
+  "display_name": "I felt irritable because of poor sleep (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

@@ -1,6 +1,6 @@
 {
   "id": "prom_refreshing",
-  "display_name": "My sleep was refreshing",
+  "display_name": "My sleep was refreshing (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

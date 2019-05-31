@@ -1,6 +1,6 @@
 {
   "id": "prom_daytime",
-  "display_name": "I was sleepy during the daytime",
+  "display_name": "I was sleepy during the daytime (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

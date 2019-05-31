@@ -1,6 +1,6 @@
 {
   "id": "prom_quality",
-  "display_name": "My sleep quality was",
+  "display_name": "My sleep quality was (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "sleepquality",

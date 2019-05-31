@@ -1,6 +1,6 @@
 {
   "id": "prom_thingsdone",
-  "display_name": "I had a hard time getting things done because I was sleepy",
+  "display_name": "I had a hard time getting things done because I was sleepy (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

@@ -1,6 +1,6 @@
 {
   "id": "prom_stayawake",
-  "display_name": "I had trouble staying awake during the day",
+  "display_name": "I had trouble staying awake during the day (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

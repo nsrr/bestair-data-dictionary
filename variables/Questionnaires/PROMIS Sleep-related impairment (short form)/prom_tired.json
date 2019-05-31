@@ -1,6 +1,6 @@
 {
   "id": "prom_tired",
-  "display_name": "I felt tired",
+  "display_name": "I felt tired (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7amount",

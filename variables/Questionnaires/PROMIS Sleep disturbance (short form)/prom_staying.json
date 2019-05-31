@@ -1,6 +1,6 @@
 {
   "id": "prom_staying",
-  "display_name": "I had trouble staying asleep",
+  "display_name": "I had trouble staying asleep (past 7 days)",
   "description": "",
   "type": "choices",
   "domain": "past7freq",
