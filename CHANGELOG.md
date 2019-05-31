@@ -2,6 +2,8 @@
 
 - Add individual PROMIS sleep scale items
 - Clarify labels of PROMIS summary scores
+- The CSV dataset is located here:
+  - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.3.0.rc\`
 - **Gem Changes**
   - Update to ruby 2.6.1
   - Update to spout 1.0.0
