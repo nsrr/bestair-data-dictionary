@@ -1,0 +1,10 @@
+{
+  "id": "prom_sleeping",
+  "display_name": "I had trouble sleeping",
+  "description": "",
+  "type": "choices",
+  "domain": "past7freq",
+  "forms": [
+    "promis_sleep_disturbance"
+  ]
+}

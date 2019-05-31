@@ -1,0 +1,10 @@
+{
+  "id": "prom_problems",
+  "display_name": "I had problems during the day because of poor sleep",
+  "description": "",
+  "type": "choices",
+  "domain": "past7amount",
+  "forms": [
+    "promis_sleep_related_impairment"
+  ]
+}

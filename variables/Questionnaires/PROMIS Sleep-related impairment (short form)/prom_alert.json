@@ -1,0 +1,10 @@
+{
+  "id": "prom_alert",
+  "display_name": "I felt alert when I woke up",
+  "description": "",
+  "type": "choices",
+  "domain": "past7amount",
+  "forms": [
+    "promis_sleep_related_impairment"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "prom_quality",
+  "display_name": "My sleep quality was",
+  "description": "",
+  "type": "choices",
+  "domain": "sleepquality",
+  "forms": [
+    "promis_sleep_disturbance"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "prom_concentrating",
+  "display_name": "I had a hard time concentrating because of poor sleep",
+  "description": "",
+  "type": "choices",
+  "domain": "past7amount",
+  "forms": [
+    "promis_sleep_related_impairment"
+  ]
+}

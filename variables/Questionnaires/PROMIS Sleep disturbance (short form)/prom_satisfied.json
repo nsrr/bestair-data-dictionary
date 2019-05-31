@@ -1,0 +1,10 @@
+{
+  "id": "prom_satisfied",
+  "display_name": "I was satisfied with my sleep",
+  "description": "",
+  "type": "choices",
+  "domain": "past7amount",
+  "forms": [
+    "promis_sleep_disturbance"
+  ]
+}

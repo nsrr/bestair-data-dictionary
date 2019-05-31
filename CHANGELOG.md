@@ -1,5 +1,7 @@
 ## 0.3.0
 
+- Add individual PROMIS sleep scale items
+- Clarify labels of PROMIS summary scores
 - **Gem Changes**
   - Update to ruby 2.6.1
   - Update to spout 1.0.0

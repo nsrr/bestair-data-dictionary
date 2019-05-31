@@ -1,0 +1,10 @@
+{
+  "id": "prom_stayawake",
+  "display_name": "I had trouble staying awake during the day",
+  "description": "",
+  "type": "choices",
+  "domain": "past7amount",
+  "forms": [
+    "promis_sleep_related_impairment"
+  ]
+}

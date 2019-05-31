@@ -1,0 +1,10 @@
+{
+  "id": "prom_tired",
+  "display_name": "I felt tired",
+  "description": "",
+  "type": "choices",
+  "domain": "past7amount",
+  "forms": [
+    "promis_sleep_related_impairment"
+  ]
+}

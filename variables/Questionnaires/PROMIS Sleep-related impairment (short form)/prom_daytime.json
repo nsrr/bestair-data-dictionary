@@ -1,0 +1,10 @@
+{
+  "id": "prom_daytime",
+  "display_name": "I was sleepy during the daytime",
+  "description": "",
+  "type": "choices",
+  "domain": "past7amount",
+  "forms": [
+    "promis_sleep_related_impairment"
+  ]
+}
