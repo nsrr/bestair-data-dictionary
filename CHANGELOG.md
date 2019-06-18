@@ -1,3 +1,5 @@
+## 0.4.0
+
 ## 0.3.0 (May 31, 2019)
 
 - Add individual PROMIS sleep scale items
