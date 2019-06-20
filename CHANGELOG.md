@@ -1,8 +1,8 @@
-## 0.4.0
+## 0.4.0 (June 20, 2019)
 
 - Add individual Epworth items
 - The CSV dataset is located here:
-  - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.4.0.rc\`
+  - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.4.0\`
 
 ## 0.3.0 (May 31, 2019)
 
