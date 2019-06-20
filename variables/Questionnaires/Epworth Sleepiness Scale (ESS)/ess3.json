@@ -1,0 +1,10 @@
+{
+  "id": "ess3",
+  "display_name": "Chance of dozing while sitting, inactive, in a public place",
+  "description": "",
+  "type": "choices",
+  "domain": "epworth",
+  "forms": [
+    "epworth_sleepiness_scale"
+  ]
+}

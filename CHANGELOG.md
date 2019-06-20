@@ -1,5 +1,7 @@
 ## 0.4.0
 
+- Add individual Epworth items
+
 ## 0.3.0 (May 31, 2019)
 
 - Add individual PROMIS sleep scale items

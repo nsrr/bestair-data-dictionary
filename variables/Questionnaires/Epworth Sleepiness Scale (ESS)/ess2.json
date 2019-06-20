@@ -1,0 +1,10 @@
+{
+  "id": "ess2",
+  "display_name": "Chance of dozing while watching TV",
+  "description": "",
+  "type": "choices",
+  "domain": "epworth",
+  "forms": [
+    "epworth_sleepiness_scale"
+  ]
+}
