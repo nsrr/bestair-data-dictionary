@@ -1,7 +1,7 @@
 {
   "id": "phq8_tired",
   "display_name": "4. Feeling tired or having little energy",
-  "description": "",
+  "description": "Over the past 2 weeks, how often have you been bothered by any of the following problems?",
   "type": "choices",
   "domain": "phq8",
   "forms": [

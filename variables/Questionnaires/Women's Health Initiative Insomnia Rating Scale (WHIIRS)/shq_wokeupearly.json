@@ -1,7 +1,7 @@
 {
   "id": "shq_wokeupearly",
   "display_name": "7C. Did you wake up earlier than you planned to?",
-  "description": "",
+  "description": "Pick the answer that best describes how often you experienced the situation in the LAST 4 WEEKS.",
   "type": "choices",
   "domain": "whiirs",
   "forms": [

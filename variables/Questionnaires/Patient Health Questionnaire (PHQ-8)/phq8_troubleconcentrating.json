@@ -1,7 +1,7 @@
 {
   "id": "phq8_troubleconcentrating",
   "display_name": "7. Trouble concentrating on things, such as reading the newspaper or watching television",
-  "description": "",
+  "description": "Over the past 2 weeks, how often have you been bothered by any of the following problems?",
   "type": "choices",
   "domain": "phq8",
   "forms": [

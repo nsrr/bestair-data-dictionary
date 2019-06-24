@@ -1,7 +1,7 @@
 {
   "id": "shq_typnightsleep",
   "display_name": "8. Overall, was your typical nights sleep during the LAST 4 WEEKS:",
-  "description": "",
+  "description": "Pick the answer that best describes how often you experienced the situation in the LAST 4 WEEKS.",
   "type": "choices",
   "domain": "whiirs_typical",
   "forms": [

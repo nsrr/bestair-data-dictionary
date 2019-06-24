@@ -1,7 +1,7 @@
 {
   "id": "shq_trasleep",
   "display_name": "7A. Did you have trouble falling asleep?",
-  "description": "",
+  "description": "Pick the answer that best describes how often you experienced the situation in the LAST 4 WEEKS.",
   "type": "choices",
   "domain": "whiirs",
   "forms": [

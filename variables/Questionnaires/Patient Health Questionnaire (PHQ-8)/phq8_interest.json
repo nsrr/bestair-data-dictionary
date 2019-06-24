@@ -1,7 +1,7 @@
 {
   "id": "phq8_interest",
   "display_name": "1. Little interest or pleasure in doing things",
-  "description": "",
+  "description": "Over the past 2 weeks, how often have you been bothered by any of the following problems?",
   "type": "choices",
   "domain": "phq8",
   "forms": [
