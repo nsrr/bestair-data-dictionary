@@ -164,6 +164,10 @@
     if shq_diabetesmed_00 = 4 then shq_diabetesmed_00 = 0;
     if shq_diabetesmed_00 < 0 then shq_diabetesmed_00 = .;
 
+    if phq8_difficulty_00 in (-8,-9) then phq8_difficulty_00 = .;
+    if phq8_difficulty_06 in (-8,-9) then phq8_difficulty_06 = .;
+    if phq8_difficulty_12 in (-8,-9) then phq8_difficulty_12 = .;
+
     drop i race_count elig_incl01dob_s1 anth_date_00 anth_date_06 anth_date_12 sf36_visitdate_00
          sf36_visitdate_06 sf36_visitdate_12 elig_raceamerind_s1 -- elig_raceotherspecify_s1;
   run;
