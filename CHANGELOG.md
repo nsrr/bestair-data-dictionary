@@ -2,6 +2,8 @@
 
 - Fix form link for PHQ-8
 - Add PHQ-8 and WHIIRS variables
+- The CSV dataset is located here:
+  - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.5.0.rc\`
 
 ## 0.4.0 (June 20, 2019)
 
