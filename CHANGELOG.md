@@ -1,6 +1,7 @@
 ## 0.5.0
 
 - Fix form link for PHQ-8
+- Add PHQ-8 and WHIIRS variables
 
 ## 0.4.0 (June 20, 2019)
 
