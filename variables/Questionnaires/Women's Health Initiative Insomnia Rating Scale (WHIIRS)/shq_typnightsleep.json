@@ -3,5 +3,8 @@
   "display_name": "8. Overall, was your typical nights sleep during the LAST 4 WEEKS:",
   "description": "",
   "type": "choices",
-  "domain": "whiirs_typical"
+  "domain": "whiirs_typical",
+  "forms": [
+    "insomnia_rating_scale"
+  ]
 }

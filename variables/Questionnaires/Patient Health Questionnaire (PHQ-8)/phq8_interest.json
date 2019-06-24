@@ -3,5 +3,8 @@
   "display_name": "1. Little interest or pleasure in doing things",
   "description": "",
   "type": "choices",
-  "domain": "phq8"
+  "domain": "phq8",
+  "forms": [
+    "patient_health_questionnaire"
+  ]
 }

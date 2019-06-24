@@ -3,5 +3,8 @@
   "display_name": "3. Trouble falling or staying asleep, or sleeping too much",
   "description": "",
   "type": "choices",
-  "domain": "phq8"
+  "domain": "phq8",
+  "forms": [
+    "patient_health_questionnaire"
+  ]
 }

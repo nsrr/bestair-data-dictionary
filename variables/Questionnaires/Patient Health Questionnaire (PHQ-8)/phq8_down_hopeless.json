@@ -3,5 +3,8 @@
   "display_name": "2. Feeling down, depressed, or hopeless",
   "description": "",
   "type": "choices",
-  "domain": "phq8"
+  "domain": "phq8",
+  "forms": [
+    "patient_health_questionnaire"
+  ]
 }

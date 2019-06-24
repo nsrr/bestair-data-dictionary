@@ -3,5 +3,8 @@
   "display_name": "7B. Did you wake up several times at night?",
   "description": "",
   "type": "choices",
-  "domain": "whiirs"
+  "domain": "whiirs",
+  "forms": [
+    "insomnia_rating_scale"
+  ]
 }

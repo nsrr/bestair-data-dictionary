@@ -3,5 +3,8 @@
   "display_name": "6. Feeling bad about yourself - or that you are a failure or have let yourself or your family down",
   "description": "",
   "type": "choices",
-  "domain": "phq8"
+  "domain": "phq8",
+  "forms": [
+    "patient_health_questionnaire"
+  ]
 }
