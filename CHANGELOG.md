@@ -1,3 +1,5 @@
+## 0.6.0 (Decemember 2021)
+
 ## 0.5.0 (June 24, 2019)
 
 - Fix form link for PHQ-8
