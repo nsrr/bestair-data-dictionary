@@ -98,6 +98,7 @@
     keep &varlist;
   run;
 
+  /*
   *check race-ethnicity variables;
   proc freq data = bestair_nsrr_keep;
     tables elig_raceamerind_s1 -- elig_raceotherspecify_s1;
@@ -105,6 +106,11 @@
            elig_raceasian_s1*(elig_raceblack_s1 elig_raceother_s1)
            elig_raceblack_s1*elig_raceother_s1;
   run;
+
+  proc freq data=bestair_nsrr_keep;
+  table elig_raceamerind_s1 -- elig_raceotherspecify_s1;
+  run;
+  */
 
   *recode demographic variables and missing values;
   data bestair_nsrr_in;
@@ -118,10 +124,13 @@
     end;
     drop i;
 
-    if elig_racewhite_s1 = 1 and race_count = 1 then race = 1; *white;
-    if elig_raceblack_s1 = 1 and race_count = 1 then race = 2; *Black;
-    if elig_raceasian_s1 = 1 and race_count = 1 then race = 3; *Other;
-    if race_count > 1 or elig_raceother_s1 = 1 then race = 3;  *Other;
+    if elig_racewhite_s1 = 1 and race_count = 1 then race = 1; *White;
+	if elig_raceamerind_s1 = 1 and race_count = 1 then race = 2; *American indian or Alaskan native;
+    if elig_raceblack_s1 = 1 and race_count = 1 then race = 3; *Black or african american;
+    if elig_raceasian_s1 = 1 and race_count = 1 then race = 4; *Asian;
+	if elig_racehawaiian_s1 = 1 and race_count = 1 then race =5; *natie hawaiian or other pacific islander;
+	if elig_raceotherspecify_s1 = 1 and race_count = 1 then race = 6; *Other;
+    if race_count > 1 then race = 7;  *Multiple;
     label race = "Race";
 
     if rand_manufacturer_00 = -8 then rand_manufacturer_00 = .;
@@ -168,7 +177,7 @@
     if phq8_difficulty_06 in (-8,-9) then phq8_difficulty_06 = .;
     if phq8_difficulty_12 in (-8,-9) then phq8_difficulty_12 = .;
 
-    drop i race_count elig_incl01dob_s1 anth_date_00 anth_date_06 anth_date_12 sf36_visitdate_00
+    drop i elig_incl01dob_s1 anth_date_00 anth_date_06 anth_date_12 sf36_visitdate_00 race_count
          sf36_visitdate_06 sf36_visitdate_12 elig_raceamerind_s1 -- elig_raceotherspecify_s1;
   run;
 
@@ -279,8 +288,12 @@
     value manufacturer 1 = "1: Respironics"
                        2 = "2: ResMed";
     value race 1 = "1: White"
-                2 = "2: Black or African American"
-                3 = "3: Other";
+			   2 = "2: American Indian or Alaskan Native"
+			   3 = "3: Black or African American"
+			   4 = "4: Asian"
+			   5 = "5: Native Hawaiian or other Pacific islander"
+			   6 = "6: Other"
+			   7 = "7: Multiple";
     value ethnicity 1 = "1: Hispanic or Latino"
                     2 = "2: Not Hispanic or Latino";
     value gender 1 = "1: Male"
