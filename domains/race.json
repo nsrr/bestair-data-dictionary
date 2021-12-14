@@ -6,12 +6,32 @@
   },
   {
     "value": "2",
-    "display_name": "Black or African American",
+    "display_name": "American Indian or Alaskan Native",
     "description": ""
   },
   {
     "value": "3",
+    "display_name": "Black or African American",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Asian",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "Native Hawaiian or other Pacific islander",
+    "description": ""
+  },
+  {
+    "value": "6",
     "display_name": "Other",
+    "description": ""
+  },
+  {
+    "value": "7",
+    "display_name": "Multiple",
     "description": ""
   }
 ]

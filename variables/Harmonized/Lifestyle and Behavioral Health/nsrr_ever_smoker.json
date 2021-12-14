@@ -1,0 +1,11 @@
+{
+  "id": "nsrr_ever_smoker",
+  "display_name": "Ever smoked cigarettes",
+  "description": "Indicates whether subject ever regularly smoked cigarettes.No means less than 20 packs in a lifetime or less than 1 cigarette for 1 year. <br><br>Harmonized by the NSRR team to align with <a href=\"https://github.com/UW-GAC/topmed-dcc-harmonized-phenotypes\" target=\"_blank\">TOPMed</a> and <a href=\"https://github.com/uc-cdis/gtex-dictionary/tree/master/gdcdictionary/schemas/\" target=\"_blank\">BioDataCatalyst standards</a>. Source: :never_cigarette_smoker: :current_cigarette_smoker: :current_smokeless_user: :shq_eversmoked: at Baseline",
+  "type": "choices",
+  "domain": "nsrr_ever_smoker",
+  "labels": [
+    "ever_smoker_baseline  "
+  ],
+  "commonly_used": true
+}
