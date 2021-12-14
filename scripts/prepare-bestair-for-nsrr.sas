@@ -120,10 +120,10 @@
   data bestair_nsrr_in;
     set bestair_nsrr_keep;
 
-    *if elig_ethnicity_s1 = 1 and elig_raceother_s1 = 1 then elig_raceother_s1 = 0;
+    if elig_ethnicity_s1 = 1 and elig_raceother_s1 = 1 then elig_raceother_s1 = 0;
     race_count = 0;
-    array elig_race(6) elig_racewhite_s1 elig_raceblack_s1 elig_raceasian_s1 elig_raceother_s1 elig_raceamerind_s1 elig_racehawaiian_s1;
-    do i = 1 to 6;
+    array elig_race(5) elig_racewhite_s1 elig_raceblack_s1 elig_raceasian_s1 elig_raceamerind_s1 elig_racehawaiian_s1;
+    do i = 1 to 5;
       if elig_race(i) in (0,1) then race_count = race_count + elig_race(i);
     end;
     drop i;
@@ -132,8 +132,8 @@
 	if elig_raceamerind_s1 = 1 and race_count = 1 then race = 2; *American indian or Alaskan native;
     if elig_raceblack_s1 = 1 and race_count = 1 then race = 3; *Black or african american;
     if elig_raceasian_s1 = 1 and race_count = 1 then race = 4; *Asian;
-	if elig_racehawaiian_s1 = 1 and race_count = 1 then race =5; *natie hawaiian or other pacific islander;
-    if elig_raceother_s1 = 1 and race_count = 1 then race = 6; *Other;
+	if elig_racehawaiian_s1 = 1 and race_count = 1 then race =5; *native hawaiian or other pacific islander;
+    if elig_raceother_s1 = 1 and race_count = 0 then race = 6; *Other;
 	if race_count > 1 then race = 7;  *Multiple;
     label race = "Race";
 
@@ -186,10 +186,11 @@
   run;
 
 /*
-
-    proc print data=bestair_nsrr_in;
-  var elig_raceamerind_s1 -- elig_raceotherspecify_s1 race race_count;
+proc print data=bestair_nsrr_in;
+  where elig_raceasian_s1 =1;
+  var elig_raceasian_s1 race_count race;
   run;
+
   proc freq data=bestair_nsrr_in;
   table race;
   run;
