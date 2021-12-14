@@ -121,7 +121,7 @@ data bestair_baseline_harmonized;
 *use gender;
 	format nsrr_sex $100.;
     if gender = 1 then nsrr_sex='male';
-	else if gender = 0 then nsrr_sex='female';
+	else if gender = 2 then nsrr_sex='female';
 	else nsrr_sex = 'not reported';
 
 *race;

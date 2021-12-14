@@ -110,16 +110,20 @@
   proc freq data=bestair_nsrr_keep;
   table elig_raceamerind_s1 -- elig_raceotherspecify_s1;
   run;
+
+  proc print data=bestair_nsrr_keep;
+  var elig_raceamerind_s1 -- elig_raceotherspecify_s1;
+  run;
   */
 
   *recode demographic variables and missing values;
   data bestair_nsrr_in;
     set bestair_nsrr_keep;
 
-    if elig_ethnicity_s1 = 1 and elig_raceother_s1 = 1 then elig_raceother_s1 = 0;
+    *if elig_ethnicity_s1 = 1 and elig_raceother_s1 = 1 then elig_raceother_s1 = 0;
     race_count = 0;
-    array elig_race(4) elig_racewhite_s1 elig_raceblack_s1 elig_raceasian_s1 elig_raceother_s1;
-    do i = 1 to 4;
+    array elig_race(6) elig_racewhite_s1 elig_raceblack_s1 elig_raceasian_s1 elig_raceother_s1 elig_raceamerind_s1 elig_racehawaiian_s1;
+    do i = 1 to 6;
       if elig_race(i) in (0,1) then race_count = race_count + elig_race(i);
     end;
     drop i;
@@ -129,8 +133,8 @@
     if elig_raceblack_s1 = 1 and race_count = 1 then race = 3; *Black or african american;
     if elig_raceasian_s1 = 1 and race_count = 1 then race = 4; *Asian;
 	if elig_racehawaiian_s1 = 1 and race_count = 1 then race =5; *natie hawaiian or other pacific islander;
-	if elig_raceotherspecify_s1 = 1 and race_count = 1 then race = 6; *Other;
-    if race_count > 1 then race = 7;  *Multiple;
+    if elig_raceother_s1 = 1 and race_count = 1 then race = 6; *Other;
+	if race_count > 1 then race = 7;  *Multiple;
     label race = "Race";
 
     if rand_manufacturer_00 = -8 then rand_manufacturer_00 = .;
@@ -180,6 +184,16 @@
     drop i elig_incl01dob_s1 anth_date_00 anth_date_06 anth_date_12 sf36_visitdate_00 race_count
          sf36_visitdate_06 sf36_visitdate_12 elig_raceamerind_s1 -- elig_raceotherspecify_s1;
   run;
+
+/*
+
+    proc print data=bestair_nsrr_in;
+  var elig_raceamerind_s1 -- elig_raceotherspecify_s1 race race_count;
+  run;
+  proc freq data=bestair_nsrr_in;
+  table race;
+  run;
+*/
 
   /*take out variables that are missing for everyone*/
   proc sql noprint;
