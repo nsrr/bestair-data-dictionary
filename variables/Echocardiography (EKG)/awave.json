@@ -1,0 +1,7 @@
+{
+  "id": "awave",
+  "display_name": "Peak A wave velocity",
+  "description": "",
+  "type": "numeric",
+  "units": "centimeters per second (cm/sec)"
+}

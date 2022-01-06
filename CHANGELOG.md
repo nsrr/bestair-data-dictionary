@@ -1,4 +1,9 @@
-## 0.6.0 (Decemember 2021)
+## 0.6.0
+
+- Incorporate first set of NSRR harmonized terms (e.g., **nsrr_age**, **nsrr_race**)
+- Add **awave** variable from EKG results
+- The CSV dataset is located here:
+  - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.6.0.pre\`
 
 ## 0.5.0 (June 24, 2019)
 

@@ -72,6 +72,10 @@
           visitnumber = "Visit Number";
   run;
 
+  proc sort data=bestair_baseline_nsrr;
+    by nsrrid visitnumber;
+  run;
+
   data bestair_month6_nsrr;
     retain &retain_mon6;
     set bestair_month6_in;
@@ -81,6 +85,10 @@
     label nsrrid = "Participant ID"
           nsrrsiteid = "Site ID"
           visitnumber = "Visit Number";
+  run;
+
+  proc sort data=bestair_month6_nsrr;
+    by nsrrid visitnumber;
   run;
 
   data bestair_month12_nsrr;
@@ -94,120 +102,169 @@
           visitnumber = "Visit Number";
   run;
 
-/*
-  proc freq data=bestair_baseline_nsrr;
-  table race;
+  proc sort data=bestair_month12_nsrr;
+    by nsrrid visitnumber;
   run;
-*/
+
+  /*
+    proc freq data=bestair_baseline_nsrr;
+    table race;
+    run;
+  */
+
+*******************************************************************************;
+* import and incorporate A wave EKG data ;
+*******************************************************************************;
+  proc import datafile="\\rfawin\bwh-sleepepi-bestair\nsrr-prep\echo-awave\nsrr_bestair_awave.csv"
+    out=bestair_awave_in
+    dbms=csv
+    replace;
+  run;
+
+  data bestair_awave_baseline;
+    set bestair_awave_in;
+
+    if visitnumber = 0;
+  run;
+
+  data bestair_awave_month12;
+    set bestair_awave_in;
+
+    if visitnumber = 12;
+  run;
+
+  data bestair_baseline_nsrr;
+    merge
+      bestair_baseline_nsrr (in=a)
+      bestair_awave_baseline
+      ;
+    by nsrrid visitnumber;
+
+    *only keep subjects in main dataset;
+    if a;
+  run;
+
+  data bestair_month12_nsrr;
+    merge
+      bestair_month12_nsrr (in=a)
+      bestair_awave_month12
+      ;
+    by nsrrid visitnumber;
+
+    *only keep subjects in main dataset;
+    if a;
+  run;
 
 *******************************************************************************;
 * create harmonized datasets ;
 *******************************************************************************;
-data bestair_baseline_harmonized;
-	set bestair_baseline_nsrr ;
-*demographics
-*age;
-*use age;
-	format nsrr_age 8.2;
- 	nsrr_age = age;
+  data bestair_baseline_harmonized;
+    set bestair_baseline_nsrr ;
 
-*age_gt89;
-*use age;
-	format nsrr_age_gt89 $100.; 
-	if age gt 89 then nsrr_age_gt89='yes';
-	else if age le 89 then nsrr_age_gt89='no';
+    *demographics
+    *age;
+    *use age;
+    format nsrr_age 8.2;
+    nsrr_age = age;
 
-*sex;
-*use gender;
-	format nsrr_sex $100.;
+    *age_gt89;
+    *use age;
+    format nsrr_age_gt89 $100.; 
+    if age gt 89 then nsrr_age_gt89='yes';
+    else if age le 89 then nsrr_age_gt89='no';
+
+    *sex;
+    *use gender;
+    format nsrr_sex $100.;
     if gender = 1 then nsrr_sex='male';
-	else if gender = 2 then nsrr_sex='female';
-	else nsrr_sex = 'not reported';
+    else if gender = 2 then nsrr_sex='female';
+    else nsrr_sex = 'not reported';
 
-*race;
-*race created in prepare-bestair sas script;
+    *race;
+    *race created in prepare-bestair sas script;
     format nsrr_race $100.;
-	if race = '1' then nsrr_race = 'white';
+    if race = '1' then nsrr_race = 'white';
     else if race = '2' then nsrr_race = 'american indian or alaska native';
-	else if race = '3' then nsrr_race = 'black or african american';
-	else if race = '4' then nsrr_race = 'asian';
-	else if race = '5' then nsrr_race = 'native hawaiian or other pacific islander';
+    else if race = '3' then nsrr_race = 'black or african american';
+    else if race = '4' then nsrr_race = 'asian';
+    else if race = '5' then nsrr_race = 'native hawaiian or other pacific islander';
     else if race = '6' then nsrr_race = 'other';
     else if race = '7' then nsrr_race = 'multiple';
-	else nsrr_race  = 'not reported';
+    else nsrr_race  = 'not reported';
 
-*ethnicity;
-*use ethnicity;
-	format nsrr_ethnicity $100.;
+    *ethnicity;
+    *use ethnicity;
+    format nsrr_ethnicity $100.;
     if ethnicity = 1 then nsrr_ethnicity = 'hispanic or latino';
     else if ethnicity = 2 then nsrr_ethnicity = 'not hispanic or latino';
-	else if ethnicity = . then nsrr_ethnicity = 'not reported';
+    else if ethnicity = . then nsrr_ethnicity = 'not reported';
 
-*anthropometry
-*bmi;
-*use bmi;
-	format nsrr_bmi 10.9;
- 	nsrr_bmi = bmi;
+    *anthropometry
+    *bmi;
+    *use bmi;
+    format nsrr_bmi 10.9;
+    nsrr_bmi = bmi;
 
-*clinical data/vital signs
-*bp_systolic;
-*use avgseatedsystolic;
-	format nsrr_bp_systolic 8.2;
-	nsrr_bp_systolic = avgseatedsystolic;
+    *clinical data/vital signs
+    *bp_systolic;
+    *use avgseatedsystolic;
+    format nsrr_bp_systolic 8.2;
+    nsrr_bp_systolic = avgseatedsystolic;
 
-*bp_diastolic;
-*use avgseateddiastolic;
-	format nsrr_bp_diastolic 8.2;
- 	nsrr_bp_diastolic = avgseateddiastolic;
+    *bp_diastolic;
+    *use avgseateddiastolic;
+    format nsrr_bp_diastolic 8.2;
+    nsrr_bp_diastolic = avgseateddiastolic;
 
-*lifestyle and behavioral health
-*current_smoker;
-		*not available;
-*ever_smoker;
-*use shq_eversmoked;
-	format nsrr_ever_smoker $100.;
-	if shq_eversmoked = 1 then nsrr_ever_smoker = 'yes';
-	else if shq_eversmoked = 0 then nsrr_ever_smoker = 'no';
-	else nsrr_ever_smoker = 'not reported';
+    *lifestyle and behavioral health
+    *current_smoker;
+    *not available;
+    *ever_smoker;
+    *use shq_eversmoked;
+    format nsrr_ever_smoker $100.;
+    if shq_eversmoked = 1 then nsrr_ever_smoker = 'yes';
+    else if shq_eversmoked = 0 then nsrr_ever_smoker = 'no';
+    else nsrr_ever_smoker = 'not reported';
 
-keep 
-		nsrrid
-		visitnumber
-		nsrr_age
-		nsrr_age_gt89
-		nsrr_sex
-		nsrr_race
-		nsrr_ethnicity
-		nsrr_bp_systolic
-		nsrr_bp_diastolic
-		nsrr_bmi
-		nsrr_ever_smoker
-		;
-run;
+    keep 
+      nsrrid
+      visitnumber
+      nsrr_age
+      nsrr_age_gt89
+      nsrr_sex
+      nsrr_race
+      nsrr_ethnicity
+      nsrr_bp_systolic
+      nsrr_bp_diastolic
+      nsrr_bmi
+      nsrr_ever_smoker
+    ;
+  run;
 
 *******************************************************************************;
 * checking harmonized datasets ;
 *******************************************************************************;
 
-/* Checking for extreme values for continuous variables */
+  /* Checking for extreme values for continuous variables */
 
-proc means data=bestair_baseline_harmonized;
-VAR 	nsrr_age
-		nsrr_bmi
-		nsrr_bp_systolic
-		nsrr_bp_diastolic;
-run;
+  proc means data=bestair_baseline_harmonized;
+    var   
+      nsrr_age
+      nsrr_bmi
+      nsrr_bp_systolic
+      nsrr_bp_diastolic;
+  run;
 
-/* Checking categorical variables */
+  /* Checking categorical variables */
 
-proc freq data=bestair_baseline_harmonized;
-table 	nsrr_age_gt89
-		nsrr_sex
-		nsrr_race
-		nsrr_ethnicity
-		nsrr_ever_smoker;
-run;
-
+  proc freq data=bestair_baseline_harmonized;
+    table   
+      nsrr_age_gt89
+      nsrr_sex
+      nsrr_race
+      nsrr_ethnicity
+      nsrr_ever_smoker;
+  run;
 
 *******************************************************************************;
 * make all variable names lowercase ;
@@ -232,9 +289,6 @@ run;
   %lowcase(bestair_month12_nsrr);
   %lowcase(bestair_baseline_harmonized);
 
-
-
-
 *******************************************************************************;
 * sort datasets before output;
 *******************************************************************************;
@@ -253,6 +307,7 @@ run;
   proc sort data=bestair_baseline_harmonized nodupkey;
     by nsrrid;
   run;
+
 *******************************************************************************;
 * export csv datasets into release folder;
 *******************************************************************************;
@@ -272,7 +327,7 @@ run;
     replace;
   run;
   proc export data = bestair_baseline_harmonized
-    outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\&version.\bestair-baseline-harmonized-&version..csv"
+    outfile = "\\rfawin\BWH-SLEEPEPI-BESTAIR\nsrr-prep\_releases\&version.\bestair-baseline-harmonized-dataset-&version..csv"
     dbms = csv
     replace;
   run;
