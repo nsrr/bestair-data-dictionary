@@ -1,0 +1,14 @@
+{
+  "id": "phq8_down_hopeless",
+  "display_name": "Patient Health Questionnaire 9: Feeling down, depressed, or hopeless",
+  "description": "Item from Patient Health Questionnaire 8-item. [Kroenke K et al. 2001 (PubMED ID: 11556941)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/)<br><br> [Search for all PHQ-8 variables within this dataset](https://sleepdata.org/datasets/bestair/variables?search=phq8) <br><br>Original question: Over the past 2 weeks, how often have you been bothered by any of the following problems? 2. Feeling down, depressed, or hopeless",
+  "type": "choices",
+  "domain": "phq8",
+  "labels": [
+    "phq8",
+    "phq8_02depressed"
+  ],
+  "forms": [
+    "patient_health_questionnaire"
+  ]
+}

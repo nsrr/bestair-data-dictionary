@@ -1,9 +1,0 @@
-{
-  "id": "mh_norm",
-  "display_name": "Mental health index normal score",
-  "description": "From 36-Item Short Form Survey (SF-36)",
-  "type": "numeric",
-  "forms": [
-    "medical_outcomes_survey"
-  ]
-}

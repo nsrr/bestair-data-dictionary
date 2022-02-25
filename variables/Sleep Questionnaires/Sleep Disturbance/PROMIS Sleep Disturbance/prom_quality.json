@@ -1,0 +1,14 @@
+{
+  "id": "prom_quality",
+  "display_name": "PROMIS Sleep Disturbance: Sleep Quality (past 7 days)",
+  "description": "Item from the PROMIS Sleep Disturbance instrument. [Yu L et al, 2012 (PMID: 22250775)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3261577/)<br><br> [Search for all PROMIS SRI variables within this dataset](https://sleepdata.org/datasets/bestair/variables?search=promissd)",
+  "type": "choices",
+  "domain": "sleepquality",
+  "labels": [
+    "promissd",
+    "promissd_08slpqual"
+  ],
+  "forms": [
+    "promis_sleep_disturbance"
+  ]
+}

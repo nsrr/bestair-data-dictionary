@@ -165,7 +165,8 @@
     *age;
     *use age;
     format nsrr_age 8.2;
-    nsrr_age = age;
+	if age gt 89 then nsrr_age = 90;
+ 	else if age le 89 then nsrr_age = age;
 
     *age_gt89;
     *use age;
@@ -226,6 +227,13 @@
     else if shq_eversmoked = 0 then nsrr_ever_smoker = 'no';
     else nsrr_ever_smoker = 'not reported';
 
+*polysomnography;
+  
+*nsrr_ahi_hp4u_aasm15;
+*use ahi_primary;
+  format nsrr_ahi_hp4u_aasm15 8.2;
+  nsrr_ahi_hp4u_aasm15 = ahi_primary;
+  
     keep 
       nsrrid
       visitnumber
@@ -238,6 +246,7 @@
       nsrr_bp_diastolic
       nsrr_bmi
       nsrr_ever_smoker
+	  nsrr_ahi_hp4u_aasm15
     ;
   run;
 
@@ -252,7 +261,8 @@
       nsrr_age
       nsrr_bmi
       nsrr_bp_systolic
-      nsrr_bp_diastolic;
+      nsrr_bp_diastolic
+	  nsrr_ahi_hp4u_aasm15;
   run;
 
   /* Checking categorical variables */

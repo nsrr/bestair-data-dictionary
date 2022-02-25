@@ -1,8 +1,0 @@
-{
-  "id": "waso",
-  "display_name": "Calculated - wake after sleep onset (WASO)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes (min)",
-  "commonly_used": true
-}

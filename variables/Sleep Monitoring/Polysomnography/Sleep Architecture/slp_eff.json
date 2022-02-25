@@ -1,0 +1,11 @@
+{
+  "id": "slp_eff",
+  "display_name": "Sleep Efficiency: the proportion of sleep duration in in-bed period from type III polysomnography",
+  "description": "Calculated. Sleep duration is the interval between sleep onset time and lights on/out-bed time while asleep, while in-bed period is the interval between lights off/in-bed time and lights on/out-bed time. Conventionally, this variable could be described as the ratio between total sleep time (TST) and time in bed (TIB).",
+  "type": "numeric",
+  "units": "percent (%)",
+  "labels": [
+    "ttleffbd_f1t3"
+  ],
+  "commonly_used": true
+}

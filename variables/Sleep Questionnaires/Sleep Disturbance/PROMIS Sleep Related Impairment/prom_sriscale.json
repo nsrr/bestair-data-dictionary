@@ -1,0 +1,14 @@
+{
+  "id": "prom_sriscale",
+  "display_name": "PROMIS Sleep-Related Impairment: Total Score",
+  "description": "Summary score for the PROMIS Sleep-Related Impairment instrument. Each item ranges from 1 to 5. The total score is derived by summing all 8 items and divided by the number of answered items. Higher score indicates more severe sleep related impairment.[Yu L et al, 2012 (PMID: 22250775)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3261577/)<br><br> [Search for all PROMIS SRI variables within this dataset](https://sleepdata.org/datasets/bestair/variables?search=promissri)",
+  "type": "integer",
+  "labels": [
+    "promissri",
+    "promissri_total"
+  ],
+  "commonly_used": true,
+  "forms": [
+    "promis_sleep_related_impairment"
+  ]
+}

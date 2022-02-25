@@ -1,0 +1,13 @@
+{
+  "id": "shq_insomnia",
+  "display_name": "Self-reported physician diagnosis of insomnia",
+  "description": "",
+  "type": "choices",
+  "domain": "noyesdontknow",
+  "labels": [
+    "insomnia"
+  ],
+  "forms": [
+    "health_and_medical_history"
+  ]
+}

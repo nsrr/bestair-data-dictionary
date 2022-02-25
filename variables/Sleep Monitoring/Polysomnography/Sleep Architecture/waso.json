@@ -1,0 +1,11 @@
+{
+  "id": "waso",
+  "display_name": "Wake After Sleep Onset: the total duration between sleep onset and lights-on/out-bed time while being awake from type III polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes (min)",
+  "labels": [
+    "ttldurws_f1t3"
+  ],
+  "commonly_used": true
+}

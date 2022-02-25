@@ -1,0 +1,9 @@
+{
+  "id": "semsa_tse",
+  "display_name": "Treatment self-efficacy subscale",
+  "description": "From Self-Efficacy Measure of Sleep Apnea (SEMA). [Weaver et. al 2003 (PubMed ID: 14572127)](https://www.ncbi.nlm.nih.gov/pubmed/14572127)<br><br> [Search for all Self-Efficacy Measure of Sleep Apnea variables within this dataset](https://sleepdata.org/datasets/bestair/variables?search=sema)",
+  "type": "numeric",
+  "labels": [
+    "semsa"
+  ]
+}

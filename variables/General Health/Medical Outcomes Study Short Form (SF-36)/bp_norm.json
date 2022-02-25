@@ -1,0 +1,13 @@
+{
+  "id": "bp_norm",
+  "display_name": "Body pain index normal score",
+  "description": "From 36-Item Short Form Survey (SF-36)",
+  "type": "numeric",
+  "labels": [
+    "mossf36",
+    "mossf36_bpscore"
+  ],
+  "forms": [
+    "medical_outcomes_survey"
+  ]
+}

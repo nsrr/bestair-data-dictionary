@@ -1,6 +1,0 @@
-{
-  "id": "semsa_oe_nmiss",
-  "display_name": "Number of missing items of outcome expectancies subscale",
-  "description": "From Self-Efficacy Measure for Sleep Apnea (SEMSA) ",
-  "type": "integer"
-}

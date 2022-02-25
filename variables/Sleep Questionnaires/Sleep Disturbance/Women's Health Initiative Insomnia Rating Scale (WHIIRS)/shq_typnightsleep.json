@@ -1,0 +1,14 @@
+{
+  "id": "shq_typnightsleep",
+  "display_name": "Women's Health Initiative Insomnia Rating Scale: Typical night sleep",
+  "description": "Item from the Women's Health Initiative Insomnia Rating Scale. [Levine et al.(2003)](https://psycnet.apa.org/record/2003-06188-004) <br><br> [Search for all WHIIRS variables within this dataset](https://sleepdata.org/datasets/bestair/variables?search=whiirs)<br><Br>Original Question: Pick the answer that best describes how often you experienced the situation in the LAST 4 WEEKS. 8. Overall, was your typical nights sleep during the LAST 4 WEEKS",
+  "type": "choices",
+  "domain": "whiirs_typical",
+  "labels": [
+    "whiirs",
+    "whiirs_5quality"
+  ],
+  "forms": [
+    "insomnia_rating_scale"
+  ]
+}

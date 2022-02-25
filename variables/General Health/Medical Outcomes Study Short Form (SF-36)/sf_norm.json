@@ -1,0 +1,13 @@
+{
+  "id": "sf_norm",
+  "display_name": "Social functioning index normal score",
+  "description": "From 36-Item Short Form Survey (SF-36)",
+  "type": "numeric",
+  "labels": [
+    "mossf36",
+    "mossf36_sfscore"
+  ],
+  "forms": [
+    "medical_outcomes_survey"
+  ]
+}

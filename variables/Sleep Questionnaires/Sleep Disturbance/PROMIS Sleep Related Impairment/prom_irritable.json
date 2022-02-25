@@ -1,0 +1,14 @@
+{
+  "id": "prom_irritable",
+  "display_name": "PROMIS Sleep-Related Impairment: Felt irritable because of poor sleep (past 7 days)",
+  "description": "Item from the PROMIS Sleep Related Impairment instrument. [Yu L et al, 2012 (PMID: 22250775)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3261577/)<br><br> [Search for all PROMIS SRI variables within this dataset](https://sleepdata.org/datasets/bestair/variables?search=promissri)",
+  "type": "choices",
+  "domain": "past7amount",
+  "labels": [
+    "promissri",
+    "promissri_06irritable"
+  ],
+  "forms": [
+    "promis_sleep_related_impairment"
+  ]
+}

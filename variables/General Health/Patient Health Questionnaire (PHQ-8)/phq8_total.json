@@ -1,0 +1,14 @@
+{
+  "id": "phq8_total",
+  "display_name": "Patient Health Questionnaire 8: Total Score",
+  "description": "Summary score for Patient Health Questionnaire 8-item. [Kroenke K et al. 2001 (PubMED ID: 11556941)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/)<br><br> [Search for all PHQ-8 variables within this dataset](https://sleepdata.org/datasets/bestair/variables?search=phq8)",
+  "type": "integer",
+  "labels": [
+    "phq8",
+    "phq8_total"
+  ],
+  "commonly_used": true,
+  "forms": [
+    "patient_health_questionnaire"
+  ]
+}

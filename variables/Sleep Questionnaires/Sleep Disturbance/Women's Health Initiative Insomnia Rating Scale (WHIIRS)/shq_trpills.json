@@ -1,0 +1,13 @@
+{
+  "id": "shq_trpills",
+  "display_name": "Took sleep pills",
+  "description": "Pick the answer that best describes how often you experienced the situation in the LAST 4 WEEKS. 7E. Did you take sleeping pills to help you sleep?",
+  "type": "choices",
+  "domain": "whiirs",
+  "labels": [
+    "insomnia"
+  ],
+  "forms": [
+    "insomnia_rating_scale"
+  ]
+}
