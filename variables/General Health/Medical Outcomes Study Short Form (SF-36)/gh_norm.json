@@ -1,10 +1,11 @@
 {
   "id": "gh_norm",
-  "display_name": "General health index normal score",
-  "description": "From 36-Item Short Form Survey (SF-36)",
+  "display_name": "Medical Outcomes Study SF-36: General health perceptions subscale normal score ",
+  "description": "The subscale score is based on 5 items from the Medical Outcomes Study Short Form 36 (SF-36). A high score suggests the participant \"believes personal health is excellent\". [Ware JE and Sherbourne CD, 1992 (PubMed ID: 1593914)](https://www.ncbi.nlm.nih.gov/pubmed/1593914/)<br><br>[Search for all SF-36 variables within this dataset](https://sleepdata.org/datasets/bestair/variables?search=mossf36)",
   "type": "numeric",
   "labels": [
-    "mossf36"
+    "mossf36",
+    "mossf36_ghscore"
   ],
   "forms": [
     "medical_outcomes_survey"

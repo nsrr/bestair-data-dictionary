@@ -1,10 +1,11 @@
 {
   "id": "agg_ment",
-  "display_name": "Aggregated raw mental score",
-  "description": "From 36-Item Short Form Survey (SF-36)",
+  "display_name": "Medical Outcomes Study SF-36: Mental component summary (raw)",
+  "description": "Summary component score of mental health. [Taft C et al. 2001 (PubMED ID: 11763202)](https://pubmed.ncbi.nlm.nih.gov/11763202/)<br><br>[Search for all SF-36 variables within this dataset](https://sleepdata.org/datasets/bestair/variables?search=mossf36)",
   "type": "numeric",
   "labels": [
-    "mossf36"
+    "mossf36",
+    "mossf36_mcs"
   ],
   "forms": [
     "medical_outcomes_survey"
