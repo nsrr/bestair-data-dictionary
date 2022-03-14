@@ -1,6 +1,6 @@
 {
   "id": "slp_eff",
-  "display_name": "Sleep Efficiency: the proportion of estimated sleep duration in in-bed period from type III polysomnography",
+  "display_name": "Sleep Efficiency: the proportion of estimated sleep duration in in-bed period from type III home sleep test",
   "description": "Estimated sleep duration, providing an approximation of total sleep duration (i.e. total sleep time) inferred from analysis of non-EEG channels [Zhao et al., 2017 (PMID:27707441)]( https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5181603/) In-bed period is the interval between lights off/in-bed time and lights on/out-bed time. Conventionally, this variable could be described as the ratio between total sleep time (TST) and time in bed (TIB).",
   "type": "numeric",
   "units": "percent (%)",

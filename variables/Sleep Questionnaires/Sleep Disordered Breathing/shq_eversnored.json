@@ -3,5 +3,8 @@
   "display_name": "Have ever snored ",
   "description": "",
   "type": "choices",
-  "domain": "noyesdontknow"
+  "domain": "noyesdontknow",
+  "labels": [
+    "snore"
+  ]
 }
