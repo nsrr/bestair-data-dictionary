@@ -1,10 +1,10 @@
-## 0.6.0
+## 0.6.0 (March 15, 2022)
 
-- Incorporate first set of NSRR harmonized terms (nsrr_*)
+- Incorporate the core set of NSRR harmonized terms (nsrr_*)
 - Update many variable labels
 - Add **awave** variable from EKG results
 - The CSV dataset is located here:
-  - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.6.0.pre\`
+  - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.6.0\`
 
 ## 0.5.0 (June 24, 2019)
 
