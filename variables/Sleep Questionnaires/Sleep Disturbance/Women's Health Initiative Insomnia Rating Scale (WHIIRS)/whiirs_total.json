@@ -1,7 +1,7 @@
 {
   "id": "whiirs_total",
   "display_name": "Total score of the Women's Health Initiative Insomnia Rating Scale (WHIIRS)",
-  "description": "Calculated - The Womens Health Initiative Insomnia Rating Scale (WHIIRS) has 5 items. Each item is scored on a 5 point scale (from 0-4). The total score is the sum of all five items ranging from 0 to 20. Higher score indicates more severe insomnia. A score of 9 or higher is considered clinically significant insomnia.<br><br>Reference: [Levine, D. W., Kaplan, R. M., Kripke, D. F., Bowen, D. J., Naughton, M. J., & Shumaker, S. A. (2003). Factor structure and measurement invariance of the Women's Health Initiative Insomnia Rating Scale. Psychological Assessment, 15, 123-136.](https://www.ncbi.nlm.nih.gov/pubmed/12847773)  [Levine et al.(2003)](https://psycnet.apa.org/record/2003-06188-004) <br><br> [Search for all WHIIRS variables within this dataset](https://sleepdata.org/datasets/bestair/variables?search=whiirs)",
+  "description": "Calculated - The Womens Health Initiative Insomnia Rating Scale (WHIIRS) has 5 items. Each item is scored on a 5 point scale (from 0-4). The total score is the sum of all five items ranging from 0 to 20. Higher score indicates more severe insomnia. A score of 9 or higher is considered clinically significant insomnia. [Levine et al.(2003)](https://psycnet.apa.org/record/2003-06188-004) <br><br> [Search for all WHIIRS variables within this dataset](https://sleepdata.org/datasets/bestair/variables?search=whiirs)",
   "type": "integer",
   "labels": [
     "whiirs",
