@@ -1,3 +1,9 @@
+## 0.6.1 (October 11, 2022)
+
+- Revise variable labeling for whiirs_total, prom_satisfied and ahi_primary
+- The CSV dataset is located here:
+  - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.6.1\`
+
 ## 0.6.0 (March 15, 2022)
 
 - Incorporate the core set of NSRR harmonized terms (nsrr_*)
