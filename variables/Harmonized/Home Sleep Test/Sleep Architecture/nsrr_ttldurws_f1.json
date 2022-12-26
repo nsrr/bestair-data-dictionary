@@ -1,0 +1,10 @@
+{
+  "id": "nsrr_ttldurws_f1",
+  "display_name": "Wake After Sleep Onset: the total duration being awake between sleep onset and lights-on/out-bed time from home sleep test",
+  "description": "Harmonized by the NSRR team. Source: :waso:",
+  "type": "numeric",
+  "units": "minutes (min)",
+  "labels": [
+    "ttldurws_f1t3"
+  ]
+}

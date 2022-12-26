@@ -1,0 +1,10 @@
+{
+  "id": "nsrr_ttlprdbd_f1",
+  "display_name": "Total period of bed (i.e., time in bed) from home sleep test",
+  "description": "Harmonized by the NSRR team. Source: :embqs_total_recording_time:",
+  "type": "numeric",
+  "units": "minutes (min)",
+  "labels": [
+    "ttlprdbd_f1t3"
+  ]
+}

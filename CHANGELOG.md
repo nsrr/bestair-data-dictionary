@@ -1,3 +1,10 @@
+## 0.7.0
+
+- Add harmonzied sleep architecture variables
+- Add harmonzied variables for follow up visits
+- The CSV dataset is located here:
+  - `\\rfawin\bwh-sleepepi-bestair\nsrr-prep\_releases\0.7.0\`
+  
 ## 0.6.1 (October 11, 2022)
 
 - Revise variable labeling for whiirs_total, prom_satisfied and ahi_primary

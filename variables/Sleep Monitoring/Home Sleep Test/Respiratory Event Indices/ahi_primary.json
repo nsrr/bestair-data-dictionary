@@ -1,11 +1,11 @@
 {
   "id": "ahi_primary",
-  "display_name": "Apnea-Hypopnea Index: (All apneas with no oxygen desaturation threshold used + hypopneas with > 30% flow reduction and with >= 4% oxygen desaturation) / hour of estimated sleep from type III home sleep apnea test",
+  "display_name": "Respiratory Event Index: (All apneas with no oxygen desaturation threshold used + hypopneas with > 30% flow reduction and with >= 4% oxygen desaturation) / hour of estimated sleep from type III home sleep apnea test",
   "description": "Calculated - Summary metric of sleep disordered breathing events. The definition of hypopnea events is consistent with the following clinical guidelines: (1) AASM 2012 update (alternative) [Berry RB et al. 2012 (PubMed ID:23066376)] (https://www.ncbi.nlm.nih.gov/pubmed/23066376), and (2) AASM 2015 (acceptable) [Berry RB et al. The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications, Version 2.2. American Academy of Sleep Medicine, Darien, IL, 2015.].",
   "type": "numeric",
   "units": "events per hour",
   "labels": [
-    "ahi_ap0nhp3x4n_f1t3",
+    "rei_ap0nhp3x4n_f1t3",
     "aasm15_acceptable"
   ],
   "commonly_used": true
