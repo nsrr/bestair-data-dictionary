@@ -1,6 +1,6 @@
 {
   "id": "nsrr_ttlprdbd_f1",
-  "display_name": "Total period of bed (i.e., time in bed) from home sleep test",
+  "display_name": "Total In-bed Period: the interval between lights off/in-bed time and lights on/out-bed time from home sleep test",
   "description": "Harmonized by the NSRR team. Source: :embqs_total_recording_time:",
   "type": "numeric",
   "units": "minutes (min)",
