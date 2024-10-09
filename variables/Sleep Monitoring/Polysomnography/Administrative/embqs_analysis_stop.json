@@ -2,5 +2,6 @@
   "id": "embqs_analysis_stop",
   "display_name": "Analysis stop time",
   "description": "",
-  "type": "time"
+  "type": "time",
+  "units": "H:mm:ss"
 }
