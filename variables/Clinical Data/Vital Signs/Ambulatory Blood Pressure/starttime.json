@@ -2,5 +2,6 @@
   "id": "starttime",
   "display_name": "Start time",
   "description": "",
-  "type": "time"
+  "type": "time",
+  "units": "H:mm:ss"
 }

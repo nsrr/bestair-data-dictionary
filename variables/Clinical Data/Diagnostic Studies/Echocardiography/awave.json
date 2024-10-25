@@ -3,5 +3,5 @@
   "display_name": "Peak A wave velocity",
   "description": "",
   "type": "numeric",
-  "units": "centimeters per second (cm/sec)"
+  "units": "centimeters per second"
 }

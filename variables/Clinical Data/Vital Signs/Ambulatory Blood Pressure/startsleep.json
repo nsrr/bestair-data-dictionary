@@ -2,5 +2,6 @@
   "id": "startsleep",
   "display_name": "Sleep start time",
   "description": "",
-  "type": "time"
+  "type": "time",
+  "units": "H:mm:ss"
 }

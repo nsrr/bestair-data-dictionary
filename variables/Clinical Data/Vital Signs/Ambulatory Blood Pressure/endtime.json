@@ -2,5 +2,6 @@
   "id": "endtime",
   "display_name": "End time",
   "description": "",
-  "type": "time"
+  "type": "time",
+  "units": "H:mm:ss"
 }
