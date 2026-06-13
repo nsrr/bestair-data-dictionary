@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-13T18:01:48.198337Z",
+  "_captured_run_id": "r_019ec2256b4971e19c533aab227c3c98",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote bestair_baseline_harmonized (10 rows",
+    "PROC MEANS statement used.",
+    "PROC FREQ statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

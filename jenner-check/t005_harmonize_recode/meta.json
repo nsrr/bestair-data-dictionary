@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_harmonize_recode",
+  "source_file": "scripts/finalize-bestair-for-nsrr.sas",
+  "source_blob_sha": "a11e65afd6e4e7d3484820f7468703d1e335e7c4",
+  "source_commit": "13dbc5a288cd0d3b37142021f7f075789cc78660",
+  "tier": "real_data",
+  "notes": "NSRR harmonized-term derivation (lines 161-251, the 0.6.0 nsrr_* core set): nsrr_age (top-coded at 90), nsrr_age_gt89, nsrr_sex, nsrr_race, nsrr_ethnicity, nsrr_bmi, nsrr_bp_systolic/diastolic, nsrr_ever_smoker, nsrr_ahi_hp4u_aasm15. Recoding, FORMAT statements, and KEEP list unchanged from source; autoexec supplies a 10-row mock covering each demographic level, the age>89 top-code path, and a not-reported case. QC PROC MEANS + PROC FREQ retained from the source."
+}

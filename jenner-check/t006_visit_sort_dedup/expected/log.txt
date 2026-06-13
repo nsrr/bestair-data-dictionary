@@ -1,0 +1,83 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA bestair_baseline_in
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote bestair_baseline_in (5 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA bestair_month6_in
+
+NOTE: Processing inline DATALINES (3 lines)
+
+NOTE: Read 3 rows from DATALINES.
+NOTE: Wrote bestair_month6_in (3 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA bestair_month12_in
+
+NOTE: Processing inline DATALINES (2 lines)
+
+NOTE: Read 2 rows from DATALINES.
+NOTE: Wrote bestair_month12_in (2 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA bestair_baseline_nsrr
+
+
+NOTE: Read 5 rows from bestair_baseline_in.
+NOTE: Wrote bestair_baseline_nsrr (5 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA bestair_month6_nsrr
+
+
+NOTE: Read 3 rows from bestair_month6_in.
+NOTE: Wrote bestair_month6_nsrr (3 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA bestair_month12_nsrr
+
+
+NOTE: Read 2 rows from bestair_month12_in.
+NOTE: Wrote bestair_month12_nsrr (2 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA bestair_all_visits
+
+
+NOTE: Read 5 rows from bestair_baseline_nsrr.
+NOTE: Read 8 rows from bestair_month6_nsrr.
+NOTE: Read 10 rows from bestair_month12_nsrr.
+NOTE: Wrote bestair_all_visits (10 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=bestair_all_visits
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 10 rows from bestair_all_visits.
+NOTE: Wrote bestair_all_visits (10 rows, 5 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=bestair_all_visits
+
+NOTE: PROC PRINT completed: 10 observations printed, 5 variables
+NOTE: PROC SORT data=bestair_baseline_nsrr
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 5 rows from bestair_baseline_nsrr.
+NOTE: Wrote bestair_baseline_nsrr (5 rows, 5 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=bestair_baseline_nsrr
+
+NOTE: PROC PRINT completed: 5 observations printed, 5 variables

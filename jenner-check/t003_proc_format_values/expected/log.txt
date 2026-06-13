@@ -1,0 +1,34 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA bestair_nsrr
+
+NOTE: Processing inline DATALINES (14 lines)
+
+NOTE: Read 14 rows from DATALINES.
+NOTE: Wrote bestair_nsrr (14 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT manufacturer defined (2 ranges).
+NOTE: FORMAT race defined (7 ranges).
+NOTE: FORMAT ethnicity defined (2 ranges).
+NOTE: FORMAT gender defined (2 ranges).
+NOTE: FORMAT iasep defined (3 ranges).
+NOTE: FORMAT diabmeds defined (5 ranges).
+NOTE: DATA bestair_nsrr_labeled
+
+
+NOTE: Read 14 rows from bestair_nsrr.
+NOTE: Wrote bestair_nsrr_labeled (14 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=bestair_nsrr_labeled
+
+NOTE: PROC PRINT completed: 14 observations printed, 6 variables
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.

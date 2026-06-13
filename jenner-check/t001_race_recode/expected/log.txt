@@ -1,0 +1,27 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA bestair_nsrr_keep
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote bestair_nsrr_keep (10 rows, 16 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA bestair_nsrr_in
+
+
+NOTE: Read 10 rows from bestair_nsrr_keep.
+NOTE: Wrote bestair_nsrr_in (10 rows, 18 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=bestair_nsrr_in
+
+NOTE: PROC PRINT completed: 10 observations printed, 6 variables
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_race.spec.json
+NOTE: PROC FREQ statement used.

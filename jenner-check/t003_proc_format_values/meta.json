@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_proc_format_values",
+  "source_file": "scripts/prepare-bestair-for-nsrr.sas",
+  "source_blob_sha": "3f56322018bdceaf0666e159ef7e9f8b861156f1",
+  "source_commit": "13dbc5a288cd0d3b37142021f7f075789cc78660",
+  "tier": "real_data",
+  "notes": "PROC FORMAT value catalog (lines 301-329) reproduced verbatim: manufacturer, race, ethnicity, gender, iasep, diabmeds. Formats attached to the analysis variables via a DATA-step FORMAT statement (as the source bestairbase_nsrr DATA step does, lines 351-365) and surfaced with PROC PRINT + PROC MEANS. Autoexec supplies a 14-row mock covering every documented format level; format VALUE statements unchanged."
+}
