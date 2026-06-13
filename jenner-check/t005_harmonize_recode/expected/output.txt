@@ -1,0 +1,49 @@
+                                                  The MEANS Procedure
+
+ Variable                    N             Mean         Std Dev          Minimum          Maximum
+ ------------------------------------------------------------------------------------------------
+ nsrr_age                   10            62.50           17.21            39.00            90.00
+ nsrr_bmi                   10     27.850000000     3.446495805     22.000000000     33.500000000
+ nsrr_bp_systolic           10           131.30           12.82           110.00           150.00
+ nsrr_bp_diastolic          10            83.50            7.82            70.00            95.00
+ nsrr_ahi_hp4u_aasm15       10            18.46           13.22             3.10            41.00
+ ------------------------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                           Cumulative    Cumulative
+nsrr_age_gt89    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------
+no                       8     80.00            8        80.00
+yes                      2     20.00           10       100.00
+
+                                      Cumulative    Cumulative
+nsrr_sex    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------
+female              5     50.00            5        50.00
+male                5     50.00           10       100.00
+
+                                                                       Cumulative    Cumulative
+nsrr_race                                    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------------------------------------------
+american indian or alaska native                     1     10.00            1        10.00
+asian                                                2     20.00            3        30.00
+black or african american                            2     20.00            5        50.00
+multiple                                             1     10.00            6        60.00
+native hawaiian or other pacific islander            1     10.00            7        70.00
+other                                                1     10.00            8        80.00
+white                                                2     20.00           10       100.00
+
+                                                    Cumulative    Cumulative
+nsrr_ethnicity            Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------------
+hispanic or latino                5     50.00            5        50.00
+not hispanic or latino            4     40.00            9        90.00
+not reported                      1     10.00           10       100.00
+
+                                              Cumulative    Cumulative
+nsrr_ever_smoker    Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------------------
+no                          4     40.00            4        40.00
+not reported                1     10.00            5        50.00
+yes                         5     50.00           10       100.00

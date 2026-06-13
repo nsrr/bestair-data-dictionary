@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-13T17:45:20.762247Z",
+  "_captured_run_id": "r_019ec21610dc79a383d43460386afd87",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote bestair_nsrr_in (10 rows",
+    "PROC PRINT completed: 10 observations printed",
+    "PROC FREQ statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

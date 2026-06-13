@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-13T18:03:13.958063Z",
+  "_captured_run_id": "r_019ec2269e2b7940aa507d538f6d297b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote bestair_all_visits (10 rows",
+    "PROC PRINT completed: 10 observations printed",
+    "PROC PRINT completed: 5 observations printed"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

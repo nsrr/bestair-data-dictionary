@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_race_recode",
+  "source_file": "scripts/prepare-bestair-for-nsrr.sas",
+  "source_blob_sha": "3f56322018bdceaf0666e159ef7e9f8b861156f1",
+  "source_commit": "13dbc5a288cd0d3b37142021f7f075789cc78660",
+  "tier": "real_data",
+  "notes": "Race-derivation + array-based missing-value recoding extracted from the bestair_nsrr_in DATA step (lines 120-186). Original reads network libname bestairs; autoexec supplies a 10-row mock matching the eligibility-screening column shape (race flags, ethnicity, gender, manufacturer, six Embletta qcodes). Recoding logic, ARRAY/DO handling, RENAME and LABEL are unchanged; PROC PRINT + PROC FREG added to surface results."
+}

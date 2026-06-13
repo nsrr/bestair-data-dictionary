@@ -1,0 +1,8 @@
+{
+  "bundle": "t006_visit_sort_dedup",
+  "source_file": "scripts/finalize-bestair-for-nsrr.sas",
+  "source_blob_sha": "a11e65afd6e4e7d3484820f7468703d1e335e7c4",
+  "source_commit": "13dbc5a288cd0d3b37142021f7f075789cc78660",
+  "tier": "real_data",
+  "notes": "Per-visit stamping (visitnumber 0/6/12), LABEL statements, BY-sort on nsrrid visitnumber, and NODUPKEY-by-nsrrid de-duplication that finalize the release datasets (lines 64-107, 305-319). Logic unchanged from source; autoexec supplies three small mock visit datasets with overlapping nsrrids so the stacking and NODUPKEY de-dup are exercised directly."
+}

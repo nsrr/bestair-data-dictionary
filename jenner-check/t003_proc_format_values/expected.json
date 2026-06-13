@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-13T17:57:02.319588Z",
+  "_captured_run_id": "r_019ec2211b4c732098935725e9341ea2",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote bestair_nsrr_labeled (14 rows",
+    "PROC PRINT completed: 14 observations printed",
+    "FORMAT race defined (7 ranges)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
